@@ -7,9 +7,15 @@
 {% macro includejs(scripts) -%}
   {% for script in scripts %}
     {% if script.type == "external" %}
-      <script src="{{ script.file }}"></script>
+      {% set url = "" %}
     {% else %}
-      <script src="{{ site.url }}{{ site.scripts }}{{ script.file }}"></script>
+      {% set url = site.url + site.scripts %}
+    {% endif %}
+
+    {% if script.mime %}
+      <script type="{{ script.mime }}" canvas="{{ script.canvas }}" src="{{ url }}{{ script.file }}"></script>
+    {% else %}
+      <script src="{{ url }}{{ script.file }}"></script>
     {% endif %}
   {% endfor %}
 {%- endmacro %}

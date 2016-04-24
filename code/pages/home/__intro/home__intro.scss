@@ -1,1 +1,5 @@
-@mixin home__intro {}
+@mixin home__intro {
+  .meta-balls {
+    @include meta-balls;
+  }
+}

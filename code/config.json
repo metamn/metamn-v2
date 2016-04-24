@@ -12,6 +12,11 @@
       },
       {
         "file": "vendors.js"
+      },
+      {
+        "file": "meta-balls.js",
+        "mime": "text/paperscript",
+        "canvas": "meta-balls"
       }
     ],
     "footer": [
