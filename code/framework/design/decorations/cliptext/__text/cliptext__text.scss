@@ -1,0 +1,13 @@
+@mixin cliptext__text($scheme, $color-scheme) {
+  display: block; // Flex is not working ...
+  word-wrap: break-word;
+
+  @include colors($color-scheme);
+  @if ($scheme == light) {
+    mix-blend-mode: lighten;
+  }
+
+  @if ($scheme == dark) {
+    mix-blend-mode: darken;
+  }
+}

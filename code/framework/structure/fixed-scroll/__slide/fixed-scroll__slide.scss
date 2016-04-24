@@ -1,0 +1,25 @@
+@mixin fixed-scroll__slide($title-width) {
+  position: relative;
+  width: 100%;
+  float: left;
+
+  .title {
+    display: block;
+    position: absolute;
+    float: left;
+    top: 0;
+    width: $title-width;
+  }
+
+  .content {
+    width: calc(100% - #{$title-width});
+    float: right;
+
+    @include list;
+    @include list--list-view;
+  }
+
+  &--active {
+    @include fixed-scroll__slide--active;
+  }
+}

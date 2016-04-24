@@ -1,0 +1,24 @@
+{
+  "url": "/",
+  "title": "Metamn",
+  "images": "assets/images/",
+  "scripts": "assets/scripts/",
+  "styles": "assets/styles/",
+  "icons": "../../design/decorations/icon/@assets/symbol-defs.svg",
+  "javascripts": {
+    "header": [
+      {
+        "file": "https://use.typekit.net/nvy7idl.js",
+        "type": "external"
+      },
+      {
+        "file": "vendors.js"
+      }
+    ],
+    "footer": [
+      {
+        "file": "site.footer.min.js"
+      }
+    ]
+  }
+}
