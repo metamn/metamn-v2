@@ -14,7 +14,7 @@
         "file": "vendors.js"
       },
       {
-        "file": "meta-balls.js",
+        "file": "site.metaBalls.min.js",
         "mime": "text/paperscript",
         "canvas": "meta-balls"
       }

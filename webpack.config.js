@@ -3,6 +3,7 @@ module.exports = {
   entry: {
     header: "./code/config.header.js",
     footer: "./code/config.footer.js",
+    metaBalls: "./code/project/meta-balls/meta-balls.js"
   },
   output: {
     // ... goes to /dist/assets/scripts
