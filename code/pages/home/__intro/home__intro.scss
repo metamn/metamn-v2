@@ -1,4 +1,7 @@
 @mixin home__intro {
+  width: 100vw;
+  height: 100vh;
+  
   .meta-balls {
     @include meta-balls;
   }
