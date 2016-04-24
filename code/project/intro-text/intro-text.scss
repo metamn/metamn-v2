@@ -1,14 +1,26 @@
 @mixin intro-text {
   width: 100%;
   height: 100%;
-  
+
   .cliptext {
-    @include cliptext(dark, white-on-black);
+    @include cliptext(light, blue-on-white);
+    color: black !important;
 
     &__text {
-      @include text-style(title);
-      @include scale(large-8);
-      font-weight: 700;
+      @include text-style(headline);
+      @include animation(intro-text, 1s);
+      animation-fill-mode: forwards;
     }
+  }
+}
+
+@include keyframes(intro-text) {
+  from {
+    @include scale(large-16);
+  }
+
+  to {
+    @include scale(large-10);
+    letter-spacing: 1px;
   }
 }

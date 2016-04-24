@@ -103,6 +103,36 @@
           "value": "9.969em"
         }
       ]
+    },
+    {
+      "name": "large-9",
+      "description": "Larger than default font size with 9 scales",
+      "properties": [
+        {
+          "name": "font-size",
+          "value": "13.288em"
+        }
+      ]
+    },
+    {
+      "name": "large-10",
+      "description": "Larger than default font size with 10 scales",
+      "properties": [
+        {
+          "name": "font-size",
+          "value": "17.713em"
+        }
+      ]
+    },
+    {
+      "name": "large-16",
+      "description": "Larger than default font size with 12 scales",
+      "properties": [
+        {
+          "name": "font-size",
+          "value": "99.376em"
+        }
+      ]
     }
   ]
 }

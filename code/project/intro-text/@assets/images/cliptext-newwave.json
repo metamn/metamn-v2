@@ -4,19 +4,19 @@
   "sizes": [
     {
       "name": "mobile",
-      "width": "320"
+      "width": "420"
     },
     {
       "name": "tablet",
-      "width": "600"
+      "width": "768"
     },
     {
       "name": "laptop",
-      "width": "600"
+      "width": "1200"
     },
     {
       "name": "desktop",
-      "width": "600"
+      "width": "1200"
     }
   ]
 }

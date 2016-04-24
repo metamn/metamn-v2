@@ -57,6 +57,35 @@
       ]
     },
     {
+      "name": "Headline",
+      "description": "Settings for headlines.",
+      "based_on": "Nimbus Sans Black",
+      "mixins": [
+        {
+          "name": "font",
+          "value": "nimbus-sans-black"
+        },
+        {
+          "name": "uppercase",
+          "value": "1.25px"
+        },
+        {
+          "name": "scale",
+          "value": "large-10"
+        }
+      ],
+      "properties": [
+        {
+          "name": "letter-spacing",
+          "value": "$lem"
+        },
+        {
+          "name": "line-height",
+          "value": "1"
+        }
+      ]
+    },
+    {
       "name": "Button with triangle",
       "description": "Strong text, call for action.",
       "based_on": "Nimbus Sans Black",

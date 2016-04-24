@@ -49,6 +49,19 @@ $text-block-width: 25em;
     
   }
   
+  // Headline
+  // - Settings for headlines.
+  @if ($variant == 'headline') {
+    @include font(nimbus-sans-black);
+    @include uppercase(1.25px);
+    @include scale(large-10);
+    
+    letter-spacing: $lem;
+    line-height: 1;
+    
+    
+  }
+  
   // Button with triangle
   // - Strong text, call for action.
   @if ($variant == 'button-with-triangle') {
@@ -101,6 +114,17 @@ $text-block-width: 25em;
   @include uppercase(1.25px);
   @include scale(large-1);
   
+  
+  
+}
+
+.text-style--headline {
+  @include font(nimbus-sans-black);
+  @include uppercase(1.25px);
+  @include scale(large-10);
+  
+  letter-spacing: $lem;
+  line-height: 1;
   
   
 }

@@ -1,1 +1,1 @@
-<div class="cliptext__text">{{ text }}</div>
+<div class="cliptext__text">{{ text | safe }}</div>
