@@ -16,7 +16,7 @@
       {
         "file": "site.metaBalls.min.js",
         "mime": "text/paperscript",
-        "canvas": "meta-balls"
+        "canvas": "metaballs"
       }
     ],
     "footer": [
