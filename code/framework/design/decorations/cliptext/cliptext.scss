@@ -7,6 +7,9 @@
 // $color-scheme - the color scheme for the choosen $scheme
 // Styleguide cliptext
 @mixin cliptext($scheme: light, $color-scheme: black-on-white) {
+  width: 100%;
+  height: 100%;
+  
   @include background-image;
 
   &__image {

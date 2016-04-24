@@ -1,0 +1,14 @@
+@mixin intro-text {
+  width: 100%;
+  height: 100%;
+  
+  .cliptext {
+    @include cliptext(dark, white-on-black);
+
+    &__text {
+      @include text-style(title);
+      @include scale(large-8);
+      font-weight: 700;
+    }
+  }
+}

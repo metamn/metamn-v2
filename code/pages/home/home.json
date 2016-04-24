@@ -1,3 +1,10 @@
 {
-  "title": "Design and code"
+  "title": "Design and code",
+  "images": [
+    {
+      "title": "Cliptext background image",
+      "name": "cliptext-newwave",
+      "extension": ".jpg"
+    }
+  ]
 }

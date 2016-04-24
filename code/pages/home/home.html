@@ -32,14 +32,6 @@
       <script src="/assets/scripts/vendors.js"></script>
     
   
-    
-      
-    
-
-    
-      <script type="text/paperscript" canvas="metaballs" src="/assets/scripts/site.metaBalls.min.js"></script>
-    
-  
 
     <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32" />
 <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16" />
@@ -54,10 +46,85 @@
   <section class="home__intro">
   <h3>Intro</h3>
 
-  <section class="meta-balls">
-  <h3>Meta Balls</h3>
+  <section class="intro-text">
+  <h3>Intro text</h3>
 
-  <canvas class="meta-balls__canvas" id="metaballs" resize></canvas>
+  
+  
+  <section class="cliptext">
+  <h3>Cliptext</h3>
+
+  <aside class="cliptext__image">
+  <h3>Cliptext image</h3>
+
+  
+  
+
+
+
+
+<figure class="figure">
+  
+
+  <!-- The default extension is .png but other formats are handled too -->
+  
+  
+    
+  
+
+  <!-- If 'onesize' is set all images will have the same size -->
+  
+    <!-- Naming convention for responsive images -->
+    
+    
+    
+    
+    
+    
+    
+    
+  
+
+  <!-- Showing different images for different devices -->
+  
+
+
+  <!-- Figcaption is image title unless is not set explicitely -->
+  
+  
+
+  
+
+
+  <!-- Image url can be relative or absolute -->
+  
+  
+
+
+  <picture class="picture">
+    <!--[if IE 9]><video style="display: none;"><![endif]-->
+    <source media="(min-width: 1600px)" srcset="/assets/images/cliptext-newwave_desktop.jpg, /assets/images/cliptext-newwave_desktop2x.jpg 2x">
+    <source media="(min-width: 1024px)" srcset="/assets/images/cliptext-newwave_laptop.jpg, /assets/images/cliptext-newwave_laptop2x.jpg 2x">
+    <source media="(min-width: 600px)" srcset="/assets/images/cliptext-newwave_tablet.jpg, /assets/images/cliptext-newwave_tablet2x.jpg 2x">
+    <source media="(max-width: 599px)" srcset="/assets/images/cliptext-newwave_mobile.jpg, /assets/images/cliptext-newwave_mobile2x.jpg 2x">
+    <!--[if IE 9]></video><![endif]-->
+    <!-- to make it work with imagesLoaded the 'srcset' is replaced by a standard fallback 'src' -->
+    <img class="img" src="/assets/images/cliptext-newwave_laptop.jpg" alt="Cliptext background image">
+  </picture>
+
+  <figcaption class="figcaption figcaption--from-title">
+    Cliptext background image
+  </figcaption>
+
+
+</figure>
+
+</aside>
+
+  <div class="cliptext__text">Design and code</div>
+
+</section>
+
 </section>
 
 </section>

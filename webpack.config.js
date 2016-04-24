@@ -2,8 +2,7 @@ module.exports = {
   // from /site ....
   entry: {
     header: "./code/config.header.js",
-    footer: "./code/config.footer.js",
-    metaBalls: "./code/project/meta-balls/meta-balls.js"
+    footer: "./code/config.footer.js"
   },
   output: {
     // ... goes to /dist/assets/scripts

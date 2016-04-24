@@ -12,11 +12,6 @@
       },
       {
         "file": "vendors.js"
-      },
-      {
-        "file": "site.metaBalls.min.js",
-        "mime": "text/paperscript",
-        "canvas": "metaballs"
       }
     ],
     "footer": [
