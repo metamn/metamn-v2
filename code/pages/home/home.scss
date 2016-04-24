@@ -4,9 +4,11 @@
 //
 // Styleguide home
 html {
-  &.home {
+  &.design-and-code {
     body {
-      
+      .home__intro {
+        @include home__intro;
+      }
     }
   }
 }

@@ -1617,7 +1617,8 @@
     "/home/cs/work/metamn-v2/code/framework/design/typography/text-style/text-style.json": "/home/cs/work/metamn-v2/code/framework/design/typography/text-style/text-style.json",
     "/home/cs/work/metamn-v2/code/framework/structure/list/x-list/x-list.json": "/home/cs/work/metamn-v2/code/framework/structure/list/x-list/x-list.json",
     "/home/cs/work/metamn-v2/code/framework/structure/list-item/__thumb/list-item__thumb.json": "/home/cs/work/metamn-v2/code/framework/structure/list-item/__thumb/list-item__thumb.json",
-    "/home/cs/work/metamn-v2/code/framework/design/decorations/icon/x-icon/x-icon.json": "/home/cs/work/metamn-v2/code/framework/design/decorations/icon/x-icon/x-icon.json"
+    "/home/cs/work/metamn-v2/code/framework/design/decorations/icon/x-icon/x-icon.json": "/home/cs/work/metamn-v2/code/framework/design/decorations/icon/x-icon/x-icon.json",
+    "/home/cs/work/metamn-v2/code/pages/home/__intro/home__intro.json": "/home/cs/work/metamn-v2/code/pages/home/__intro/home__intro.json"
   },
   "/home/cs/work/metamn-v2/node_modules/gulp-image-resize/index.js": {
     "gulp-gm": "/home/cs/work/metamn-v2/node_modules/gulp-image-resize/node_modules/gulp-gm/index.js",
