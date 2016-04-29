@@ -239,11 +239,11 @@ var textParticle = function(elementID) {
   fieldvalue = 'design & code';
   gravity = 0;
   duration =  .4;
-  resolution = 5;
+  resolution = 10;
   speed = .1;
   radius = 2;
 
-  var fontSize = 120;
+  var fontSize = 300;
   var bubbleSize = 1;
   if (W < 768) {
     fontSize = 48;
@@ -255,7 +255,7 @@ var textParticle = function(elementID) {
   gridY = resolution;
 
 
-  var message = new shape(W / 2, H / 1.25, fieldvalue, ctx, fontSize, bubbleSize);
+  var message = new shape(W / 2, H / 1.05, fieldvalue, ctx, fontSize, bubbleSize);
   message.getValue();
   update();
 
