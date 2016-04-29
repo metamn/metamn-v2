@@ -255,7 +255,7 @@ var textParticle = function(elementID) {
   gridY = resolution;
 
 
-  var message = new shape(W / 2, H / 1.5, fieldvalue, ctx, fontSize, bubbleSize);
+  var message = new shape(W / 2, H / 1.25, fieldvalue, ctx, fontSize, bubbleSize);
   message.getValue();
   update();
 

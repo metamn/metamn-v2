@@ -2,5 +2,4 @@
 {% block content %}
 
   {% include '__intro/home__intro.html.swig' %}
-
 {% endblock %}

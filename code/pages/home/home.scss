@@ -6,6 +6,9 @@
 html {
   &.design-and-code {
     body {
+      @include section-padding;
+      @include colors(white-on-blue);
+
       .home__intro {
         @include home__intro;
       }

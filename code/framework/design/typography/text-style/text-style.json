@@ -42,6 +42,21 @@
       ]
     },
     {
+      "name": "logo",
+      "description": "Settings for the Metamn logo.",
+      "based_on": "Silkscreen",
+      "mixins": [
+        {
+          "name": "font",
+          "value": "silkscreen-regular"
+        },
+        {
+          "name": "scale",
+          "value": "large-1"
+        }
+      ]
+    },
+    {
       "name": "Title",
       "description": "Settings for titles.",
       "based_on": "Nimbus Sans",
@@ -66,18 +81,18 @@
           "value": "nimbus-sans-black"
         },
         {
-          "name": "uppercase",
-          "value": "1.25px"
-        },
-        {
           "name": "scale",
-          "value": "large-10"
+          "value": "large-5"
         }
       ],
       "properties": [
         {
-          "name": "letter-spacing",
-          "value": "$lem"
+          "name": "max-width",
+          "value": "20em"
+        },
+        {
+          "name": "line-height",
+          "value": "1.25"
         }
       ]
     },

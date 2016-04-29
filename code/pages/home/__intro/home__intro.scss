@@ -1,9 +1,19 @@
 @mixin home__intro {
-  width: 100vw;
   height: 100vh;
-  @include colors(white-on-blue);
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 
   .text-particle {
     @include text-particle;
+  }
+
+  .header {
+    @include header;
+  }
+
+  .about {
+    @include about;
   }
 }

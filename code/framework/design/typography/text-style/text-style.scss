@@ -39,6 +39,16 @@ $text-block-width: 25em;
     
   }
   
+  // logo
+  // - Settings for the Metamn logo.
+  @if ($variant == 'logo') {
+    @include font(silkscreen-regular);
+    @include scale(large-1);
+    
+    
+    
+  }
+  
   // Title
   // - Settings for titles.
   @if ($variant == 'title') {
@@ -53,10 +63,10 @@ $text-block-width: 25em;
   // - Settings for headlines.
   @if ($variant == 'headline') {
     @include font(nimbus-sans-black);
-    @include uppercase(1.25px);
-    @include scale(large-10);
+    @include scale(large-5);
     
-    letter-spacing: $lem;
+    max-width: 20em;
+    line-height: 1.25;
     
     
   }
@@ -109,6 +119,14 @@ $text-block-width: 25em;
   
 }
 
+.text-style--logo {
+  @include font(silkscreen-regular);
+  @include scale(large-1);
+  
+  
+  
+}
+
 .text-style--title {
   @include uppercase(1.25px);
   @include scale(large-1);
@@ -119,10 +137,10 @@ $text-block-width: 25em;
 
 .text-style--headline {
   @include font(nimbus-sans-black);
-  @include uppercase(1.25px);
-  @include scale(large-10);
+  @include scale(large-5);
   
-  letter-spacing: $lem;
+  max-width: 20em;
+  line-height: 1.25;
   
   
 }
