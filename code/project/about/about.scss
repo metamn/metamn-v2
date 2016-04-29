@@ -1,5 +1,6 @@
 @mixin about {
-  &__text {
+  .glitch-text {
+    //@include glitch-text($width: 1297, $height: 253);
     @include text-style(headline);
   }
 }

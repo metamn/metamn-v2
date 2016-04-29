@@ -8,11 +8,11 @@
 // $background - text background
 // $highlightColor1 - the glitch-making / highlighting color 1
 // $highlightColor2 - the glitch-making / highlighting color 2
-// $width - the width of the glitch
-// $height - the height of the glitch
+// $width - the width of the glitch in px
+// $height - the height of the glitch in px
 //
 // Styleguide glitch-text
-@mixin glitch-text($name: 'glitch-text', $intensity: 17, $width: 450, $height: 115, $color: $black, $background: $white, $highlightColor1: red, $highlightColor2: blue) {
+@mixin glitch-text($name: 'glitch-text', $intensity: 17, $width: 450, $height: 115, $color: $white, $background: $blue, $highlightColor1: red, $highlightColor2: blue) {
   color: $color;
   position: relative;
   $steps: $intensity;

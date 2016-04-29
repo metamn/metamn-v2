@@ -1,5 +1,6 @@
 <section class="about">
   <h3>About</h3>
 
-  <div class="about__text">{{ about }}</div>
+  {% set text = about %}
+  {% include '../../framework/design/decorations/glitch-text/glitch-text.html.swig' %}
 </section>
