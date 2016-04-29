@@ -1,5 +1,5 @@
 <section class="home__intro">
   <h3>Intro</h3>
 
-  {% include '../../../project/intro-text/intro-text.html.swig' %}
+  {% include '../../../framework/design/decorations/text-particle/text-particle.html.swig' %}
 </section>

@@ -78,10 +78,6 @@
         {
           "name": "letter-spacing",
           "value": "$lem"
-        },
-        {
-          "name": "line-height",
-          "value": "1"
         }
       ]
     },
