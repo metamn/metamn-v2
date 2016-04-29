@@ -4,21 +4,9 @@
   right: $lem;
   display: flex;
 
+  @include border;
+
   .button-with-arrow-triangle {
     @include button-with-arrow-triangle($color: $white);
-
-    // Overwrites
-    /*
-    transform: rotate(0deg) !important;
-
-    &__text {
-      border: none;
-      padding: 0 !important;
-    }
-
-    &__triangle {
-      transform: rotate(90deg) translate(75%, 175%) !important;
-    }
-    */
   }
 }
