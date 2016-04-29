@@ -1,6 +1,7 @@
 @mixin home__intro {
   width: 100vw;
   height: 100vh;
+  @include colors(white-on-blue);
 
   .text-particle {
     @include text-particle;
