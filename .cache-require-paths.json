@@ -1623,7 +1623,8 @@
     "/home/cs/work/metamn-v2/code/project/intro-text/intro-text.json": "/home/cs/work/metamn-v2/code/project/intro-text/intro-text.json",
     "/home/cs/work/metamn-v2/code/project/intro-text/@assets/images/cliptext-newwave.json": "/home/cs/work/metamn-v2/code/project/intro-text/@assets/images/cliptext-newwave.json",
     "/home/cs/work/metamn-v2/code/framework/design/decorations/text-particle/text-particle.json": "/home/cs/work/metamn-v2/code/framework/design/decorations/text-particle/text-particle.json",
-    "/home/cs/work/metamn-v2/code/project/about/about.json": "/home/cs/work/metamn-v2/code/project/about/about.json"
+    "/home/cs/work/metamn-v2/code/project/about/about.json": "/home/cs/work/metamn-v2/code/project/about/about.json",
+    "/home/cs/work/metamn-v2/code/pages/home/__menu/home__menu.json": "/home/cs/work/metamn-v2/code/pages/home/__menu/home__menu.json"
   },
   "/home/cs/work/metamn-v2/node_modules/gulp-image-resize/index.js": {
     "gulp-gm": "/home/cs/work/metamn-v2/node_modules/gulp-image-resize/node_modules/gulp-gm/index.js",

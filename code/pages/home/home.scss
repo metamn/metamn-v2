@@ -9,6 +9,10 @@ html {
       @include section-padding;
       @include colors(white-on-blue);
 
+      .home__menu {
+        @include home__menu;
+      }
+
       .home__intro {
         @include home__intro;
       }
