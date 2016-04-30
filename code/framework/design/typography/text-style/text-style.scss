@@ -39,7 +39,7 @@ $text-block-width: 25em;
     
   }
   
-  // logo
+  // Logo
   // - Settings for the Metamn logo.
   @if ($variant == 'logo') {
     @include font(silkscreen-regular);
@@ -62,10 +62,10 @@ $text-block-width: 25em;
   // Headline
   // - Settings for headlines.
   @if ($variant == 'headline') {
-    @include font(nimbus-sans-black);
-    @include scale(large-5);
+    @include font(nimbus-sans);
+    @include scale(large-2);
     
-    max-width: 20em;
+    max-width: 15em;
     line-height: 1.25;
     
     
@@ -135,10 +135,10 @@ $text-block-width: 25em;
 }
 
 .text-style--headline {
-  @include font(nimbus-sans-black);
-  @include scale(large-5);
+  @include font(nimbus-sans);
+  @include scale(large-2);
   
-  max-width: 20em;
+  max-width: 15em;
   line-height: 1.25;
   
   

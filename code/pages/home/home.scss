@@ -6,15 +6,19 @@
 html {
   &.design-and-code {
     body {
-      @include section-padding;
       @include colors(white-on-blue);
 
-      .home__menu {
-        @include home__menu;
+      .intro {
+        @include intro;
       }
 
-      .home__intro {
-        @include home__intro;
+      .header {
+        @include header;
+        display: none;
+      }
+
+      .about {
+        @include about;
       }
     }
   }

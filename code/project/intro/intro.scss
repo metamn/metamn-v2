@@ -1,0 +1,8 @@
+@mixin intro {
+  height: 100vh;
+  position: absolute;
+
+  .text-particle {
+    @include text-particle;
+  }
+}

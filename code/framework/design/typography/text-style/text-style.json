@@ -42,7 +42,7 @@
       ]
     },
     {
-      "name": "logo",
+      "name": "Logo",
       "description": "Settings for the Metamn logo.",
       "based_on": "Silkscreen",
       "mixins": [
@@ -74,21 +74,21 @@
     {
       "name": "Headline",
       "description": "Settings for headlines.",
-      "based_on": "Nimbus Sans Black",
+      "based_on": "Nimbus Sans",
       "mixins": [
         {
           "name": "font",
-          "value": "nimbus-sans-black"
+          "value": "nimbus-sans"
         },
         {
           "name": "scale",
-          "value": "large-5"
+          "value": "large-2"
         }
       ],
       "properties": [
         {
           "name": "max-width",
-          "value": "20em"
+          "value": "15em"
         },
         {
           "name": "line-height",

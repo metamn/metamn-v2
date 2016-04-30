@@ -1,6 +1,8 @@
 @mixin about {
+  @include section-padding;
+  padding-top: 90vh;
+
   .glitch-text {
-    //@include glitch-text($width: 1297, $height: 253);
-    @include text-style(headline);
+    @include text-style(body-text);
   }
 }
