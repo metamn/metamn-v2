@@ -3,4 +3,5 @@
 
   {% include '__intro/home__intro.html.swig' %}
   {% include '__message/home__message.html.swig' %}
+  {% include '__styleguide/home__styleguide.html.swig' %}
 {% endblock %}

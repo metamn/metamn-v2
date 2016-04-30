@@ -16,6 +16,10 @@ html {
       .home__message {
         @include home__message;
       }
+
+      .home__styleguide {
+        @include home__styleguide;
+      }
     }
   }
 }

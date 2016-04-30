@@ -1,4 +1,4 @@
-@mixin home__message {
+@mixin home__styleguide {
   @include section-padding;
   min-height: 100vh;
 
@@ -8,9 +8,5 @@
 
   .offer {
     @include offer;
-  }
-
-  .focus-points {
-    @include focus-points;
   }
 }
