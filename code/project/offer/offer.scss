@@ -1,0 +1,5 @@
+@mixin offer {
+  &__title {
+    @include text-style(headline);
+  }
+}

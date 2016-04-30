@@ -1626,7 +1626,16 @@
     "/home/cs/work/metamn-v2/code/project/about/about.json": "/home/cs/work/metamn-v2/code/project/about/about.json",
     "/home/cs/work/metamn-v2/code/pages/home/__menu/home__menu.json": "/home/cs/work/metamn-v2/code/pages/home/__menu/home__menu.json",
     "/home/cs/work/metamn-v2/code/project/intro/intro.json": "/home/cs/work/metamn-v2/code/project/intro/intro.json",
-    "/home/cs/work/metamn-v2/code/project/menu/menu.json": "/home/cs/work/metamn-v2/code/project/menu/menu.json"
+    "/home/cs/work/metamn-v2/code/project/menu/menu.json": "/home/cs/work/metamn-v2/code/project/menu/menu.json",
+    "/home/cs/work/metamn-v2/code/project/offer/offer.json": "/home/cs/work/metamn-v2/code/project/offer/offer.json",
+    "/home/cs/work/metamn-v2/code/pages/home/__message/home__message.json": "/home/cs/work/metamn-v2/code/pages/home/__message/home__message.json",
+    "/home/cs/work/metamn-v2/code/project/focus-points/focus-points.json": "/home/cs/work/metamn-v2/code/project/focus-points/focus-points.json",
+    "/home/cs/work/metamn-v2/code/framework/structure/quote-with-avatar/quote-with-avatar.json": "/home/cs/work/metamn-v2/code/framework/structure/quote-with-avatar/quote-with-avatar.json",
+    "/home/cs/work/metamn-v2/code/project/focus-points/__quote/focus-points__quote.json": "/home/cs/work/metamn-v2/code/project/focus-points/__quote/focus-points__quote.json",
+    "/home/cs/work/metamn-v2/code/framework/structure/author/author.json": "/home/cs/work/metamn-v2/code/framework/structure/author/author.json",
+    "/home/cs/work/metamn-v2/code/framework/structure/author/__name/author__name.json": "/home/cs/work/metamn-v2/code/framework/structure/author/__name/author__name.json",
+    "/home/cs/work/metamn-v2/code/framework/design/typography/elements/blockquote/blockquote.json": "/home/cs/work/metamn-v2/code/framework/design/typography/elements/blockquote/blockquote.json",
+    "/home/cs/work/metamn-v2/code/framework/design/typography/elements/blockquote-with-source/blockquote-with-source.json": "/home/cs/work/metamn-v2/code/framework/design/typography/elements/blockquote-with-source/blockquote-with-source.json"
   },
   "/home/cs/work/metamn-v2/node_modules/gulp-image-resize/index.js": {
     "gulp-gm": "/home/cs/work/metamn-v2/node_modules/gulp-image-resize/node_modules/gulp-gm/index.js",

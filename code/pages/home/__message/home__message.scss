@@ -1,0 +1,12 @@
+@mixin home__message {
+  @include section-padding;
+  min-height: 100vh;
+
+  .offer {
+    @include offer;
+  }
+
+  .focus-points {
+    @include focus-points;
+  }
+}

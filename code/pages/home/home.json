@@ -1,4 +1,21 @@
 {
   "title": "Design and code",
-  "about": "I'm a designer and developer specialized in marketing sites and landing pages."
+  "about": "I'm a designer and developer specialized in marketing sites and landing pages.",
+  "offers": [
+    "Your message delivered"
+  ],
+  "quotes": [
+    {
+      "name": "Jakob Nielsen",
+      "title": "Principal, Nielsen Norman Group",
+      "link": {
+        "title": "Design guidelines for homepage usability",
+        "url": "http://www.nngroup.com/articles/113-design-guidelines-homepage-usability/",
+        "type": "external"
+      },
+      "description": "Visitors can focus only on five things on a single page.",
+      "twitter": "NNgroup",
+      "image": "https://pbs.twimg.com/profile_images/467725885949227008/JTT0mnp4_400x400.png"
+    }
+  ]
 }

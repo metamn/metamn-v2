@@ -7,9 +7,14 @@ html {
   &.design-and-code {
     body {
       @include colors(white-on-blue);
+      overflow-x: hidden;
 
       .home__intro {
         @include home__intro;
+      }
+
+      .home__message {
+        @include home__message;
       }
     }
   }

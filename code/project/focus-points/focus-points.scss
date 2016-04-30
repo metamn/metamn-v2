@@ -1,0 +1,5 @@
+@mixin focus-points {
+  .quote-with-avatar {
+    @include quote-with-avatar;
+  }
+}

@@ -1,0 +1,9 @@
+@mixin quote-with-avatar {
+  .author{
+    @include author;
+  }
+
+  .blockquote-with-source {
+    @include blockquote-with-source;
+  }
+}

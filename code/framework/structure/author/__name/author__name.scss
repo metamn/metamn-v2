@@ -1,0 +1,7 @@
+@mixin author__name($color-scheme) {
+  @include ul;
+
+  .link {
+    @include link($color-scheme, $color-scheme, $color-scheme);
+  }
+}
