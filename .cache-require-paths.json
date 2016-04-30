@@ -8702,5 +8702,8 @@
   "/home/cs/work/metamn-v2/node_modules/gulp-imagemin/node_modules/gulp-util/node_modules/fancy-log/index.js": {
     "chalk": "/home/cs/work/metamn-v2/node_modules/gulp-imagemin/node_modules/chalk/index.js",
     "dateformat": "/home/cs/work/metamn-v2/node_modules/gulp-imagemin/node_modules/gulp-util/node_modules/dateformat/lib/dateformat.js"
+  },
+  "/home/cs/work/metamn-v2/node_modules/webpack-stream/node_modules/webpack/lib/dependencies/ModuleDependencyTemplateAsId.js": {
+    "./WebpackMissingModule": "/home/cs/work/metamn-v2/node_modules/webpack-stream/node_modules/webpack/lib/dependencies/WebpackMissingModule.js"
   }
 }

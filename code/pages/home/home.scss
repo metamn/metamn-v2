@@ -8,15 +8,9 @@ html {
     body {
       @include colors(white-on-blue);
 
-      .intro {
-        @include intro;
+      .home__intro {
+        @include home__intro;
       }
-
-      .about {
-        @include about;
-      }
-
-      
     }
   }
 }

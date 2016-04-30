@@ -1,0 +1,15 @@
+@mixin home__intro {
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  align-items: flex-end;
+
+  .intro {
+    @include intro;
+  }
+
+  .about {
+    @include about;
+  }
+}

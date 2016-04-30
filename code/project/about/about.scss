@@ -1,8 +1,8 @@
 @mixin about {
   @include section-padding;
-  padding-top: 90vh;
+  margin-bottom: $lem * 2;
 
-  .glitch-text {
+  &__text {
     @include text-style(body-text);
   }
 }

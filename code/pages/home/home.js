@@ -1,1 +1,1 @@
-require('./../../project/intro/intro.js');
+require('./__intro/home__intro.js');
