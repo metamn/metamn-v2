@@ -74,11 +74,11 @@
     {
       "name": "Headline",
       "description": "Settings for headlines.",
-      "based_on": "Nimbus Sans Black",
+      "based_on": "Nimbus Sans Bold",
       "mixins": [
         {
           "name": "font",
-          "value": "nimbus-sans-black"
+          "value": "nimbus-sans-bold"
         },
         {
           "name": "scale",
@@ -88,7 +88,7 @@
       "properties": [
         {
           "name": "max-width",
-          "value": "20em"
+          "value": "15em"
         },
         {
           "name": "line-height",

@@ -62,10 +62,10 @@ $text-block-width: 25em;
   // Headline
   // - Settings for headlines.
   @if ($variant == 'headline') {
-    @include font(nimbus-sans-black);
+    @include font(nimbus-sans-bold);
     @include scale(large-5);
     
-    max-width: 20em;
+    max-width: 15em;
     line-height: 1.25;
     
     
@@ -135,10 +135,10 @@ $text-block-width: 25em;
 }
 
 .text-style--headline {
-  @include font(nimbus-sans-black);
+  @include font(nimbus-sans-bold);
   @include scale(large-5);
   
-  max-width: 20em;
+  max-width: 15em;
   line-height: 1.25;
   
   
