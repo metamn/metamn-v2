@@ -3,4 +3,6 @@
 
   {% set quote = quotes[0] %}
   {% include '../../framework/structure/quote-with-author/quote-with-author.html.swig' %}
+
+  {% include '__list/focus-points__list.html.swig' %}
 </article>

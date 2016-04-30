@@ -2,4 +2,8 @@
   .quote-with-author {
     @include quote-with-author;
   }
+
+  &__list {
+    @include focus-points__list;
+  }
 }
