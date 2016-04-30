@@ -12,14 +12,11 @@ html {
         @include intro;
       }
 
-      .header {
-        @include header;
-        display: none;
-      }
-
       .about {
         @include about;
       }
+
+      
     }
   }
 }
