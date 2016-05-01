@@ -11,7 +11,7 @@ html {
 
       .home__intro {
         @include home__intro;
-        display: none;
+        //display: none;
       }
 
       .home__message {

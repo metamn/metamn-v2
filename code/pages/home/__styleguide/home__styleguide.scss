@@ -1,6 +1,8 @@
 @mixin home__styleguide {
   @include section-padding;
   min-height: 100vh;
+  display: flex;
+  align-items: center;
 
   .offer {
     @include offer;

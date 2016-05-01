@@ -1,9 +1,16 @@
 @mixin see-more {
   .button-with-arrow-triangle {
-    @include button-with-arrow-triangle;
+    @include button-with-arrow-triangle($size: $lem * 10);
+    position: relative;
+
+    &__text {
+      @include colors(white-on-blue);
+      position: relative;
+      z-index: 2;
+    }
 
     &__triangle {
-      transform: rotate(90deg) translate($lem * 2, $lem) !important;
+      transform: rotate(90deg) translate(5vh, 10vw) !important;
     }
   }
 }
