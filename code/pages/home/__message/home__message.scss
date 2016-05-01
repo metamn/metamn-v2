@@ -1,13 +1,19 @@
 @mixin home__message {
   @include section-padding;
-  min-height: 100vh;
+  min-height: 150vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
   .header {
     @include header;
+    display: none;
   }
 
   .offer {
     @include offer;
+    display: none;
   }
 
   .focus-points {

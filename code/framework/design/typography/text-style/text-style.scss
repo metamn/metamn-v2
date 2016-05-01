@@ -59,6 +59,25 @@ $text-block-width: 25em;
     
   }
   
+  // Quote
+  // - Settings for quotes.
+  @if ($variant == 'quote') {
+    @include scale(large-2);
+    
+    
+    
+  }
+  
+  // Name
+  // - Settings for names.
+  @if ($variant == 'name') {
+    @include font(nimbus-sans-black);
+    @include uppercase(1px);
+    
+    
+    
+  }
+  
   // Headline
   // - Settings for headlines.
   @if ($variant == 'headline') {
@@ -129,6 +148,21 @@ $text-block-width: 25em;
 .text-style--title {
   @include uppercase(1.25px);
   @include scale(large-1);
+  
+  
+  
+}
+
+.text-style--quote {
+  @include scale(large-2);
+  
+  
+  
+}
+
+.text-style--name {
+  @include font(nimbus-sans-black);
+  @include uppercase(1px);
   
   
   

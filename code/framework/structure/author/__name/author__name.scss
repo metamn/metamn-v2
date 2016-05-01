@@ -2,6 +2,8 @@
   @include ul;
 
   .link {
+    @include text-style(name);
     @include link($color-scheme, $color-scheme, $color-scheme);
+    text-decoration: none;
   }
 }

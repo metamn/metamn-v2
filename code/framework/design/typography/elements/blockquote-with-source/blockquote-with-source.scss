@@ -7,6 +7,7 @@
   }
 
   .link {
-    @include link($color-scheme, $color-scheme, $color-scheme)
+    @include link($color-scheme, $color-scheme, $color-scheme);
+    @include text-style(title);
   }
 }

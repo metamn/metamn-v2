@@ -72,6 +72,32 @@
       ]
     },
     {
+      "name": "Quote",
+      "description": "Settings for quotes.",
+      "based_on": "Nimbus Sans",
+      "mixins": [
+        {
+          "name": "scale",
+          "value": "large-2"
+        }
+      ]
+    },
+    {
+      "name": "Name",
+      "description": "Settings for names.",
+      "based_on": "Nimbus Sans Black",
+      "mixins": [
+        {
+          "name": "font",
+          "value": "nimbus-sans-black"
+        },
+        {
+          "name": "uppercase",
+          "value": "1px"
+        }
+      ]
+    },
+    {
       "name": "Headline",
       "description": "Settings for headlines.",
       "based_on": "Nimbus Sans",

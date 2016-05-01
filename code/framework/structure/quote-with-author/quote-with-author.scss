@@ -1,9 +1,9 @@
 @mixin quote-with-author {
-  .author{
-    @include author;
+  .blockquote {
+    @include blockquote;
   }
 
-  .blockquote-with-source {
-    @include blockquote-with-source;
+  .author{
+    @include author;
   }
 }

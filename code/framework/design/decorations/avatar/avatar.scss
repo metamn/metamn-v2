@@ -1,4 +1,4 @@
-@mixin avatar($size: $lem * 2, $color-scheme: white-on-blue) {
+@mixin avatar($size: $lem * 3, $color-scheme: white-on-blue) {
   .avatar__image,
   .avatar__initiale {
     @include circle($size);
