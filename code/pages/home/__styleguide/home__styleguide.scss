@@ -2,10 +2,6 @@
   @include section-padding;
   min-height: 100vh;
 
-  .header {
-    @include header;
-  }
-
   .offer {
     @include offer;
   }

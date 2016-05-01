@@ -7,4 +7,6 @@
   {% include '../../../project/offer/offer.html.swig' %}
 
   {% include '../../../project/focus-points/focus-points.html.swig' %}
+  {% include '../../../project/see-more/see-more.html.swig' %}
+  {% include '../../../project/see-portfolio/see-portfolio.html.swig' %}
 </section>

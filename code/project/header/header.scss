@@ -4,6 +4,12 @@
 //
 // Styleguide header
 @mixin header($color-scheme: white-on-blue) {
+  display: inline-flex;
+  transform: rotate(-90deg);
+
+  position: fixed;;
+  left: 0;
+
   .logo {
     @include text-style(logo);
 
