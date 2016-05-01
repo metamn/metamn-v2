@@ -1,5 +1,6 @@
 @mixin offer {
-  &__title {
+  .glitch-text {
     @include text-style(headline);
+    @include glitch-text;
   }
 }

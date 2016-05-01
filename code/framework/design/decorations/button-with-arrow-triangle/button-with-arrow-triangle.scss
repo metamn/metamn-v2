@@ -5,7 +5,7 @@
 // It can be used as a basic button and add stronger, more accented variations / hover styles. See screenshot attached.
 //
 // Styleguide button-with-arrow-triangle
-@mixin button-with-arrow-triangle($direction: right, $size: $lem * 3, $color: $black) {
+@mixin button-with-arrow-triangle($direction: right, $size: $lem * 3, $color: $white) {
   display: flex;
   align-items: center;
 

@@ -1,1 +1,9 @@
-@mixin see-more {}
+@mixin see-more {
+  .button-with-arrow-triangle {
+    @include button-with-arrow-triangle;
+
+    &__triangle {
+      transform: rotate(90deg) translate($lem * 2, $lem) !important;
+    }
+  }
+}

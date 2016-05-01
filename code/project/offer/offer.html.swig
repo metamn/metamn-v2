@@ -2,5 +2,7 @@
   <h3>Offer</h3>
 
   <p class="offer__subtitle">Working together you'll get</p>
-  <p class="offer__title">{{ offer }}</p>
+
+  {% set text = offer %}
+  {% include '../../framework/design/decorations/glitch-text/glitch-text.html.swig' %}
 </aside>
