@@ -4,5 +4,6 @@
   {% set quote = quotes[0] %}
   {% include '../../framework/structure/quote-with-author/quote-with-author.html.swig' %}
 
-  {% include '__list/focus-points__list.html.swig' %}
+  {% set list = focus_points %}
+  {% include '../../framework/design/typography/elements/ol-with-circle/ol-with-circle.html.swig' %}
 </article>

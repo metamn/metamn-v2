@@ -1,10 +1,13 @@
 @mixin focus-points {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
   .quote-with-author {
     @include quote-with-author;
   }
 
-  &__list {
-    @include focus-points__list;
-    display: none;
+  .ol-with-circle {
+    @include ol-with-circle;
   }
 }
