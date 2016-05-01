@@ -1640,7 +1640,8 @@
     "/home/cs/work/metamn-v2/code/pages/home/__styleguide/home__styleguide.json": "/home/cs/work/metamn-v2/code/pages/home/__styleguide/home__styleguide.json",
     "/home/cs/work/metamn-v2/code/framework/design/typography/elements/ol-with-circle/ol-with-circle.json": "/home/cs/work/metamn-v2/code/framework/design/typography/elements/ol-with-circle/ol-with-circle.json",
     "/home/cs/work/metamn-v2/code/project/see-more/see-more.json": "/home/cs/work/metamn-v2/code/project/see-more/see-more.json",
-    "/home/cs/work/metamn-v2/code/project/see-portfolio/see-portfolio.json": "/home/cs/work/metamn-v2/code/project/see-portfolio/see-portfolio.json"
+    "/home/cs/work/metamn-v2/code/project/see-portfolio/see-portfolio.json": "/home/cs/work/metamn-v2/code/project/see-portfolio/see-portfolio.json",
+    "/home/cs/work/metamn-v2/code/pages/home/__portfolio/home__portfolio.json": "/home/cs/work/metamn-v2/code/pages/home/__portfolio/home__portfolio.json"
   },
   "/home/cs/work/metamn-v2/node_modules/gulp-image-resize/index.js": {
     "gulp-gm": "/home/cs/work/metamn-v2/node_modules/gulp-image-resize/node_modules/gulp-gm/index.js",

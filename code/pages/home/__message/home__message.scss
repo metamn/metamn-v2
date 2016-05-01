@@ -1,6 +1,9 @@
 @mixin home__message {
   @include section-padding;
+
   min-height: 80vh;
+  margin-top: 10vh;
+  margin-bottom: 10vh;
 
   display: flex;
   flex-wrap: wrap;
@@ -9,6 +12,7 @@
 
   @include border(normal, all);
   padding: $lem;
+  box-sizing: border-box;
 
   .header {
     @include header;

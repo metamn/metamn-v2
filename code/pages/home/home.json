@@ -2,8 +2,18 @@
   "title": "Design and code",
   "about": "I'm a designer and developer specialized in marketing sites and landing pages.",
   "offers": [
-    "Your message delivered",
-    "A living styleguide"
+    {
+      "subtitle": "Working together you'll get",
+      "title": "Your message delivered"
+    },
+    {
+      "subtitle": "Working together you'll get",
+      "title": "A living styleguide"
+    },
+    {
+      "subtitle": "Recent work",
+      "title": "Wanderlust"
+    }
   ],
   "focus_points": [
     "Identity",

@@ -1,10 +1,15 @@
 @mixin home__styleguide {
   @include section-padding;
+
   min-height: 100vh;
   display: flex;
   align-items: center;
 
+  @include colors(blue-on-white);
+  padding: $lem;
+  box-sizing: border-box;
+
   .offer {
-    @include offer;
+    @include offer($blue, $white);
   }
 }

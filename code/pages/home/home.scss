@@ -21,6 +21,10 @@ html {
       .home__styleguide {
         @include home__styleguide;
       }
+
+      .home__portfolio {
+        @include home__portfolio;
+      }
     }
   }
 }
