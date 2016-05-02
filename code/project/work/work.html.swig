@@ -5,5 +5,8 @@
   {% set offer = { subtitle: o.subtitle, title: work.title, klass: 'title' } %}
   {% include '../offer/offer.html.swig' %}
 
-  <div class="content">content</div>
+  <div class="content">
+    {% include '__description/work__description.html.swig' %}
+    {% include '__images/work__images.html.swig' %}
+  </div>
 </article>

@@ -1,7 +1,16 @@
 @mixin work {
   min-height: 100vh;
+  display: flex;
 
   .offer {
     @include offer;
+  }
+
+  &__description {
+    @include work__description;
+  }
+
+  &__images {
+    @include work__images;
   }
 }
