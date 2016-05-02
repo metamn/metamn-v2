@@ -27,6 +27,10 @@ html {
       .home__portfolio {
         @include home__portfolio;
       }
+
+      .home__contact {
+        @include home__contact;
+      }
     }
   }
 }

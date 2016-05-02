@@ -5,4 +5,5 @@
   {% include '__message/home__message.html.swig' %}
   {% include '__styleguide/home__styleguide.html.swig' %}
   {% include '__portfolio/home__portfolio.html.swig' %}
+  {% include '__contact/home__contact.html.swig' %}
 {% endblock %}
