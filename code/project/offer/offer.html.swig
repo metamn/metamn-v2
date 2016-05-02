@@ -1,4 +1,4 @@
-<aside class="offer">
+<aside class="offer {{ offer.klass }}">
   <h3>Offer</h3>
 
   <p class="offer__subtitle">{{ offer.subtitle }}</p>

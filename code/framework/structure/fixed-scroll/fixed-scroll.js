@@ -7,7 +7,10 @@ var klass = require('./../../helpers/js/klass.js');
 //
 // The event handler with a throttler
 //
-// $marginBottom - the approx. size of the fixed title. It is used to fine-tune the last slide. If it is not present the last title will overflow the next sections
+// $marginBottom - the approx. size of the fixed title. It is used to fine-tune the last slide.
+// - If it is not present the last title will overflow the next sections. It must be set in pixels
+//
+// Example: fixedScroll('.fixed-scroll', '.fixed-scroll__slide', '70');
 //
 var fixedScroll = function(slidesContainerID, slideID, marginBottom) {
   window.addEventListener('scroll',

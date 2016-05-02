@@ -1,0 +1,7 @@
+@mixin work {
+  min-height: 100vh;
+
+  .offer {
+    @include offer;
+  }
+}
