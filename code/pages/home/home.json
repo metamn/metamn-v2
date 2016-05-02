@@ -22,6 +22,20 @@
     "Action",
     "Entertainment"
   ],
+  "styleguide_sliders": [
+    {
+      "title": "Typography"
+    },
+    {
+      "title": "Decoration"
+    },
+    {
+      "title": "Structure"
+    },
+    {
+      "title": "Animation"
+    }
+  ],
   "quotes": [
     {
       "name": "Jakob Nielsen",

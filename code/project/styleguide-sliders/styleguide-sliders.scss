@@ -1,0 +1,19 @@
+@mixin styleguide-sliders {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  position: relative;
+
+  $width: 90vh;
+  $height: 70vh;
+  $margin: 10vh;
+
+  &__slider {
+    @include styleguide-sliders__slider($width, $height, $margin);
+  }
+
+  &__navigation {
+    @include styleguide-sliders__navigation($width, $height, $margin);
+  }
+}

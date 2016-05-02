@@ -16,6 +16,7 @@ html {
 
       .home__message {
         @include home__message;
+        //display: none;
       }
 
       .home__styleguide {

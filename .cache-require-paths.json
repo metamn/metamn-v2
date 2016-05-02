@@ -1641,7 +1641,10 @@
     "/home/cs/work/metamn-v2/code/framework/design/typography/elements/ol-with-circle/ol-with-circle.json": "/home/cs/work/metamn-v2/code/framework/design/typography/elements/ol-with-circle/ol-with-circle.json",
     "/home/cs/work/metamn-v2/code/project/see-more/see-more.json": "/home/cs/work/metamn-v2/code/project/see-more/see-more.json",
     "/home/cs/work/metamn-v2/code/project/see-portfolio/see-portfolio.json": "/home/cs/work/metamn-v2/code/project/see-portfolio/see-portfolio.json",
-    "/home/cs/work/metamn-v2/code/pages/home/__portfolio/home__portfolio.json": "/home/cs/work/metamn-v2/code/pages/home/__portfolio/home__portfolio.json"
+    "/home/cs/work/metamn-v2/code/pages/home/__portfolio/home__portfolio.json": "/home/cs/work/metamn-v2/code/pages/home/__portfolio/home__portfolio.json",
+    "/home/cs/work/metamn-v2/code/project/styleguide-sliders/styleguide-sliders.json": "/home/cs/work/metamn-v2/code/project/styleguide-sliders/styleguide-sliders.json",
+    "/home/cs/work/metamn-v2/code/project/styleguide-sliders/__navigation/styleguide-sliders__navigation.json": "/home/cs/work/metamn-v2/code/project/styleguide-sliders/__navigation/styleguide-sliders__navigation.json",
+    "/home/cs/work/metamn-v2/code/project/styleguide-sliders/__slider/styleguide-sliders__slider.json": "/home/cs/work/metamn-v2/code/project/styleguide-sliders/__slider/styleguide-sliders__slider.json"
   },
   "/home/cs/work/metamn-v2/node_modules/gulp-image-resize/index.js": {
     "gulp-gm": "/home/cs/work/metamn-v2/node_modules/gulp-image-resize/node_modules/gulp-gm/index.js",

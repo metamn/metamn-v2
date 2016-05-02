@@ -1,7 +1,7 @@
 @mixin home__styleguide {
   @include section-padding;
 
-  min-height: 100vh;
+  min-height: 90vh;
   display: flex;
   align-items: center;
 
@@ -9,7 +9,13 @@
   padding: $lem;
   box-sizing: border-box;
 
+  position: relative;
+
   .offer {
     @include offer($blue, $white);
+  }
+
+  .styleguide-sliders {
+    @include styleguide-sliders;
   }
 }
