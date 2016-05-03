@@ -1,6 +1,7 @@
 @mixin work__description {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
 
   .description {
     @include description;

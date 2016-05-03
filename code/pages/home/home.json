@@ -28,7 +28,24 @@
           "Our task&mdash;a team of three developers working remotely&mdash;was to develop the front-end code, migrate individual Drupal sites to Wordpress and create a storytelling engine for their team of editors.",
           "And prepare the site for traffic peaks of 50.000 visitors / day when tickets go sale."
         ]
-      }
+      },
+      "images": [
+        {
+          "title": "Wanderlust",
+          "name": "wanderlust",
+          "onesize": "desktop"
+        },
+        {
+          "title": "Wanderlust",
+          "name": "wanderlust-2",
+          "onesize": "desktop"
+        },
+        {
+          "title": "Wanderlust",
+          "name": "wanderlust-3b",
+          "onesize": "desktop"
+        }
+      ]
     },
     {
       "title": "Reboot"

@@ -1650,7 +1650,11 @@
     "/home/cs/work/metamn-v2/code/project/work/__description/work__description.json": "/home/cs/work/metamn-v2/code/project/work/__description/work__description.json",
     "/home/cs/work/metamn-v2/code/project/work/__images/work__images.json": "/home/cs/work/metamn-v2/code/project/work/__images/work__images.json",
     "/home/cs/work/metamn-v2/code/project/description/description.json": "/home/cs/work/metamn-v2/code/project/description/description.json",
-    "/home/cs/work/metamn-v2/code/project/services/services.json": "/home/cs/work/metamn-v2/code/project/services/services.json"
+    "/home/cs/work/metamn-v2/code/project/services/services.json": "/home/cs/work/metamn-v2/code/project/services/services.json",
+    "/home/cs/work/metamn-v2/code/pages/home/@assets/images/wanderlust.json": "/home/cs/work/metamn-v2/code/pages/home/@assets/images/wanderlust.json",
+    "/home/cs/work/metamn-v2/code/pages/home/@assets/images/wanderlust-2.json": "/home/cs/work/metamn-v2/code/pages/home/@assets/images/wanderlust-2.json",
+    "/home/cs/work/metamn-v2/code/pages/home/@assets/images/wanderlust-3.json": "/home/cs/work/metamn-v2/code/pages/home/@assets/images/wanderlust-3.json",
+    "/home/cs/work/metamn-v2/code/pages/home/@assets/images/wanderlust-3b.json": "/home/cs/work/metamn-v2/code/pages/home/@assets/images/wanderlust-3b.json"
   },
   "/home/cs/work/metamn-v2/node_modules/gulp-image-resize/index.js": {
     "gulp-gm": "/home/cs/work/metamn-v2/node_modules/gulp-image-resize/node_modules/gulp-gm/index.js",

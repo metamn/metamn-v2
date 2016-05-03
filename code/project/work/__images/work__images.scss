@@ -1,3 +1,16 @@
 @mixin work__images {
-  
+  .figure {
+    @include figure;
+
+    padding: $lem * 3;
+    background-color: #663BDD;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    + .figure {
+      padding-top: 0;
+    }
+  }
 }
