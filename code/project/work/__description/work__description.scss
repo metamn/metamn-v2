@@ -1,3 +1,12 @@
 @mixin work__description {
-  
+  display: flex;
+  flex-direction: column;
+
+  .description {
+    @include description;
+  }
+
+  .services {
+    @include services;
+  }
 }

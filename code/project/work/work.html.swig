@@ -1,4 +1,4 @@
-<article class="work fixed-scroll__slide">
+<section class="work fixed-scroll__slide">
   <h3>{{ work.title }}</h3>
 
   {% set o = offers[2] %}
@@ -9,4 +9,4 @@
     {% include '__description/work__description.html.swig' %}
     {% include '__images/work__images.html.swig' %}
   </div>
-</article>
+</section>

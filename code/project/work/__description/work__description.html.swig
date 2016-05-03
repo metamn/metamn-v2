@@ -1,5 +1,9 @@
-<aside class="work__description">
+<article class="work__description">
   <h3>Work description</h3>
 
-  description
-</aside>
+  {% set description = work.description %}
+  {% include '../../description/description.html.swig' %}
+
+  {% set services = work.services %}
+  {% include '../../services/services.html.swig' %}
+</article>
