@@ -44,6 +44,11 @@
           "title": "Wanderlust Festivals Explore",
           "name": "wanderlust-festivals-explore-large",
           "onesize": "desktop"
+        },
+        {
+          "title": "Wanderlust Squash Valley",
+          "name": "wanderlust-squash-valley",
+          "onesize": "desktop"
         }
       ]
     },
