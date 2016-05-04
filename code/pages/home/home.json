@@ -31,18 +31,18 @@
       },
       "images": [
         {
-          "title": "Wanderlust",
-          "name": "wanderlust",
+          "title": "Wanderlust 108",
+          "name": "wanderlust-festivals-top-large",
           "onesize": "desktop"
         },
         {
-          "title": "Wanderlust",
-          "name": "wanderlust-2",
+          "title": "Wanderlust 108",
+          "name": "wanderlust-108-top-large",
           "onesize": "desktop"
         },
         {
-          "title": "Wanderlust",
-          "name": "wanderlust-3b",
+          "title": "Wanderlust Festivals Explore",
+          "name": "wanderlust-festivals-explore-large",
           "onesize": "desktop"
         }
       ]
