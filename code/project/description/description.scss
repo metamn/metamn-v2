@@ -1,5 +1,6 @@
 @mixin description {
   @include grid(3, $lem);
+  @include text-style(quote);
 
   a, .link {
     @include link(white-on-blue, white-on-blue, white-on-blue);
