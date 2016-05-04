@@ -17,4 +17,8 @@
   &__horizontal-slider {
     @include work__horizontal-slider;
   }
+
+  &__all-devices {
+    @include work__all-devices;
+  }
 }

@@ -82,7 +82,12 @@
           "name": "wanderlust-snowshoe",
           "onesize": "desktop"
         }
-      ]
+      ],
+      "all_devices": {
+        "title": "Wanderlust",
+        "name": "all-devices-position",
+        "onesize": "desktop"
+      }
     },
     {
       "title": "Reboot"
