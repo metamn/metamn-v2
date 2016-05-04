@@ -8,5 +8,6 @@
   <div class="content">
     {% include '__description/work__description.html.swig' %}
     {% include '__images/work__images.html.swig' %}
+    {% include '__horizontal-slider/work__horizontal-slider.html.swig' %}
   </div>
 </section>

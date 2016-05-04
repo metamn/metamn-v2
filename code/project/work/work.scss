@@ -13,4 +13,8 @@
   &__images {
     @include work__images;
   }
+
+  &__horizontal-slider {
+    @include work__horizontal-slider;
+  }
 }

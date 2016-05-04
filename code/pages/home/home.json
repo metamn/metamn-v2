@@ -44,10 +44,42 @@
           "title": "Wanderlust Festivals Explore",
           "name": "wanderlust-festivals-explore-large",
           "onesize": "desktop"
-        },
+        }
+      ],
+      "horizontal_slider": [
         {
           "title": "Wanderlust Squash Valley",
           "name": "wanderlust-squash-valley",
+          "onesize": "desktop"
+        },
+        {
+          "title": "Wanderlust Stratton",
+          "name": "wanderlust-stratton",
+          "onesize": "desktop"
+        },
+        {
+          "title": "Wanderlust Sunshine Coast",
+          "name": "wanderlust-sunshinecoast",
+          "onesize": "desktop"
+        },
+        {
+          "title": "Wanderlust Tremblant",
+          "name": "wanderlust-tremblant",
+          "onesize": "desktop"
+        },
+        {
+          "title": "Wanderlust Whistler",
+          "name": "wanderlust-whistler",
+          "onesize": "desktop"
+        },
+        {
+          "title": "Wanderlust Aspen",
+          "name": "wanderlust-aspen",
+          "onesize": "desktop"
+        },
+        {
+          "title": "Wanderlust Snowshoe",
+          "name": "wanderlust-snowshoe",
           "onesize": "desktop"
         }
       ]
