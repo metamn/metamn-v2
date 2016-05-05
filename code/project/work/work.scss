@@ -12,10 +12,12 @@
 
   &__images {
     @include work__images;
+    display: none;
   }
 
   &__horizontal-slider {
     @include work__horizontal-slider;
+    display: none;
   }
 
   &__all-devices {

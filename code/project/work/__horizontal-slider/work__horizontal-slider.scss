@@ -1,5 +1,6 @@
 @mixin work__horizontal-slider {
-  @include grid(2, $lem, $lem);
+  @include grid(2, 0px, 0px);
+  background-color: #663BDD;
 
   .figure {
     @include figure;
@@ -7,8 +8,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-
     padding: $lem;
-    background-color: #663BDD;
   }
 }
