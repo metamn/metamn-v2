@@ -10,17 +10,7 @@
     @include work__description;
   }
 
-  &__images {
-    @include work__images;
-    display: none;
-  }
-
-  &__horizontal-slider {
-    @include work__horizontal-slider;
-    //display: none;
-  }
-
-  &__all-devices {
-    @include work__all-devices;
+  &__artwork {
+    @include work__artwork;
   }
 }

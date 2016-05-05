@@ -1,0 +1,5 @@
+@mixin work-horizontal-slider {
+  &--wanderlust-festival-intros {
+    @include work-horizontal-slider--wanderlust-festival-intros;
+  }
+}

@@ -1,4 +1,4 @@
-<article class="work__description">
+<aside class="work__description">
   <h3>Work description</h3>
 
   {% set description = work.description %}
@@ -6,4 +6,4 @@
 
   {% set services = work.services %}
   {% include '../../services/services.html.swig' %}
-</article>
+</aside>

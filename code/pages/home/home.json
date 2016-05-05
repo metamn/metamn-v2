@@ -29,68 +29,112 @@
           "And prepare the site for traffic peaks of 50.000 visitors / day when tickets go sale."
         ]
       },
-      "images": [
+      "artwork": [
         {
-          "title": "Wanderlust 108",
-          "name": "wanderlust-festivals-top-large",
-          "onesize": "desktop"
+          "title": "Large screenshots",
+          "mockup": "browser-mockup",
+          "structure": "image-list",
+          "images": [
+            {
+              "title": "Wanderlust 108",
+              "name": "wanderlust-festivals-top-large",
+              "onesize": "desktop"
+            },
+            {
+              "title": "Wanderlust 108",
+              "name": "wanderlust-108-top-large",
+              "onesize": "desktop"
+            },
+            {
+              "title": "Wanderlust Festivals Explore",
+              "name": "wanderlust-festivals-explore-large",
+              "onesize": "desktop"
+            }
+          ]
         },
         {
-          "title": "Wanderlust 108",
-          "name": "wanderlust-108-top-large",
-          "onesize": "desktop"
+          "title": "Festival intros",
+          "mockup": "browser-mockup",
+          "structure": "horizontal-slider",
+          "images": [
+            {
+              "title": "Wanderlust Squash Valley",
+              "name": "wanderlust-squash-valley",
+              "onesize": "desktop"
+            },
+            {
+              "title": "Wanderlust Stratton",
+              "name": "wanderlust-stratton",
+              "onesize": "desktop"
+            },
+            {
+              "title": "Wanderlust Sunshine Coast",
+              "name": "wanderlust-sunshinecoast",
+              "onesize": "desktop"
+            },
+            {
+              "title": "Wanderlust Tremblant",
+              "name": "wanderlust-tremblant",
+              "onesize": "desktop"
+            },
+            {
+              "title": "Wanderlust Whistler",
+              "name": "wanderlust-whistler",
+              "onesize": "desktop"
+            },
+            {
+              "title": "Wanderlust Aspen",
+              "name": "wanderlust-aspen",
+              "onesize": "desktop"
+            },
+            {
+              "title": "Wanderlust Snowshoe",
+              "name": "wanderlust-snowshoe",
+              "onesize": "desktop"
+            }
+          ]
         },
         {
-          "title": "Wanderlust Festivals Explore",
-          "name": "wanderlust-festivals-explore-large",
-          "onesize": "desktop"
+          "title": "Intro from v1",
+          "mockup": "none",
+          "structure": "single-image",
+          "images": [
+            {
+              "title": "Wanderlust intro",
+              "name": "wanderlust-intro",
+              "onesize": "desktop"
+            }
+          ]
         }
-      ],
-      "horizontal_slider": [
-        {
-          "title": "Wanderlust Squash Valley",
-          "name": "wanderlust-squash-valley",
-          "onesize": "desktop"
-        },
-        {
-          "title": "Wanderlust Stratton",
-          "name": "wanderlust-stratton",
-          "onesize": "desktop"
-        },
-        {
-          "title": "Wanderlust Sunshine Coast",
-          "name": "wanderlust-sunshinecoast",
-          "onesize": "desktop"
-        },
-        {
-          "title": "Wanderlust Tremblant",
-          "name": "wanderlust-tremblant",
-          "onesize": "desktop"
-        },
-        {
-          "title": "Wanderlust Whistler",
-          "name": "wanderlust-whistler",
-          "onesize": "desktop"
-        },
-        {
-          "title": "Wanderlust Aspen",
-          "name": "wanderlust-aspen",
-          "onesize": "desktop"
-        },
-        {
-          "title": "Wanderlust Snowshoe",
-          "name": "wanderlust-snowshoe",
-          "onesize": "desktop"
-        }
-      ],
-      "all_devices": {
-        "title": "Wanderlust",
-        "name": "all-devices",
-        "onesize": "desktop"
-      }
+      ]
     },
     {
-      "title": "Reboot"
+      "title": "Reboot",
+      "services": [
+        "Front&ndash;end",
+        "Wordpress"
+      ],
+      "description": {
+        "paragraphs": [
+          "<a href='http://reboot.org' title='Reboot'>Reboot</a> is a social design consultancy focused on international development.",
+          "After growing out the startup phase the Reboot design team created a new look and wanted a developer to implement in Wordpress.",
+          "The requirement for back&ndash;end was portability. No third-party plugins, just Wordpress core features and structures."
+        ]
+      },
+      "artwork": [
+        {
+          "title": "Homepage",
+          "mockup": "all-mockups",
+          "structure": "single-image",
+          "images": [
+            {
+              "title": "Wanderlust",
+              "name": "all-devices",
+              "onesize": "desktop"
+            }
+          ]
+        }
+      ]
     },
     {
       "title": "Beat"

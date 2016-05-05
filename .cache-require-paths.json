@@ -1669,7 +1669,12 @@
     "/home/cs/work/metamn-v2/code/pages/home/@assets/images/all-devices-position.json": "/home/cs/work/metamn-v2/code/pages/home/@assets/images/all-devices-position.json",
     "/home/cs/work/metamn-v2/code/project/work/__all-devices/work__all-devices.json": "/home/cs/work/metamn-v2/code/project/work/__all-devices/work__all-devices.json",
     "/home/cs/work/metamn-v2/code/pages/home/@assets/images/all-devices.json": "/home/cs/work/metamn-v2/code/pages/home/@assets/images/all-devices.json",
-    "/home/cs/work/metamn-v2/code/framework/design/decorations/browser-mockup/__header/browser-mockup-buttons/browser-mockup-buttons.json": "/home/cs/work/metamn-v2/code/framework/design/decorations/browser-mockup/__header/browser-mockup-buttons/browser-mockup-buttons.json"
+    "/home/cs/work/metamn-v2/code/framework/design/decorations/browser-mockup/__header/browser-mockup-buttons/browser-mockup-buttons.json": "/home/cs/work/metamn-v2/code/framework/design/decorations/browser-mockup/__header/browser-mockup-buttons/browser-mockup-buttons.json",
+    "/home/cs/work/metamn-v2/code/project/work/__artwork/work__artwork.json": "/home/cs/work/metamn-v2/code/project/work/__artwork/work__artwork.json",
+    "/home/cs/work/metamn-v2/code/framework/structure/horizontal-slider/horizontal-slider.json": "/home/cs/work/metamn-v2/code/framework/structure/horizontal-slider/horizontal-slider.json",
+    "/home/cs/work/metamn-v2/code/project/work-horizontal-slider/work-horizontal-slider.json": "/home/cs/work/metamn-v2/code/project/work-horizontal-slider/work-horizontal-slider.json",
+    "/home/cs/work/metamn-v2/code/project/work-image-list/work-image-list.json": "/home/cs/work/metamn-v2/code/project/work-image-list/work-image-list.json",
+    "/home/cs/work/metamn-v2/code/project/work-single-image/work-single-image.json": "/home/cs/work/metamn-v2/code/project/work-single-image/work-single-image.json"
   },
   "/home/cs/work/metamn-v2/node_modules/gulp-image-resize/index.js": {
     "gulp-gm": "/home/cs/work/metamn-v2/node_modules/gulp-image-resize/node_modules/gulp-gm/index.js",

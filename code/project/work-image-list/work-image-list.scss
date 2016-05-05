@@ -1,0 +1,5 @@
+@mixin work-image-list {
+  &--wanderlust-large-screenshots {
+    @include work-image-list--wanderlust-large-screenshots;
+  }
+}
