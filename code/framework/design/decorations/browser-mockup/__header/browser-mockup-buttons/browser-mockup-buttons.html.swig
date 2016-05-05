@@ -1,0 +1,5 @@
+<div class="browser-mockup-buttons">
+  <span class="browser-mockup-buttons__button browser-mockup-buttons__button--red"></span>
+  <span class="browser-mockup-buttons__button browser-mockup-buttons__button--yellow"></span>
+  <span class="browser-mockup-buttons__button browser-mockup-buttons__button--green"></span>
+</div>

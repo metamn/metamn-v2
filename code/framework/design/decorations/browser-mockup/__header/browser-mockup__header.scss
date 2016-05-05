@@ -1,0 +1,12 @@
+@mixin browser-mockup__header($border-size, $border-color, $button-colors) {
+  @include border($border-size, all);
+
+  border-bottom: none;
+  border-color: $border-color;
+  border-radius: $lem / 4 $lem / 4 0 0;
+  padding: $lem / 2;
+
+  .browser-mockup-buttons {
+    @include browser-mockup-buttons($border-size, $border-color, $button-colors);
+  }
+}
