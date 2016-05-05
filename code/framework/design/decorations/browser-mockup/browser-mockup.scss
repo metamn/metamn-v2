@@ -1,6 +1,6 @@
-@mixin browser-mockup($border-size: thin, $border-color: $white, $button-colors: false) {
+@mixin browser-mockup($border-size: thin, $border-color: $white, $button-colors: false, $all-borders: false) {
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
 
   &__header {
     @include browser-mockup__header($border-size, $border-color, $button-colors);
@@ -8,8 +8,12 @@
 
   .figure {
     @include figure($stretch: stretched);
-    @include border($border-size, all);
-    border-color: $border-color;
-    line-height: 0;
+    width: 100%;
+
+    @if ($all-borders != false) {
+      @include border($border-size, all);
+      border-color: $border-color;
+      line-height: 0;
+    }
   }
 }

@@ -1,6 +1,7 @@
 @mixin browser-mockup__header($border-size, $border-color, $button-colors) {
-  @include border($border-size, all);
+  flex-basis: 100%;
 
+  @include border($border-size, all);
   border-bottom: none;
   border-color: $border-color;
   border-radius: $lem / 4 $lem / 4 0 0;

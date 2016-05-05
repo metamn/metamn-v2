@@ -5,6 +5,6 @@
   background-color: #663BDD;
 
   .browser-mockup {
-    @include browser-mockup($border-color: $blue);
+    @include browser-mockup($all-borders: true);
   }
 }
