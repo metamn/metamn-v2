@@ -3,6 +3,10 @@
 
   padding: $lem;
 
+  span {
+    display: none; // to be reomved
+  }
+
   .browser-mockup {
     @include browser-mockup($border-color: #663BDD, $all-borders: true);
   }

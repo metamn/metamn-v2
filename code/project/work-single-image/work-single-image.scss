@@ -1,4 +1,7 @@
 @mixin work-single-image {
+  display: flex;
+  justify-content: center;
+  
   .figure {
     @include figure;
   }
