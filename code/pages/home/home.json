@@ -128,8 +128,25 @@
           "structure": "single-image",
           "images": [
             {
-              "title": "Wanderlust",
-              "name": "all-devices",
+              "title": "Reboot",
+              "name": "reboot-all-devices",
+              "onesize": "desktop"
+            }
+          ]
+        },
+        {
+          "title": "Large screenshots",
+          "mockup": "browser-mockup",
+          "structure": "image-list",
+          "images": [
+            {
+              "title": "Reboot homepage",
+              "name": "reboot-large-2",
+              "onesize": "desktop"
+            },
+            {
+              "title": "Rebootservices",
+              "name": "reboot-large-1",
               "onesize": "desktop"
             }
           ]

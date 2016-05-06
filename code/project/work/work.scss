@@ -13,4 +13,8 @@
   &__artwork {
     @include work__artwork;
   }
+
+  &--wanderlust {
+    display: none;
+  }
 }

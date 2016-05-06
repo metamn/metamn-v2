@@ -1,4 +1,7 @@
-<section class="work fixed-scroll__slide">
+{% import "../../framework/helpers/classname/classname.swig" as c  %}
+{% set title = c.classname(work.title)  %}
+
+<section class="work work--{{ title }} fixed-scroll__slide">
   <h3>{{ work.title }}</h3>
 
   {% set o = offers[2] %}

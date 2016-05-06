@@ -2,4 +2,8 @@
   &--wanderlust-large-screenshots {
     @include work-image-list--wanderlust-large-screenshots;
   }
+
+  &--reboot-large-screenshots {
+    @include work-image-list--reboot-large-screenshots;
+  }
 }
