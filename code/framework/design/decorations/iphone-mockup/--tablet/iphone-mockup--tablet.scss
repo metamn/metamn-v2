@@ -1,6 +1,4 @@
 @mixin iphone-mockup--tablet {
-  transform: scale(1.2);
-
   .iphone-mockup__header {
     padding: $lem / 2;
     border-radius: $lem $lem 0 0;
