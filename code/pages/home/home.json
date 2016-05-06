@@ -17,6 +17,40 @@
   ],
   "works": [
     {
+      "title": "Beat",
+      "services": [
+        "Design",
+        "Front&ndash;end"
+      ],
+      "description": {
+        "paragraphs": [
+          "<a href='http://metamn.io/beat' title='Beat'>Beat</a> is a blog about design and code. It's lazy yet meta. With focus on that few stories which are shaping the front&ndash;end a year.",
+          "The design is clean. Typography and form follows the modern style. The generous usage of negative space is the main ingredient of the design.",
+          "The back&ndash;end is a static site created with JSON, Gulp, Webpack. It's an experiment in the Headless CMS scene."
+        ]
+      },
+      "artwork": [
+
+      ]
+    },
+    {
+      "title": "Brandyou",
+      "services": [
+        "Design",
+        "Front&ndash;end"
+      ],
+      "description": {
+        "paragraphs": [
+          "Brandyou is a stealth mode startup porting classic business cards to web. Social networks come and by &mdash; and everybody needs a home on the internet.",
+          "My role was to design and develop a set of responsive templates and themes which fit on a single screen.",
+          "The requirements for design was something outside of the box, very unusual, targeting the X/Y generation."
+        ]
+      },
+      "artwork": [
+
+      ]
+    },
+    {
       "title": "Wanderlust",
       "services": [
         "Front&ndash;end",
@@ -25,7 +59,7 @@
       "description": {
         "paragraphs": [
           "<a href='http://wanderlust.com' title='Wanderlust'>Wanderlust</a> is an international yoga events and festivals company coming up with an ambitious project including redesign, back&ndash;end migration and storytelling.",
-          "Our task&mdash;a team of three developers working remotely&mdash;was to develop the front-end code, migrate individual Drupal sites to Wordpress and create a storytelling engine for their team of editors.",
+          "Our task &mdash; a team of three developers working remotely &mdash; was to develop the front-end code, migrate individual Drupal sites to Wordpress and create a storytelling engine for their team of editors.",
           "And prepare the site for traffic peaks of 50.000 visitors / day when tickets go sale."
         ]
       },
@@ -186,12 +220,6 @@
           ]
         }
       ]
-    },
-    {
-      "title": "Beat"
-    },
-    {
-      "title": "Brandyou"
     }
   ],
   "focus_points": [

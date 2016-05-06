@@ -2,8 +2,6 @@
   @include grid(2, $lem, $lem);
   align-items: center;
 
-  display: none;
-
   .browser-mockup {
     @include browser-mockup($border-color: $white, $all-borders: true);
   }
