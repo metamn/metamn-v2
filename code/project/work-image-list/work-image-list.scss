@@ -1,4 +1,9 @@
 @mixin work-image-list {
+
+  .title-placeholder-for-grid {
+    display: none; // to be removed
+  }
+
   &--wanderlust-large-screenshots {
     @include work-image-list--wanderlust-large-screenshots;
   }

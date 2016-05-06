@@ -4,10 +4,6 @@
 
   display: none;
 
-  span {
-    display: none; // to be reomved
-  }
-
   .browser-mockup {
     @include browser-mockup($border-color: $white, $all-borders: true);
   }

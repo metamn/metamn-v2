@@ -11,9 +11,7 @@
     {% endif %}
 
     {% if mockup == "device-mockup" %}
-      {% if image.mockup == "mobile" %}
-        {% include '../../framework/design/decorations/iphone-mockup/iphone-mockup.html.swig' %}
-      {% endif %}
+      {% include '../../framework/design/decorations/iphone-mockup/iphone-mockup.html.swig' %}
     {% endif %}
   {% endfor %}
 </div>

@@ -1,0 +1,26 @@
+@mixin iphone-mockup--tablet {
+  transform: scale(1.2);
+
+  .iphone-mockup__header {
+    padding: $lem / 2;
+    border-radius: $lem $lem 0 0;
+  }
+
+  .iphone-mockup__footer {
+    padding: $lem / 2;
+    border-radius: 0 0 $lem $lem;
+  }
+
+  .iphone-mockup-camera {
+    position: relative;
+    top: $lem / 4;
+  }
+
+  .iphone-mockup-sensor {
+    display: none;
+  }
+
+  .iphone-mockup-button {
+    @include circle($lem);
+  }
+}
