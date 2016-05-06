@@ -167,6 +167,23 @@
               "onesize": "desktop"
             }
           ]
+        },
+        {
+          "title": "Device pairs",
+          "mockup": "device-mockup",
+          "structure": "image-list",
+          "images": [
+            {
+              "title": "Reboot mobile 2",
+              "name": "reboot-mobile-2",
+              "onesize": "desktop"
+            },
+            {
+              "title": "Reboot tablet 2",
+              "name": "reboot-tablet-2",
+              "onesize": "desktop"
+            }
+          ]
         }
       ]
     },
