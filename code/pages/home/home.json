@@ -56,6 +56,17 @@
               "onesize": "mobile"
             }
           ]
+        },
+        {
+          "title": "Masters single",
+          "mockup": "none",
+          "structure": "single-image",
+          "images": [
+            {
+              "title": "Beat Masters",
+              "name": "beat-masters-tablet-angle"
+            }
+          ]
         }
       ]
     },
