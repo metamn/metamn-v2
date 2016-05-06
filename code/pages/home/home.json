@@ -30,7 +30,33 @@
         ]
       },
       "artwork": [
-
+        {
+          "title": "Device pairs",
+          "mockup": "device-mockup",
+          "structure": "image-list",
+          "images": [
+            {
+              "title": "Beat Masters of Web",
+              "name": "beat-mobile-1",
+              "onesize": "mobile"
+            },
+            {
+              "title": "Beat Frontpage",
+              "name": "beat-tablet-1",
+              "onesize": "mobile"
+            },
+            {
+              "title": "Beat Frontpage bottom",
+              "name": "beat-tablet-2",
+              "onesize": "mobile"
+            },
+            {
+              "title": "Beat Styleguide",
+              "name": "beat-mobile-2",
+              "onesize": "mobile"
+            }
+          ]
+        }
       ]
     },
     {

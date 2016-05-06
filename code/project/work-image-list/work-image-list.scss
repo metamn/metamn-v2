@@ -4,6 +4,10 @@
     display: none; // to be removed
   }
 
+  &--beat-device-pairs {
+    @include work-image-list--beat-device-pairs;
+  }
+
   &--wanderlust-large-screenshots {
     @include work-image-list--wanderlust-large-screenshots;
   }
