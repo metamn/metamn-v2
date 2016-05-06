@@ -1,0 +1,23 @@
+@mixin iphone-mockup__header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+
+  @include border(thin, all);
+  border-radius: $lem * 2 $lem * 2 0 0;
+  padding: $lem;
+
+  .iphone-mockup-camera,
+  .iphone-mockup-sensor {
+    flex-basis: 100%;
+  }
+
+  .iphone-mockup-camera {
+    @include iphone-mockup-camera;
+  }
+
+  .iphone-mockup-sensor {
+    @include iphone-mockup-sensor;
+  }
+}

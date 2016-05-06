@@ -1,10 +1,12 @@
-@mixin work-single-image {
+@mixin iphone-mockup__body {
   display: flex;
   justify-content: center;
 
-  display: none;
+  border: $lem solid;
 
   .figure {
     @include figure;
+
+    line-height: 0;
   }
 }

@@ -1,0 +1,7 @@
+@mixin work-image-list--reboot-device-pairs {
+  display: flex;
+
+  .iphone-mockup {
+    @include iphone-mockup;
+  }
+}

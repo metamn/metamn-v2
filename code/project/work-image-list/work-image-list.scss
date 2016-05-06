@@ -6,4 +6,8 @@
   &--reboot-large-screenshots {
     @include work-image-list--reboot-large-screenshots;
   }
+
+  &--reboot-device-pairs {
+    @include work-image-list--reboot-device-pairs;
+  }
 }

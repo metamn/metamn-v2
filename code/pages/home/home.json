@@ -145,8 +145,27 @@
               "onesize": "desktop"
             },
             {
-              "title": "Rebootservices",
+              "title": "Reboot services",
               "name": "reboot-large-1",
+              "onesize": "desktop"
+            }
+          ]
+        },
+        {
+          "title": "Device pairs",
+          "mockup": "device-mockup",
+          "structure": "image-list",
+          "images": [
+            {
+              "title": "Reboot mobile 1",
+              "name": "reboot-mobile-1",
+              "mockup": "mobile",
+              "onesize": "desktop"
+            },
+            {
+              "title": "Reboot tablet 1",
+              "name": "reboot-tablet-1",
+              "mockup": "tablet",
               "onesize": "desktop"
             }
           ]

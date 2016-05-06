@@ -2,6 +2,8 @@
   @include grid(2, $lem, $lem);
   align-items: center;
 
+  display: none;
+
   span {
     display: none; // to be reomved
   }
