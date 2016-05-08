@@ -1,0 +1,17 @@
+@mixin imac-mockup {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  &__top {
+    @include imac-mockup__top;
+  }
+
+  &__bottom {
+    @include imac-mockup__bottom;
+  }
+
+  &__stand {
+    @include imac-mockup__stand;
+  }
+}

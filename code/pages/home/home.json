@@ -67,6 +67,18 @@
               "name": "beat-masters-tablet-angle"
             }
           ]
+        },
+        {
+          "title": "Herculean on desktop",
+          "mockup": "imac-mockup",
+          "structure": "single-image",
+          "images": [
+            {
+              "title": "Herculean on desktop",
+              "name": "herculean-desktop",
+              "onesize": "desktop"
+            }
+          ]
         }
       ]
     },

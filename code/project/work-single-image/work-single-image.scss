@@ -5,4 +5,8 @@
   .figure {
     @include figure;
   }
+
+  .imac-mockup {
+    @include imac-mockup;
+  }
 }

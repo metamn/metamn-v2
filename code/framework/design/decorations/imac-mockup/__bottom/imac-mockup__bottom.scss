@@ -1,0 +1,6 @@
+@mixin imac-mockup__bottom {
+  @include border(thin, all);
+  border-radius: 0 0 $lem * 2 $lem * 2;
+
+  height: $lem * 4;
+}
