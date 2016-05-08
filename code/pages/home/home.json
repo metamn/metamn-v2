@@ -90,7 +90,7 @@
       ],
       "description": {
         "paragraphs": [
-          "Brandyou is a stealth mode startup porting classic business cards to web. Social networks come and by &mdash; and everybody needs a home on the internet.",
+          "Brandyou is a stealth mode startup making business cards for the web. Social networks come and by &mdash; and everybody needs a home on the internet.",
           "My role was to design and develop a set of responsive templates and themes which fit on a single screen.",
           "The requirements for design was something outside of the box, very unusual, targeting the X/Y generation."
         ]
@@ -172,16 +172,6 @@
               "onesize": "mobile"
             },
             {
-              "title": "Brandyou 15",
-              "name": "brandyou-15",
-              "onesize": "mobile"
-            },
-            {
-              "title": "Brandyou 18",
-              "name": "brandyou-18",
-              "onesize": "mobile"
-            },
-            {
               "title": "Brandyou 19",
               "name": "brandyou-19",
               "onesize": "mobile"
@@ -192,13 +182,13 @@
               "onesize": "mobile"
             },
             {
-              "title": "Brandyou 21",
-              "name": "brandyou-21",
+              "title": "Brandyou 22",
+              "name": "brandyou-22",
               "onesize": "mobile"
             },
             {
-              "title": "Brandyou 22",
-              "name": "brandyou-22",
+              "title": "Brandyou 21",
+              "name": "brandyou-21",
               "onesize": "mobile"
             }
           ]
@@ -232,11 +222,6 @@
             {
               "title": "Wanderlust 108",
               "name": "wanderlust-108-top-large",
-              "onesize": "desktop"
-            },
-            {
-              "title": "Wanderlust Festivals Explore",
-              "name": "wanderlust-festivals-explore-large",
               "onesize": "desktop"
             }
           ]

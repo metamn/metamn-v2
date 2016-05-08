@@ -1,4 +1,6 @@
 @mixin work-horizontal-slider {
+  @include slide-size;
+  
   &--wanderlust-festival-intros {
     @include work-horizontal-slider--wanderlust-festival-intros;
   }
