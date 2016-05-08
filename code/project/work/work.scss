@@ -14,4 +14,8 @@
   &__artwork {
     @include work__artwork;
   }
+
+  &--beat {
+    display: none;
+  }
 }

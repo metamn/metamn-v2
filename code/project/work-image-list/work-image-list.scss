@@ -19,4 +19,8 @@
   &--reboot-device-pairs {
     @include work-image-list--reboot-device-pairs;
   }
+
+  &--brandyou-all-mockups {
+    @include work-image-list--brandyou-all-mockups;
+  }
 }
