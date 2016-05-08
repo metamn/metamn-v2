@@ -11,6 +11,10 @@
 
   .figure {
     @include figure;
+
+    line-height: 0;
+    @include border(normal, all);
+    border-color: black;
   }
 
   .iphone-mockup-camera {

@@ -299,7 +299,7 @@
       "artwork": [
         {
           "title": "Homepage",
-          "mockup": "all-mockups",
+          "mockup": "none",
           "structure": "single-image",
           "images": [
             {
