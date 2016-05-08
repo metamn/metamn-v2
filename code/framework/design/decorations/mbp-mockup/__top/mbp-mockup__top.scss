@@ -1,0 +1,9 @@
+@mixin mbp-mockup__top {
+  @include border(thin, all);
+  border-radius: $lem * 2;
+  padding: $lem * 2;
+
+  .figure {
+    @include figure;
+  }
+}

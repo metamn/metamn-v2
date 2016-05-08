@@ -58,13 +58,14 @@
           ]
         },
         {
-          "title": "Masters on tablet angle",
-          "mockup": "none",
+          "title": "Laptop",
+          "mockup": "mbp-mockup",
           "structure": "single-image",
           "images": [
             {
-              "title": "Beat Masters",
-              "name": "beat-masters-tablet-angle"
+              "title": "Beat home on desktop",
+              "name": "beat-home-large-1",
+              "onesize": "desktop"
             }
           ]
         },

@@ -1713,7 +1713,8 @@
     "/home/cs/work/metamn-v2/code/pages/home/@assets/images/brandyou-21.json": "/home/cs/work/metamn-v2/code/pages/home/@assets/images/brandyou-21.json",
     "/home/cs/work/metamn-v2/code/pages/home/@assets/images/herculean-desktop.json": "/home/cs/work/metamn-v2/code/pages/home/@assets/images/herculean-desktop.json",
     "/home/cs/work/metamn-v2/code/framework/design/decorations/imac-mockup/imac-mockup.json": "/home/cs/work/metamn-v2/code/framework/design/decorations/imac-mockup/imac-mockup.json",
-    "/home/cs/work/metamn-v2/code/pages/home/@assets/images/beat-home-large-1.json": "/home/cs/work/metamn-v2/code/pages/home/@assets/images/beat-home-large-1.json"
+    "/home/cs/work/metamn-v2/code/pages/home/@assets/images/beat-home-large-1.json": "/home/cs/work/metamn-v2/code/pages/home/@assets/images/beat-home-large-1.json",
+    "/home/cs/work/metamn-v2/code/framework/design/decorations/mbp-mockup/mbp-mockup.json": "/home/cs/work/metamn-v2/code/framework/design/decorations/mbp-mockup/mbp-mockup.json"
   },
   "/home/cs/work/metamn-v2/node_modules/gulp-image-resize/index.js": {
     "gulp-gm": "/home/cs/work/metamn-v2/node_modules/gulp-image-resize/node_modules/gulp-gm/index.js",
@@ -7044,7 +7045,8 @@
     "bufferutil": "/home/cs/work/metamn-v2/node_modules/bufferutil/index.js"
   },
   "/home/cs/work/metamn-v2/node_modules/bufferutil/index.js": {
-    "bindings": "/home/cs/work/metamn-v2/node_modules/bindings/bindings.js"
+    "bindings": "/home/cs/work/metamn-v2/node_modules/bindings/bindings.js",
+    "./fallback": "/home/cs/work/metamn-v2/node_modules/bufferutil/fallback.js"
   },
   "/home/cs/work/metamn-v2/node_modules/bindings/bindings.js": {
     "fs": "fs",

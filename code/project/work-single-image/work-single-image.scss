@@ -11,4 +11,8 @@
   .imac-mockup {
     @include imac-mockup;
   }
+
+  .mbp-mockup {
+    @include mbp-mockup;
+  }
 }
