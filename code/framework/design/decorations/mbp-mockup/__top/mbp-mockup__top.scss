@@ -1,9 +1,20 @@
 @mixin mbp-mockup__top {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
   @include border(thin, all);
   border-radius: $lem * 2;
   padding: $lem * 2;
+  padding-top: $lem;
 
   .figure {
     @include figure;
+  }
+
+  .iphone-mockup-camera {
+    @include iphone-mockup-camera;
+    margin-bottom: $lem;
   }
 }
