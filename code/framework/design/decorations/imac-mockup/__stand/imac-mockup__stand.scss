@@ -1,20 +1,40 @@
 @mixin imac-mockup__stand {
-  position: relative;
-  display: inline-block;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 
-  width: 30%;
-  margin: 0 auto;
-  height: $lem * 8;
+  .imac-mockup-stand {
+    position: relative;
+    display: inline-block;
 
-  &::before {
-    @include border(thin, all);
+    &::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+    }
+  }
 
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    transform: perspective(4px) rotateX(1deg) translateY(-36%);
+  .imac-mockup-stand--1 {
+    width: 20%;
+    height: $lem * 5;
+
+    &::before {
+      @include border(thin, left);
+      @include border(thin, right);
+      transform: perspective(4px) rotateX(1deg) translateY(-20%);
+    }
+  }
+
+  .imac-mockup-stand--2 {
+    width: 29%;
+    height: $lem * 2;
+
+    &::before {
+      @include border(thin, all);
+      transform: perspective(4px) rotateX(1deg) translateY(-60%);
+    }
   }
 }
