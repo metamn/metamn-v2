@@ -1,4 +1,5 @@
 @mixin work-image-list {
+  @include slide-size;
 
   .title-placeholder-for-grid {
     display: none; // to be removed

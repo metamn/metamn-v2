@@ -69,13 +69,13 @@
           ]
         },
         {
-          "title": "Herculean on desktop",
+          "title": "Desktop",
           "mockup": "imac-mockup",
           "structure": "single-image",
           "images": [
             {
-              "title": "Herculean on desktop",
-              "name": "herculean-desktop",
+              "title": "Beat home on desktop",
+              "name": "beat-home-large-1",
               "onesize": "desktop"
             }
           ]

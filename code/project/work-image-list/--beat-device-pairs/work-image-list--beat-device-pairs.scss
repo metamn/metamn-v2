@@ -1,6 +1,4 @@
 @mixin work-image-list--beat-device-pairs {
-  @include slide-size;
-
   display: flex;
 
   .iphone-mockup {
