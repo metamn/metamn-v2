@@ -1,13 +1,21 @@
-@mixin mockup($type) {
-  @if ($type == mobile) {
+@mixin mockup {
+  &--mobile {
     @include mockup--mobile;
-  } @else if ($type == tablet) {
+  }
+
+  &--tablet {
     @include mockup--tablet;
-  } @else if ($type == laptop) {
+  }
+
+  &--laptop {
     @include mockup--laptop;
-  } @else if ($type == desktop) {
-    @include mockup--dekstop;
-  } @else if ($type == browser) {
+  }
+
+  &--desktop {
+    @include mockup--desktop;
+  }
+
+  &--browser {
     @include mockup--browser;
   }
 }

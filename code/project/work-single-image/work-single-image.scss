@@ -4,15 +4,7 @@
   display: flex;
   justify-content: center;
 
-  .figure {
-    @include figure;
-  }
-
-  .imac-mockup {
-    @include imac-mockup;
-  }
-
-  .mbp-mockup {
-    @include mbp-mockup;
+  .mockup {
+    @include mockup;
   }
 }

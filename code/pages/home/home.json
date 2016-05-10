@@ -32,52 +32,55 @@
       "artwork": [
         {
           "title": "Device pairs",
-          "mockup": "device-mockup",
           "structure": "image-list",
           "images": [
             {
               "title": "Beat Masters of Web",
               "name": "beat-mobile-1",
-              "onesize": "mobile"
+              "onesize": "mobile",
+              "mockup": "mobile"
             },
             {
               "title": "Beat Frontpage",
               "name": "beat-tablet-1",
-              "onesize": "mobile"
+              "onesize": "mobile",
+              "mockup": "tablet"
             },
             {
               "title": "Beat Frontpage bottom",
               "name": "beat-tablet-2",
-              "onesize": "mobile"
+              "onesize": "mobile",
+              "mockup": "tablet"
             },
             {
               "title": "Beat Styleguide",
               "name": "beat-mobile-2",
-              "onesize": "mobile"
+              "onesize": "mobile",
+              "mockup": "mobile"
             }
           ]
         },
         {
           "title": "Laptop",
-          "mockup": "mbp-mockup",
           "structure": "single-image",
           "images": [
             {
               "title": "Beat home on desktop",
               "name": "beat-home-large-1",
-              "onesize": "desktop"
+              "onesize": "desktop",
+              "mockup": "laptop"
             }
           ]
         },
         {
           "title": "Desktop",
-          "mockup": "imac-mockup",
           "structure": "single-image",
           "images": [
             {
               "title": "Beat home on desktop",
               "name": "beat-home-large-1",
-              "onesize": "desktop"
+              "onesize": "desktop",
+              "mockup": "desktop"
             }
           ]
         }
