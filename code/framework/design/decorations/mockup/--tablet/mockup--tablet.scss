@@ -6,7 +6,12 @@
   border-radius: $lem;
 
   .mockup__camera {
-    @include mockup__camera($padding: $lem / 2);
+    @include mockup__camera;
+
+    .circle {
+      position: relative;
+      top: - $lem / 4;
+    }
   }
 
   .figure {
