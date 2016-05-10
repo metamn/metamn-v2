@@ -83,6 +83,18 @@
               "mockup": "desktop"
             }
           ]
+        },
+        {
+          "title": "Browser mockup test",
+          "structure": "single-image",
+          "images": [
+            {
+              "title": "Wanderlust 108",
+              "name": "wanderlust-108-top-large",
+              "onesize": "desktop",
+              "mockup": "browser"
+            }
+          ]
         }
       ]
     },

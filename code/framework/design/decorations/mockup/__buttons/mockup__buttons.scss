@@ -7,9 +7,13 @@
   display: flex;
   flex-wrap: nowrap;
 
+  padding: $lem / 2 0;
+
   .circle {
     @include circle($lem / 3);
     @include border(thin, all);
+
+    margin-right: $lem / 4;
 
     @if ($button-colors != false) {
       &--red {
