@@ -1,0 +1,17 @@
+@mixin mockup--tablet {
+  display: flex;
+  flex-direction: column;
+
+  .mockup__camera {
+    @include mockup__camera;
+  }
+
+  .figure {
+    @include figure;
+    line-height: 0;
+  }
+
+  .mockup__button {
+    @include mockup__button;
+  }
+}
