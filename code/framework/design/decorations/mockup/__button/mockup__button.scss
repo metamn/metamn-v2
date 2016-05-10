@@ -1,0 +1,15 @@
+// Mockup button
+//
+// The button found on phone and tablet at bottom
+//
+// Styleguide mockup-button
+@mixin mockup__button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .circle {
+    @include circle;
+    @include border(thin, all);
+  }
+}
