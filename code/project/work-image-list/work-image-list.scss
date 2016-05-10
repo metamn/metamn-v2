@@ -5,6 +5,10 @@
     display: none; // to be removed
   }
 
+  .mockup {
+    @include mockup;
+  }
+
   &--beat-device-pairs {
     @include work-image-list--beat-device-pairs;
   }
