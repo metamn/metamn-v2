@@ -3,15 +3,15 @@
 // The button found on phone and tablet at bottom
 //
 // Styleguide mockup-button
-@mixin mockup__button {
+@mixin mockup__button($circle-size: $lem * 2, $padding: $lem) {
   display: flex;
   justify-content: center;
   align-items: center;
 
-  padding-bottom: $lem;
+  padding-bottom: $padding;
 
   .circle {
-    @include circle;
+    @include circle($circle-size);
     @include border(thin, all);
   }
 }
