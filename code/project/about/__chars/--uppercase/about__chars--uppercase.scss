@@ -1,0 +1,5 @@
+@mixin about__chars--uppercase {
+  .char {
+    @include uppercase(1.1px);
+  }
+}
