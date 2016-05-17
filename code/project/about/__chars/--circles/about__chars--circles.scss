@@ -1,0 +1,6 @@
+@mixin about__chars--circles {
+  .char {
+    @include circle($lem);
+    border: 1px solid #370AB5;
+  }
+}

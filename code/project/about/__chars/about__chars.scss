@@ -3,4 +3,6 @@
   flex-wrap: wrap;
 
   @include about__chars--simple;
+  @include about__chars--matrix;
+  @include about__chars--circles;
 }
