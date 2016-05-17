@@ -1,0 +1,13 @@
+// no decorations just spacing between chars
+@mixin about__chars--simple {
+  justify-content: space-between;
+
+  @include mobile {
+    justify-content: flex-start;
+    
+    .char {
+      margin: $lem / 4;
+      margin-left: 0;
+    }
+  }
+}

@@ -107,7 +107,13 @@
         },
         {
           "name": "uppercase",
-          "value": "$lem / 4"
+          "value": "$lem / 8"
+        }
+      ],
+      "properties": [
+        {
+          "name": "line-height",
+          "value": "1.2"
         }
       ],
       "responsive": [
@@ -121,10 +127,6 @@
             {
               "name": "scale",
               "value": "large-2"
-            },
-            {
-              "name": "uppercase",
-              "value": "$lem / 8"
             }
           ],
           "properties": [

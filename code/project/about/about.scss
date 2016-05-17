@@ -1,11 +1,16 @@
 @mixin about {
+  @include section-padding;
   @include text-style(large);
-  @include colors(gray-on-blue);
 
-  .headline {
-    @include text-style(headline);
-    @include colors(white-on-blue);
+  &__text-1 {
+    @include colors(gray-on-blue);
   }
 
-  @include about--mobile;
+  &__text-2 {
+    display: none;
+  }
+
+  &__chars {
+    @include about__chars;
+  }
 }

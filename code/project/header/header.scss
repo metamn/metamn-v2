@@ -4,8 +4,9 @@
 //
 // Styleguide header
 @mixin header($color-scheme: white-on-blue) {
+  @include section-padding;
   margin-bottom: $lem;
-  
+
   .logo {
     @include text-style(logo);
 

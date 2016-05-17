@@ -1,0 +1,6 @@
+@mixin about__chars {
+  display: flex;
+  flex-wrap: wrap;
+
+  @include about__chars--simple;
+}
