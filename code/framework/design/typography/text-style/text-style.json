@@ -57,6 +57,84 @@
       ]
     },
     {
+      "name": "Large",
+      "description": "Settings for large text blocks",
+      "based_on": "Nimbus Sans",
+      "mixins": [
+        {
+          "name": "font",
+          "value": "nimbus-sans"
+        },
+        {
+          "name": "scale",
+          "value": "large-2"
+        }
+      ],
+      "properties": [
+        {
+          "name": "max-width",
+          "value": "25em"
+        },
+        {
+          "name": "line-height",
+          "value": "1.25"
+        }
+      ],
+      "responsive": [
+        {
+          "breakpoint": "mobile",
+          "mixins": [
+            {
+              "name": "scale",
+              "value": "large-1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Headline",
+      "description": "Settings for headlines.",
+      "based_on": "Nimbus Sans Black",
+      "mixins": [
+        {
+          "name": "font",
+          "value": "nimbus-sans-black"
+        },
+        {
+          "name": "scale",
+          "value": "large-3"
+        },
+        {
+          "name": "uppercase",
+          "value": "1.1px"
+        }
+      ],
+      "properties": [
+        {
+          "name": "line-height",
+          "value": "1"
+        }
+      ],
+      "responsive": [
+        {
+          "breakpoint": "mobile",
+          "mixins": [
+            {
+              "name": "scale",
+              "value": "large-2"
+            }
+          ],
+          "properties": [
+            {
+              "name": "line-height",
+              "value": "1.25"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "name": "Title",
       "description": "Settings for titles.",
       "based_on": "Nimbus Sans",
@@ -94,31 +172,6 @@
         {
           "name": "uppercase",
           "value": "1px"
-        }
-      ]
-    },
-    {
-      "name": "Headline",
-      "description": "Settings for headlines.",
-      "based_on": "Nimbus Sans",
-      "mixins": [
-        {
-          "name": "font",
-          "value": "nimbus-sans"
-        },
-        {
-          "name": "scale",
-          "value": "large-2"
-        }
-      ],
-      "properties": [
-        {
-          "name": "max-width",
-          "value": "15em"
-        },
-        {
-          "name": "line-height",
-          "value": "1.25"
         }
       ]
     },

@@ -1,12 +1,15 @@
 @mixin home__intro {
+  @include section-padding;
+
   width: 100vw;
   height: 100vh;
 
   display: flex;
-  align-items: flex-end;
+  flex-direction: column;
+  justify-content: center;
 
-  .intro {
-    @include intro;
+  .header {
+    @include header;
   }
 
   .about {

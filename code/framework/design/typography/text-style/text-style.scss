@@ -49,6 +49,43 @@ $text-block-width: 25em;
     
   }
   
+  // Large
+  // - Settings for large text blocks
+  @if ($variant == 'large') {
+    @include font(nimbus-sans);
+    @include scale(large-2);
+    
+    max-width: 25em;
+    line-height: 1.25;
+    
+    
+    @include mobile {
+      @include scale(large-1);
+      
+      
+    }
+    
+  }
+  
+  // Headline
+  // - Settings for headlines.
+  @if ($variant == 'headline') {
+    @include font(nimbus-sans-black);
+    @include scale(large-3);
+    @include uppercase(1.1px);
+    
+    line-height: 1;
+    
+    
+    @include mobile {
+      @include scale(large-2);
+      
+      line-height: 1.25;
+      
+    }
+    
+  }
+  
   // Title
   // - Settings for titles.
   @if ($variant == 'title') {
@@ -74,18 +111,6 @@ $text-block-width: 25em;
     @include font(nimbus-sans-black);
     @include uppercase(1px);
     
-    
-    
-  }
-  
-  // Headline
-  // - Settings for headlines.
-  @if ($variant == 'headline') {
-    @include font(nimbus-sans);
-    @include scale(large-2);
-    
-    max-width: 15em;
-    line-height: 1.25;
     
     
   }
@@ -145,6 +170,39 @@ $text-block-width: 25em;
   
 }
 
+.text-style--large {
+  @include font(nimbus-sans);
+  @include scale(large-2);
+  
+  max-width: 25em;
+  line-height: 1.25;
+  
+  
+  @include mobile {
+    @include scale(large-1);
+    
+    
+  }
+  
+}
+
+.text-style--headline {
+  @include font(nimbus-sans-black);
+  @include scale(large-3);
+  @include uppercase(1.1px);
+  
+  line-height: 1;
+  
+  
+  @include mobile {
+    @include scale(large-2);
+    
+    line-height: 1.25;
+    
+  }
+  
+}
+
 .text-style--title {
   @include uppercase(1.25px);
   @include scale(large-1);
@@ -164,16 +222,6 @@ $text-block-width: 25em;
   @include font(nimbus-sans-black);
   @include uppercase(1px);
   
-  
-  
-}
-
-.text-style--headline {
-  @include font(nimbus-sans);
-  @include scale(large-2);
-  
-  max-width: 15em;
-  line-height: 1.25;
   
   
 }

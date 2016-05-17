@@ -1,0 +1,8 @@
+@mixin about--mobile {
+  @include mobile {
+    .headline {
+      display: flex;
+      margin-top: $lem / 2;
+    }
+  }
+}
