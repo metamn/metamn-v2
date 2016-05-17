@@ -107,13 +107,7 @@
         },
         {
           "name": "uppercase",
-          "value": "1.1px"
-        }
-      ],
-      "properties": [
-        {
-          "name": "line-height",
-          "value": "1"
+          "value": "$lem / 4"
         }
       ],
       "responsive": [
@@ -121,14 +115,16 @@
           "breakpoint": "mobile",
           "mixins": [
             {
+              "name": "font",
+              "value": "nimbus-sans-bold"
+            },
+            {
               "name": "scale",
               "value": "large-2"
-            }
-          ],
-          "properties": [
+            },
             {
-              "name": "line-height",
-              "value": "1.25"
+              "name": "uppercase",
+              "value": "$lem / 8"
             }
           ]
         }

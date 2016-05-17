@@ -1,8 +1,10 @@
 @mixin about {
   @include text-style(large);
+  @include colors(gray-on-blue);
 
   .headline {
     @include text-style(headline);
+    @include colors(white-on-blue);
   }
 
   @include about--mobile;

@@ -72,15 +72,15 @@ $text-block-width: 25em;
   @if ($variant == 'headline') {
     @include font(nimbus-sans-black);
     @include scale(large-3);
-    @include uppercase(1.1px);
+    @include uppercase($lem / 4);
     
-    line-height: 1;
     
     
     @include mobile {
+      @include font(nimbus-sans-bold);
       @include scale(large-2);
+      @include uppercase($lem / 8);
       
-      line-height: 1.25;
       
     }
     
@@ -189,15 +189,15 @@ $text-block-width: 25em;
 .text-style--headline {
   @include font(nimbus-sans-black);
   @include scale(large-3);
-  @include uppercase(1.1px);
+  @include uppercase($lem / 4);
   
-  line-height: 1;
   
   
   @include mobile {
+    @include font(nimbus-sans-bold);
     @include scale(large-2);
+    @include uppercase($lem / 8);
     
-    line-height: 1.25;
     
   }
   

@@ -2,7 +2,7 @@
   @include mobile {
     .headline {
       display: flex;
-      margin-top: $lem / 2;
+      padding: $lem / 4 $lem 0 0;
     }
   }
 }

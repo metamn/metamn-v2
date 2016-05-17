@@ -12,6 +12,9 @@ $white: #fff;
 // Main color, the Metamn blue
 $blue: #4916DA;
 
+// Secondary color
+$gray: #ccc;
+
 
 // Color combinations. Colors are not used standalone but in pairs
 @mixin colors($name) {
@@ -28,6 +31,12 @@ $blue: #4916DA;
     
   }
 
+  @if ($name == 'gray-on-blue') {
+    color: $gray;
+    background-color: $blue;
+    
+  }
+
 }
 
 // Color classes
@@ -38,6 +47,10 @@ $blue: #4916DA;
 
 .blue {
   background: #4916DA;
+};
+
+.gray {
+  background: #ccc;
 };
 
 
@@ -52,6 +65,12 @@ $blue: #4916DA;
 .blue-on-white {
   color: $blue;
   background-color: $white;
+  
+}
+
+.gray-on-blue {
+  color: $gray;
+  background-color: $blue;
   
 }
 

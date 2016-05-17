@@ -9,6 +9,11 @@
       "name": "blue",
       "value": "#4916DA",
       "description": "Main color, the Metamn blue"
+    },
+    {
+      "name": "gray",
+      "value": "#ccc",
+      "description": "Secondary color"
     }
   ],
   "color_pairs": [
@@ -35,6 +40,19 @@
         {
           "name": "background-color",
           "value": "$white"
+        }
+      ]
+    },
+    {
+      "name": "gray-on-blue",
+      "properties": [
+        {
+          "name": "color",
+          "value": "$gray"
+        },
+        {
+          "name": "background-color",
+          "value": "$blue"
         }
       ]
     }
