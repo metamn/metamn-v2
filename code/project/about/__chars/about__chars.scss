@@ -1,18 +1,14 @@
 @mixin about__chars {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
 
   @include font(nimbus-sans-light);
 
-  @include about__chars--simple;
-  @include about__chars--matrix;
+  .char {
+    margin: $lem / 2 $lem / 2 0 0;
+  }
 
   @include about__chars--reveal;
-  //@include about__chars--grow;
   @include about__chars--shadow;
-
-  //@include about__chars--matrix;
-  //@include about__chars--circles;
-  //@include about__chars--uppercase;
-  //@include about__chars--scale;
 }
