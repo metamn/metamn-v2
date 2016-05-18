@@ -1,0 +1,24 @@
+@mixin about__chars--reveal {
+  .char {
+    opacity: 0;
+    $duration: 0.1s;
+
+    @for $i from 1 to 37 {
+      &--#{$i - 1} {
+        @include animation(about-chars-reveal, $duration);
+        animation-delay: ($i - 1) * $duration;
+      }
+    }
+  }
+}
+
+@include keyframes(about-chars-reveal) {
+  0% {
+    transform: rotate(360deg);
+  }
+
+  100% {
+    opacity: 1;
+    transform: rotate(0);
+  }
+}

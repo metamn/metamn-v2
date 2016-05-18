@@ -6,7 +6,7 @@
 html {
   &.design-and-code {
     body {
-      @include colors(white-on-blue);
+      @include colors(blue-on-white);
       overflow-x: hidden;
 
       .home__intro {

@@ -2,10 +2,6 @@
   @include section-padding;
   @include text-style(large);
 
-  &__text-1 {
-    @include colors(gray-on-blue);
-  }
-
   &__text-2 {
     display: none;
   }
