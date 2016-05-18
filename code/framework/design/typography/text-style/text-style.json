@@ -67,7 +67,7 @@
         },
         {
           "name": "scale",
-          "value": "large-2"
+          "value": "large-1"
         }
       ],
       "properties": [
@@ -78,17 +78,6 @@
         {
           "name": "line-height",
           "value": "1.25"
-        }
-      ],
-      "responsive": [
-        {
-          "breakpoint": "mobile",
-          "mixins": [
-            {
-              "name": "scale",
-              "value": "large-1"
-            }
-          ]
         }
       ]
     },

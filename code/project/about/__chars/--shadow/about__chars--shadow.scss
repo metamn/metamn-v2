@@ -1,6 +1,6 @@
 @mixin about__chars--shadow {
   @include animation(about-chars-shadow);
-  animation-delay: 4s;
+  animation-delay: 3.7s;
 }
 
 @include keyframes(about-chars-shadow) {
@@ -8,6 +8,6 @@
     text-shadow: 1px 1px $blue, 2px 2px $blue, 3px 3px $blue, 4px 4px $blue, 5px 5px $blue, 6px 6px $blue, 7px 7px $blue, 8px 8px $blue, 9px 9px $blue, 10px 10px $blue, 11px 11px $blue, 12px 12px $blue, 13px 13px $blue, 14px 14px $blue, 15px 15px $blue, 16px 16px $blue, 17px 17px $blue, 18px 18px $blue, 19px 19px $blue, 20px 20px $blue, 21px 21px $blue, 22px 22px $blue, 23px 23px $blue, 24px 24px $blue, 25px 25px $blue, 26px 26px 6px $blue;
     color: $white;
     font-weight: 900;
-    transform: scale(1.5) translate(16%, 16%);
+    transform: scale(2) translate(24.7%, 20%);
   }
 }
