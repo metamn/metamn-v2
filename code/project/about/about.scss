@@ -1,6 +1,7 @@
 @mixin about {
   @include section-padding;
   @include text-style(large);
+  max-width: 15em;
 
   &__text-2 {
     display: none;

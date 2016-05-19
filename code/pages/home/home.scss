@@ -16,22 +16,22 @@ html {
 
       .home__message {
         @include home__message;
-        display: none;
+        //display: none;
       }
 
       .home__styleguide {
         @include home__styleguide;
-        display: none;
+        //display: none;
       }
 
       .home__portfolio {
         @include home__portfolio;
-        display: none;
+        //display: none;
       }
 
       .home__contact {
         @include home__contact;
-        display: none;
+        //display: none;
       }
     }
   }
