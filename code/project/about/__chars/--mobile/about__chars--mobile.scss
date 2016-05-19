@@ -1,0 +1,7 @@
+@mixin about__chars--mobile {
+  @include mobile {
+    .char {
+      //margin-right: $lem;
+    }
+  }
+}

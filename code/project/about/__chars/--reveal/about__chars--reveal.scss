@@ -2,6 +2,7 @@
   .char {
     opacity: 0;
     $duration: 0.1s;
+    margin: $lem / 2 $lem / 2 0 0;
 
     @for $i from 1 to 37 {
       &--#{$i - 1} {

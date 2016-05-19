@@ -5,10 +5,7 @@
 
   @include font(nimbus-sans-light);
 
-  .char {
-    margin: $lem / 2 $lem / 2 0 0;
-  }
-
   @include about__chars--reveal;
   @include about__chars--shadow;
+  @include about__chars--mobile;
 }
