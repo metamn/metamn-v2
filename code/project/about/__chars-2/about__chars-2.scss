@@ -2,7 +2,7 @@
   color: transparent;
 
   .char {
-    $duration: 0.05s;
+    $duration: 0.03s;
 
     margin: $lem;
     @include mobile {
@@ -11,7 +11,7 @@
 
     @for $i from 1 to 37 {
       &--#{$i - 1} {
-        animation-delay: 4.4s + ($i - 1) * $duration;
+        animation-delay: 4.4s - 1s + ($i - 1) * $duration;
 
         @include mobile {
           @include animation(about-chars-shadow-mobile, $duration);
@@ -24,7 +24,7 @@
     }
   }
 
-  animation-delay: 4.4s + 1.85s;
+  animation-delay: 4.4s + 1.11s - 1s;
   @include desktop {
     @include animation(about-chars-scale-desktop);
   }
