@@ -1,7 +1,13 @@
 @mixin about {
   @include section-padding;
-  @include text-style(large);
-  max-width: 15em;
+
+  display: flex;
+  justify-content: space-between;
+
+  &__text-1,
+  &__chars {
+    @include text-style(large);
+  }
 
   &__text-2 {
     display: none;

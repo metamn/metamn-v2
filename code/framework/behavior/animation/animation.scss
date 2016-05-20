@@ -8,6 +8,7 @@
   animation-name: $keyframe;
   animation-duration: $duration;
   animation-direction: $direction;
+  animation-timing-function: linear;
 
   @if ($continuous == false) {
     animation-fill-mode: forwards;

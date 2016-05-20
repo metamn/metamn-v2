@@ -3,6 +3,8 @@
   flex-wrap: wrap;
   justify-content: space-between;
 
+  max-width: 15em;
+
   @include font(nimbus-sans-light);
 
   @include about__chars--reveal;
