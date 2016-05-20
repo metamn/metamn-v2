@@ -39,6 +39,16 @@ $text-block-width: 25em;
     
   }
   
+  // Body text large
+  // - Larger font size for long text blocks.
+  @if ($variant == 'body-text-large') {
+    @include scale(large-1);
+    
+    max-width: 25em;
+    
+    
+  }
+  
   // Logo
   // - Settings for the Metamn logo.
   @if ($variant == 'logo') {
@@ -151,6 +161,14 @@ $text-block-width: 25em;
 
 .text-style--body-text {
   @include p;
+  
+  max-width: 25em;
+  
+  
+}
+
+.text-style--body-text-large {
+  @include scale(large-1);
   
   max-width: 25em;
   

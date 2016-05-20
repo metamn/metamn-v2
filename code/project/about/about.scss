@@ -5,15 +5,27 @@
   justify-content: space-between;
 
   &__text-1,
-  &__chars {
-    @include text-style(large);
-  }
-
   &__text-2 {
     display: none;
   }
 
-  &__chars {
-    @include about__chars;
+  &__chars-1,
+  &__chars-2 {
+    @include text-style(body-text-large);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    .char {
+      margin: $lem / 2 $lem / 2 0 0;
+    }
+  }
+
+  &__chars-1 {
+    @include about__chars-1;
+  }
+
+  &__chars-2 {
+    @include about__chars-2;
   }
 }

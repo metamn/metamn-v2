@@ -2,6 +2,8 @@
   <h3>About</h3>
 
   <span class="about__text-1">I'm a designer and developer specialized in</span>
+  <span class="about__chars-1"></span>
+
   <span class="about__text-2">marketing websites and landing pages</span>
-  <span class="about__chars"></span>
+  <span class="about__chars-2"></span>
 </article>
