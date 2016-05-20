@@ -13,13 +13,10 @@
   &__chars-1,
   &__chars-2 {
     @include text-style(body-text-large);
+
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-
-    .char {
-      margin: $lem / 2 $lem / 2 0 0;
-    }
   }
 
   &__chars-1 {
