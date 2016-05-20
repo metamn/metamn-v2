@@ -12,4 +12,12 @@
   .about {
     @include about;
   }
+
+  @include tablet-and-below {
+    justify-content: center;
+
+    .header {
+      display: none;
+    }
+  }
 }

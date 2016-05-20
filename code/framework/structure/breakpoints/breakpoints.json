@@ -38,8 +38,8 @@
       "media_query": "(min-width: $breakpoint-mobile) and (max-width: $breakpoint-tablet)"
     },
     {
-      "name": "tablet-landscape",
-      "media_query": "(min-width: $breakpoint-mobile) and (max-width: $breakpoint-tablet) and (orientation: landscape)"
+      "name": "tablet-and-below",
+      "media_query": "(max-width: $breakpoint-tablet)"
     },
     {
       "name": "laptop",
