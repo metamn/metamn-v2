@@ -5,15 +5,6 @@
   justify-content: space-between;
   align-items: flex-start;
 
-  @include tablet-and-below {
-    flex-wrap: wrap;
-    justify-content: center;
-
-    &__chars-1 {
-      margin: $lem 0;
-    }
-  }
-
   &__text-1,
   &__text-2 {
     display: none;
@@ -25,7 +16,6 @@
 
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
   }
 
   &__chars-1 {
