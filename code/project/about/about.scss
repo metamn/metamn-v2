@@ -2,12 +2,16 @@
   @include section-padding;
 
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  min-height: 100vh;
+  justify-content: space-between;
+  align-items: flex-start;
 
-  &__chars-1 {
-    margin: $lem 0;
+  @include tablet-and-below {
+    flex-wrap: wrap;
+    justify-content: center;
+
+    &__chars-1 {
+      margin: $lem 0;
+    }
   }
 
   &__text-1,
@@ -17,14 +21,11 @@
 
   &__chars-1,
   &__chars-2 {
-    @include mobile-and-up {
-      @include text-style(body-text-large);
-      max-width: 70vw;
-    }
+    @include text-style(body-text-large);
 
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-between;
   }
 
   &__chars-1 {

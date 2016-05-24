@@ -1,12 +1,9 @@
 @mixin about__chars-1 {
-  font-size: 1em;
-  align-self: center;
-
   .char {
     opacity: 0;
     $duration: 0.1s;
     margin: $lem / 2 $lem / 2 0 0;
-
+  
     @for $i from 1 to 44 {
       &--#{$i - 1} {
         @include animation(about-chars-reveal, $duration);
