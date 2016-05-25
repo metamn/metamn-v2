@@ -33,11 +33,11 @@
       }
 
       @include tablet {
-        transform: scale(5);
+        transform: scale(4);
       }
 
       @include laptop {
-        transform: scale(8);
+        transform: scale(6);
       }
 
       @include desktop {

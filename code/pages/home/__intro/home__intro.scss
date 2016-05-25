@@ -16,8 +16,12 @@
   @include portrait {
     flex-wrap: wrap;
 
-    .who {
-      margin-bottom: $lem;
+    .what {
+      margin-top: $lem;
+
+      &__chars {
+        margin-bottom: $lem;
+      }
     }
   }
 }
