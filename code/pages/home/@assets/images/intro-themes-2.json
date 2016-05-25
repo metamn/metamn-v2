@@ -1,5 +1,7 @@
 {
-  "image_sizes": [
+  "resize": "true",
+  "optimize": "true",
+  "sizes": [
     {
       "name": "mobile",
       "height": "360"
