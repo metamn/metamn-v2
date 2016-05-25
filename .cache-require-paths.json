@@ -1716,7 +1716,9 @@
     "/home/cs/work/metamn-v2/code/pages/home/@assets/images/beat-home-large-1.json": "/home/cs/work/metamn-v2/code/pages/home/@assets/images/beat-home-large-1.json",
     "/home/cs/work/metamn-v2/code/framework/design/decorations/mbp-mockup/mbp-mockup.json": "/home/cs/work/metamn-v2/code/framework/design/decorations/mbp-mockup/mbp-mockup.json",
     "/home/cs/work/metamn-v2/code/project/about/__chars-2/about__chars-2.json": "/home/cs/work/metamn-v2/code/project/about/__chars-2/about__chars-2.json",
-    "/home/cs/work/metamn-v2/code/framework/structure/section-fitscreen/section-fitscreen.json": "/home/cs/work/metamn-v2/code/framework/structure/section-fitscreen/section-fitscreen.json"
+    "/home/cs/work/metamn-v2/code/framework/structure/section-fitscreen/section-fitscreen.json": "/home/cs/work/metamn-v2/code/framework/structure/section-fitscreen/section-fitscreen.json",
+    "/home/cs/work/metamn-v2/code/project/what/what.json": "/home/cs/work/metamn-v2/code/project/what/what.json",
+    "/home/cs/work/metamn-v2/code/project/who/who.json": "/home/cs/work/metamn-v2/code/project/who/who.json"
   },
   "/home/cs/work/metamn-v2/node_modules/gulp-image-resize/index.js": {
     "gulp-gm": "/home/cs/work/metamn-v2/node_modules/gulp-image-resize/node_modules/gulp-gm/index.js",

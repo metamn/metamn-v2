@@ -1,6 +1,6 @@
 <section class="home__intro">
   <h3>Intro</h3>
 
-  {% include '../../../project/header/header.html.swig' %}
-  {% include '../../../project/about/about.html.swig' %}
+  {% include '../../../project/who/who.html.swig' %}
+  {% include '../../../project/what/what.html.swig' %}
 </section>

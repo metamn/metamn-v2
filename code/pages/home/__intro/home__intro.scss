@@ -1,23 +1,23 @@
 @mixin home__intro {
-  min-height: 100vh;
+  @include section-padding;
+  @include section-fitscreen;
 
   display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
+  align-items: center;
 
-  .header {
-    @include header;
+  .who {
+    @include who;
   }
 
-  .about {
-    @include about;
+  .what {
+    @include what;
   }
 
-  @include tablet-and-below {
-    justify-content: center;
+  @include portrait {
+    flex-wrap: wrap;
 
-    .header {
-      display: none;
+    .who {
+      margin-bottom: $lem;
     }
   }
 }

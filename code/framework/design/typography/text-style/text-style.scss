@@ -44,7 +44,7 @@ $text-block-width: 25em;
   @if ($variant == 'body-text-large') {
     @include scale(large-1);
     
-    max-width: 25em;
+    max-width: 35em;
     
     
   }
@@ -170,7 +170,7 @@ $text-block-width: 25em;
 .text-style--body-text-large {
   @include scale(large-1);
   
-  max-width: 25em;
+  max-width: 35em;
   
   
 }

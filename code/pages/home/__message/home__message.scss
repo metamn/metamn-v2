@@ -1,9 +1,6 @@
 @mixin home__message {
   @include section-padding;
-
-  min-height: 80vh;
-  margin-top: 10vh;
-  margin-bottom: 10vh;
+  @include section-fitscreen;
 
   display: flex;
   flex-wrap: wrap;
