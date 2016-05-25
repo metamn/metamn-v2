@@ -38,6 +38,7 @@
 
       @include laptop {
         transform: scale(6);
+        margin: 0 $lem;
       }
 
       @include desktop {
