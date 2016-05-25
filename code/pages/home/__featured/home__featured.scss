@@ -1,0 +1,14 @@
+@mixin home__featured {
+  @include section-padding;
+  @include section-fitscreen;
+
+  @include border(normal, top);
+  @include border(normal, bottom);
+
+  @include grid(2);
+  @include grid-inner-border(2, 4);
+
+  .figure {
+    @include figure;
+  }
+}

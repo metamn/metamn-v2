@@ -1,5 +1,5 @@
 @mixin home__message {
-  @include section-padding;
+  @include section-margin;
   @include section-fitscreen;
 
   display: flex;

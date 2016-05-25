@@ -14,6 +14,11 @@ html {
         //display: none;
       }
 
+      .home__featured {
+        @include home__featured;
+        //display: none;
+      }
+
       .home__message {
         @include home__message;
         //display: none;

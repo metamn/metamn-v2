@@ -1,6 +1,24 @@
 {
   "title": "Design and code",
   "about": "I'm a designer and developer specialized in marketing websites and landing pages",
+  "featured": [
+    {
+      "title": "Themes",
+      "name": "intro-themes-1"
+    },
+    {
+      "title": "Themes",
+      "name": "intro-themes-2"
+    },
+    {
+      "title": "Themes",
+      "name": "intro-themes-3"
+    },
+    {
+      "title": "Themes",
+      "name": "intro-themes-4"
+    }
+  ],
   "offers": [
     {
       "subtitle": "Working together you'll get",
