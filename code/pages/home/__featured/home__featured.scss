@@ -5,10 +5,10 @@
   @include border(normal, top);
   @include border(normal, bottom);
 
-  @include grid(2);
-  @include grid-inner-border(2, 4);
+  position: relative;
+  min-height: 150vh;
 
-  .figure {
-    @include figure;
+  .featured-images {
+    @include featured-images;
   }
 }
