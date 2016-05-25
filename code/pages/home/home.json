@@ -3,6 +3,38 @@
   "about": "I'm a designer and developer specialized in marketing websites and landing pages",
   "featured": [
     {
+      "title": "Smuff",
+      "name": "intro-smuff-1"
+    },
+    {
+      "title": "Smuff",
+      "name": "intro-smuff-2"
+    },
+    {
+      "title": "Wanderlust",
+      "name": "intro-wanderlust-1"
+    },
+    {
+      "title": "Wanderlust",
+      "name": "intro-wanderlust-2"
+    },
+    {
+      "title": "Anvelocom",
+      "name": "intro-anvelocom-1"
+    },
+    {
+      "title": "Inu Chivu",
+      "name": "intro-inu-1"
+    },
+    {
+      "title": "Inu Chivu",
+      "name": "intro-inu-2"
+    },
+    {
+      "title": "Scatter",
+      "name": "intro-scatter-1"
+    },
+    {
       "title": "Themes",
       "name": "intro-themes-1"
     },
