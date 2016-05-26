@@ -1,7 +1,7 @@
 @mixin home__message {
   @include colors(white-on-blue);
   @include section-padding;
-  min-height: 100vh;
+  min-height: 120vh;
 
   display: flex;
   flex-wrap: wrap;
