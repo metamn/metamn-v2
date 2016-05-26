@@ -19,7 +19,7 @@
     @include border(thin, left);
     @include border(thin, right);
 
-    padding: $lem;
+    padding: $lem / 2 $lem $lem;
     line-height: 0;
   }
 

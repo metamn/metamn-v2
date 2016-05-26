@@ -3,8 +3,32 @@
   background-image: linear-gradient(-15deg, $blue 49.9%, $white 50%);
 
   display: flex;
+  flex-direction: column;
 
   &__title {
-    @include beat-intro__title;
+    @include text-style(headline);
+
+    display: flex;
+    transform: rotate(-15deg) translate(-1vw, 42vh);
+  }
+
+  .services {
+    @include services;
+
+    @include colors(white-on-blue);
+    background: transparent;
+    transform: rotate(-15deg) translate(.5vw, 45vh)
+  }
+
+  .mockup {
+    @include mockup;
+
+    background: $white;
+    width: 50vw;
+    align-self: center;
+
+    .img {
+      @include border(thin, all);
+    }
   }
 }

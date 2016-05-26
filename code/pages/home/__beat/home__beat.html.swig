@@ -1,5 +1,5 @@
 <section class="home__beat">
-  <h3>Beat</h3>
+  <h3>Portfolio: Beat</h3>
 
   {% set work = works[0] %}
   {% include '../../../project/beat-intro/beat-intro.html.swig' %}

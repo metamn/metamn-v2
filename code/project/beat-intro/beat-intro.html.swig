@@ -1,5 +1,11 @@
 <article class="beat-intro">
-  <h3>Beat intro</h3>
+  <h3 class="beat-intro__title">Beat</h3>
 
-  {% include '__title/beat-intro__title.html.swig' %}
+  {% set services = work.services %}
+  {% include '../services/services.html.swig' %}
+
+  {% set artwork = work.artwork[1] %}
+  {% set image = artwork.images[0] %}
+  {% set mockup = { type: image.mockup, image: image } %}
+  {% include '../../framework/design/decorations/mockup/mockup.html.swig' %}
 </article>

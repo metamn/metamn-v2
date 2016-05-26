@@ -1,6 +1,4 @@
 @mixin beat-intro__title {
   @include text-style(headline);
-
-  align-self: flex-end;
-  transform: rotate(-15deg) translate(10vw, -30vh);
+  transform: rotate(-15deg) translate(1vw, 42vh);
 }
