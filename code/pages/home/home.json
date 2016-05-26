@@ -147,7 +147,13 @@
               "name": "beat-tablet-1",
               "onesize": "mobile",
               "mockup": "tablet"
-            },
+            }
+          ]
+        },
+        {
+          "title": "Device pairs",
+          "structure": "image-list",
+          "images": [
             {
               "title": "Beat Frontpage bottom",
               "name": "beat-tablet-2",
@@ -185,18 +191,6 @@
               "mockup": "desktop"
             }
           ]
-        },
-        {
-          "title": "Browser mockup test",
-          "structure": "single-image",
-          "images": [
-            {
-              "title": "Wanderlust 108",
-              "name": "wanderlust-108-top-large",
-              "onesize": "desktop",
-              "mockup": "browser"
-            }
-          ]
         }
       ]
     },
@@ -215,19 +209,38 @@
       },
       "artwork": [
         {
-          "title": "Large screenshots",
-          "mockup": "browser-mockup",
-          "structure": "image-list",
+          "title": "Wanderlust 108",
+          "structure": "single-image",
           "images": [
             {
               "title": "Wanderlust 108",
-              "name": "wanderlust-festivals-top-large",
-              "onesize": "desktop"
-            },
-            {
-              "title": "Wanderlust 108",
               "name": "wanderlust-108-top-large",
-              "onesize": "desktop"
+              "onesize": "desktop",
+              "mockup": "browser"
+            }
+          ]
+        },
+        {
+          "title": "Wanderlust festivals",
+          "structure": "single-image",
+          "images": [
+            {
+              "title": "Wanderlust festivals",
+              "name": "wanderlust-festivals-top-large",
+              "onesize": "desktop",
+              "mockup": "browser"
+            }
+          ]
+        },
+        {
+          "title": "Wanderlust festivals",
+          "structure": "single-image",
+          "images": [
+            {
+              "title": "Wanderlust festivals",
+              "name": "wanderlust-festivals-explore-large",
+              "onesize": "desktop",
+              "mockup": "browser"
             }
           ]
         },
@@ -269,18 +282,6 @@
             {
               "title": "Wanderlust Snowshoe",
               "name": "wanderlust-snowshoe",
-              "onesize": "desktop"
-            }
-          ]
-        },
-        {
-          "title": "Intro from v1",
-          "mockup": "none",
-          "structure": "single-image",
-          "images": [
-            {
-              "title": "Wanderlust intro",
-              "name": "wanderlust-intro",
               "onesize": "desktop"
             }
           ]

@@ -1,4 +1,6 @@
 @mixin work {
+  @include section-fitscreen;
+  
   .offer {
     @include offer;
   }

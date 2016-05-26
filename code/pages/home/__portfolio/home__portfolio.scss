@@ -6,6 +6,9 @@
   flex-direction: column;
   overflow: hidden;
 
+  position: relative;
+  z-index: 2;
+
   .fixed-scroll {
     @include fixed-scroll(10%);
 
