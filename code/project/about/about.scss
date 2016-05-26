@@ -1,4 +1,8 @@
 @mixin about {
+  @include landscape {
+    margin-top: 25vh;
+  }
+
   &__title {
     @include text-style(large);
   }

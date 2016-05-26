@@ -1,5 +1,6 @@
 @mixin home__portfolio {
   @include section-padding;
+  @include colors(white-on-blue);
 
   display: flex;
   flex-direction: column;

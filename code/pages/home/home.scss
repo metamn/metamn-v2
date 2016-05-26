@@ -7,7 +7,9 @@ html {
   &.design-and-code {
     body {
       @include colors(blue-on-white);
+
       overflow-x: hidden;
+      position: relative;
 
       .home__intro {
         @include home__intro;

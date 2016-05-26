@@ -1,15 +1,19 @@
 @mixin home__message {
-  @include section-margin;
-  @include section-fitscreen;
+  @include colors(white-on-blue);
+  @include section-padding;
+  min-height: 100vh;
 
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
 
-  @include border(normal, all);
   padding: $lem;
   box-sizing: border-box;
+
+  position: relative;
+  z-index: 2;
+
 
   .header {
     @include header;
