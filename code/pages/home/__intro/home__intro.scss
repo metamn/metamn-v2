@@ -1,27 +1,3 @@
 @mixin home__intro {
-  @include section-padding;
-  @include section-fitscreen;
-
-  display: flex;
-  align-items: center;
-
-  .who {
-    @include who;
-  }
-
-  .what {
-    @include what;
-  }
-
-  @include portrait {
-    flex-wrap: wrap;
-
-    .what {
-      margin-top: $lem;
-
-      &__chars {
-        margin-bottom: 0;
-      }
-    }
-  }
+  
 }
