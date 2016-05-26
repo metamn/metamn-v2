@@ -5,6 +5,7 @@
 
   .description {
     @include description;
+    padding: $lem 0;
   }
 
   .services {

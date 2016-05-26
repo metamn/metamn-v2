@@ -1,6 +1,4 @@
 @mixin work {
-  margin-top: 10vh;
-  min-height: 100vh;
   display: flex;
 
   .offer {
@@ -13,9 +11,5 @@
 
   &__artwork {
     @include work__artwork;
-  }
-
-  &--beat {
-    //display: none;
   }
 }

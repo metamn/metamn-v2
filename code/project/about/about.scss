@@ -1,4 +1,6 @@
 @mixin about {
+  @include text-style(body-text);
+  
   @include landscape {
     margin-top: 25vh;
   }

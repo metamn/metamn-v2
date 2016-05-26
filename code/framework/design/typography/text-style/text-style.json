@@ -69,16 +69,6 @@
           "name": "scale",
           "value": "large-1"
         }
-      ],
-      "properties": [
-        {
-          "name": "max-width",
-          "value": "25em"
-        },
-        {
-          "name": "line-height",
-          "value": "1.25"
-        }
       ]
     },
     {
