@@ -1,1 +1,10 @@
-@mixin beat-intro {}
+@mixin beat-intro {
+  min-height: 100vh;
+  background-image: linear-gradient(-15deg, $blue 49.9%, $white 50%);
+
+  display: flex;
+
+  &__title {
+    @include beat-intro__title;
+  }
+}

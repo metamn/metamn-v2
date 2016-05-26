@@ -1,5 +1,6 @@
 @mixin home__beat {
   display: flex;
+  flex-direction: column;
 
   .beat-intro {
     @include beat-intro;

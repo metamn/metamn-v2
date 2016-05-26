@@ -1,5 +1,5 @@
 <article class="beat-intro">
   <h3>Beat intro</h3>
 
-  {{ work.title }}
+  {% include '__title/beat-intro__title.html.swig' %}
 </article>

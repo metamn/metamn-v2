@@ -1731,7 +1731,8 @@
     "/home/cs/work/metamn-v2/code/project/featured-images/featured-images.json": "/home/cs/work/metamn-v2/code/project/featured-images/featured-images.json",
     "/home/cs/work/metamn-v2/code/project/beat-artwork/beat-artwork.json": "/home/cs/work/metamn-v2/code/project/beat-artwork/beat-artwork.json",
     "/home/cs/work/metamn-v2/code/project/beat-intro/beat-intro.json": "/home/cs/work/metamn-v2/code/project/beat-intro/beat-intro.json",
-    "/home/cs/work/metamn-v2/code/pages/home/__beat/home__beat.json": "/home/cs/work/metamn-v2/code/pages/home/__beat/home__beat.json"
+    "/home/cs/work/metamn-v2/code/pages/home/__beat/home__beat.json": "/home/cs/work/metamn-v2/code/pages/home/__beat/home__beat.json",
+    "/home/cs/work/metamn-v2/code/project/beat-intro/__title/beat-intro__title.json": "/home/cs/work/metamn-v2/code/project/beat-intro/__title/beat-intro__title.json"
   },
   "/home/cs/work/metamn-v2/node_modules/gulp-image-resize/index.js": {
     "gulp-gm": "/home/cs/work/metamn-v2/node_modules/gulp-image-resize/node_modules/gulp-gm/index.js",
