@@ -1,0 +1,14 @@
+@mixin work-image-list--beat-laptop-and-desktop {
+  @include grid(2, $lem * 3);
+  align-items: flex-end;
+
+  .mockup {
+    &:first-of-type {
+      transform: scale(.75);
+    }
+
+    &:last-of-type {
+      transform: scale(1.25);
+    }
+  }
+}

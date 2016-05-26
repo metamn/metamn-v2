@@ -1,16 +1,11 @@
 @mixin work-image-list--beat-device-pairs {
-  display: flex;
 
   .mockup {
-    margin-right: $lem;
-
     &:nth-of-type(1),
     &:nth-of-type(4) {
       transform: scale(.75);
     }
-
-    &:last-of-type {
-      margin-right: 0;
-    }
   }
+
+  @include grid(4, $lem);
 }

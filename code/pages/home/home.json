@@ -147,13 +147,7 @@
               "name": "beat-tablet-1",
               "onesize": "mobile",
               "mockup": "tablet"
-            }
-          ]
-        },
-        {
-          "title": "Device pairs",
-          "structure": "image-list",
-          "images": [
+            },
             {
               "title": "Beat Frontpage bottom",
               "name": "beat-tablet-2",
@@ -169,21 +163,15 @@
           ]
         },
         {
-          "title": "Laptop",
-          "structure": "single-image",
+          "title": "Laptop and desktop",
+          "structure": "image-list",
           "images": [
             {
               "title": "Beat home on desktop",
               "name": "beat-home-large-1",
               "onesize": "desktop",
               "mockup": "laptop"
-            }
-          ]
-        },
-        {
-          "title": "Desktop",
-          "structure": "single-image",
-          "images": [
+            },
             {
               "title": "Beat home on desktop",
               "name": "beat-home-large-1",
