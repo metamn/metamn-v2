@@ -3,6 +3,7 @@
 
   {% set artwork = work.artwork[0] %}
   {% for image in artwork.images %}
-    {% include '../../framework/structure/figure/figure.html.swig' %}
+    {% set mockup = { type: image.mockup, image: image } %}
+    {% include '../../framework/design/decorations/mockup/mockup.html.swig' %}
   {% endfor %}
 </article>

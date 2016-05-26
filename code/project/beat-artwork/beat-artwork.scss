@@ -1,1 +1,21 @@
-@mixin beat-artwork {}
+@mixin beat-artwork {
+  @include colors(white-on-blue);
+
+  display: flex;
+  align-items: center;
+  padding-bottom: 10vh;
+
+  .mockup {
+    @include mockup;
+
+    margin-right: $lem * 4;
+
+    &--mobile {
+      transform: scale(.75);
+    }
+
+    &--tablet {
+      transform: scale(1.15);
+    }
+  }
+}
