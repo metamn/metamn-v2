@@ -1,10 +1,14 @@
 @mixin featured-images {
-  @include grid(4, $lem, $lem);
+  @include grid(3, $lem, $lem);
 
-  transform: rotateX(45deg) rotateZ(45deg) translateX(-10vh) translateY(-10vw);
+  transform: rotateX(45deg) rotateZ(45deg) translateX(-10vh) translateY(-30vw);
   transform-style: preserve-3d;
 
   .figure {
     @include figure;
+
+    .img {
+      box-shadow: $lem / 2 $lem / 2 $gray;
+    }
   }
 }

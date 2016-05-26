@@ -42,23 +42,6 @@
       ]
     },
     {
-      "name": "Body text large",
-      "description": "Larger font size for long text blocks.",
-      "based_on": "Nimbus Sans",
-      "mixins": [
-        {
-          "name": "scale",
-          "value": "large-1"
-        }
-      ],
-      "properties": [
-        {
-          "name": "max-width",
-          "value": "35em"
-        }
-      ]
-    },
-    {
       "name": "Logo",
       "description": "Settings for the Metamn logo.",
       "based_on": "Silkscreen",

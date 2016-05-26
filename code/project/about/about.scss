@@ -1,1 +1,5 @@
-@mixin about {}
+@mixin about {
+  &__title {
+    @include text-style(large);
+  }
+}
