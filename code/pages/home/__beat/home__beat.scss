@@ -1,0 +1,11 @@
+@mixin home__beat {
+  display: flex;
+
+  .beat-intro {
+    @include beat-intro;
+  }
+
+  .beat-artwork {
+    @include beat-artwork;
+  }
+}

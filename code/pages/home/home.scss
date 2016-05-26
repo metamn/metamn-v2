@@ -13,21 +13,21 @@ html {
 
       .home__intro {
         @include home__intro;
-        display: none;
+        //display: none;
       }
 
       .home__message {
         @include home__message;
-        display: none;
+        //display: none;
       }
 
       .home__styleguide {
         @include home__styleguide;
-        display: none;
+        //display: none;
       }
 
-      .home__portfolio {
-        @include home__portfolio;
+      .home__beat {
+        @include home__beat;
         //display: none;
       }
 
