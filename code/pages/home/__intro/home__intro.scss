@@ -1,3 +1,14 @@
 @mixin home__intro {
-  
+  @include section-margin;
+  @include section-fitscreen;
+
+  display: flex;
+
+  .about {
+    @include about;
+  }
+
+  .featured-images {
+    @include featured-images;
+  }
 }

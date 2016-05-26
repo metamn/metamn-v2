@@ -1,0 +1,7 @@
+@mixin featured-images {
+  @include grid(3);
+
+  .figure {
+    @include figure;
+  }
+}

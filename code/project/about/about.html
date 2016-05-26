@@ -1,17 +1,6 @@
-<section class="home__intro">
-  <h3>Intro</h3>
-
-  <article class="about">
+<article class="about">
   <h3>About</h3>
 
   <span class="about__title">Designer / developer</span>
   <span class="about__offer">specialized in marketing websites and landing pages</span>
 </article>
-
-  <aside class="featured-images">
-  <h3>Featured images</h3>
-
-  
-</aside>
-
-</section>

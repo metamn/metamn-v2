@@ -3,64 +3,52 @@
   "about": "I'm a designer and developer specialized in marketing websites and landing pages",
   "featured": [
     {
-      "images": [
-        {
-          "title": "Smuff",
-          "name": "intro-smuff-1"
-        },
-        {
-          "title": "Smuff",
-          "name": "intro-smuff-2"
-        },
-        {
-          "title": "Wanderlust",
-          "name": "intro-wanderlust-1"
-        },
-        {
-          "title": "Wanderlust",
-          "name": "intro-wanderlust-2"
-        }
-      ]
+      "title": "Smuff",
+      "name": "intro-smuff-1"
     },
     {
-      "images": [
-        {
-          "title": "Anvelocom",
-          "name": "intro-anvelocom-1"
-        },
-        {
-          "title": "Inu Chivu",
-          "name": "intro-inu-1"
-        },
-        {
-          "title": "Inu Chivu",
-          "name": "intro-inu-2"
-        },
-        {
-          "title": "Scatter",
-          "name": "intro-scatter-1"
-        }
-      ]
+      "title": "Smuff",
+      "name": "intro-smuff-2"
     },
     {
-      "images": [
-        {
-          "title": "Themes",
-          "name": "intro-themes-1"
-        },
-        {
-          "title": "Themes",
-          "name": "intro-themes-2"
-        },
-        {
-          "title": "Themes",
-          "name": "intro-themes-3"
-        },
-        {
-          "title": "Themes",
-          "name": "intro-themes-4"
-        }
-      ]
+      "title": "Wanderlust",
+      "name": "intro-wanderlust-1"
+    },
+    {
+      "title": "Wanderlust",
+      "name": "intro-wanderlust-2"
+    },
+    {
+      "title": "Anvelocom",
+      "name": "intro-anvelocom-1"
+    },
+    {
+      "title": "Inu Chivu",
+      "name": "intro-inu-1"
+    },
+    {
+      "title": "Inu Chivu",
+      "name": "intro-inu-2"
+    },
+    {
+      "title": "Scatter",
+      "name": "intro-scatter-1"
+    },
+    {
+      "title": "Themes",
+      "name": "intro-themes-1"
+    },
+    {
+      "title": "Themes",
+      "name": "intro-themes-2"
+    },
+    {
+      "title": "Themes",
+      "name": "intro-themes-3"
+    },
+    {
+      "title": "Themes",
+      "name": "intro-themes-4"
     }
   ],
   "offers": [
