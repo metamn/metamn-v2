@@ -3,52 +3,104 @@
   "about": "I'm a designer and developer specialized in marketing websites and landing pages",
   "featured": [
     {
-      "title": "Smuff",
-      "name": "intro-smuff-1"
+      "title": "Brandyou 1",
+      "name": "brandyou-1",
+      "onesize": "mobile"
     },
     {
-      "title": "Smuff",
-      "name": "intro-smuff-2"
+      "title": "Brandyou 2",
+      "name": "brandyou-2",
+      "onesize": "mobile"
     },
     {
-      "title": "Wanderlust",
-      "name": "intro-wanderlust-1"
+      "title": "Brandyou 3",
+      "name": "brandyou-3",
+      "onesize": "mobile"
     },
     {
-      "title": "Wanderlust",
-      "name": "intro-wanderlust-2"
+      "title": "Brandyou 4",
+      "name": "brandyou-4",
+      "onesize": "mobile"
     },
     {
-      "title": "Anvelocom",
-      "name": "intro-anvelocom-1"
+      "title": "Brandyou 5",
+      "name": "brandyou-5",
+      "onesize": "mobile"
     },
     {
-      "title": "Inu Chivu",
-      "name": "intro-inu-1"
+      "title": "Brandyou 6",
+      "name": "brandyou-6",
+      "onesize": "mobile"
     },
     {
-      "title": "Inu Chivu",
-      "name": "intro-inu-2"
+      "title": "Brandyou 7",
+      "name": "brandyou-7",
+      "onesize": "mobile"
     },
     {
-      "title": "Scatter",
-      "name": "intro-scatter-1"
+      "title": "Brandyou 8",
+      "name": "brandyou-8",
+      "onesize": "mobile"
     },
     {
-      "title": "Themes",
-      "name": "intro-themes-1"
+      "title": "Brandyou 9",
+      "name": "brandyou-9",
+      "onesize": "mobile"
     },
     {
-      "title": "Themes",
-      "name": "intro-themes-2"
+      "title": "Brandyou 10",
+      "name": "brandyou-10",
+      "onesize": "mobile"
     },
     {
-      "title": "Themes",
-      "name": "intro-themes-3"
+      "title": "Brandyou 11",
+      "name": "brandyou-11",
+      "onesize": "mobile"
     },
     {
-      "title": "Themes",
-      "name": "intro-themes-4"
+      "title": "Brandyou 12",
+      "name": "brandyou-12",
+      "onesize": "mobile"
+    },
+    {
+      "title": "Brandyou 13",
+      "name": "brandyou-13",
+      "onesize": "mobile"
+    },
+    {
+      "title": "Brandyou 14",
+      "name": "brandyou-14",
+      "onesize": "mobile"
+    },
+    {
+      "title": "Brandyou 19",
+      "name": "brandyou-19",
+      "onesize": "mobile"
+    },
+    {
+      "title": "Brandyou 20",
+      "name": "brandyou-20",
+      "onesize": "mobile"
+    },
+    {
+      "title": "Brandyou 22",
+      "name": "brandyou-22",
+      "onesize": "mobile"
+    },
+    {
+      "title": "Brandyou 21",
+      "name": "brandyou-21",
+      "onesize": "mobile"
+    },
+    {
+      "title": "Brandyou 3",
+      "name": "brandyou-3",
+      "onesize": "mobile"
+    },
+    {
+      "title": "Brandyou 4",
+      "name": "brandyou-4",
+      "onesize": "mobile"
     }
   ],
   "offers": [
@@ -143,129 +195,6 @@
               "name": "wanderlust-108-top-large",
               "onesize": "desktop",
               "mockup": "browser"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "title": "Brandyou",
-      "services": [
-        "Design",
-        "Front&ndash;end"
-      ],
-      "description": {
-        "paragraphs": [
-          "Brandyou is a stealth mode startup making business cards for the web. Social networks come and by &mdash; and everybody needs a home on the internet.",
-          "My role was to design and develop a set of responsive templates and themes which fit on a single screen.",
-          "The requirements for design was something outside of the box, very unusual, targeting the X/Y generation."
-        ]
-      },
-      "artwork": [
-        {
-          "title": "All mockups",
-          "mockup": "device-mockup",
-          "structure": "image-list",
-          "images": [
-            {
-              "title": "Brandyou 1",
-              "name": "brandyou-1",
-              "onesize": "mobile"
-            },
-            {
-              "title": "Brandyou 2",
-              "name": "brandyou-2",
-              "onesize": "mobile"
-            },
-            {
-              "title": "Brandyou 3",
-              "name": "brandyou-3",
-              "onesize": "mobile"
-            },
-            {
-              "title": "Brandyou 4",
-              "name": "brandyou-4",
-              "onesize": "mobile"
-            },
-            {
-              "title": "Brandyou 5",
-              "name": "brandyou-5",
-              "onesize": "mobile"
-            },
-            {
-              "title": "Brandyou 6",
-              "name": "brandyou-6",
-              "onesize": "mobile"
-            },
-            {
-              "title": "Brandyou 7",
-              "name": "brandyou-7",
-              "onesize": "mobile"
-            },
-            {
-              "title": "Brandyou 8",
-              "name": "brandyou-8",
-              "onesize": "mobile"
-            },
-            {
-              "title": "Brandyou 9",
-              "name": "brandyou-9",
-              "onesize": "mobile"
-            },
-            {
-              "title": "Brandyou 10",
-              "name": "brandyou-10",
-              "onesize": "mobile"
-            },
-            {
-              "title": "Brandyou 11",
-              "name": "brandyou-11",
-              "onesize": "mobile"
-            },
-            {
-              "title": "Brandyou 12",
-              "name": "brandyou-12",
-              "onesize": "mobile"
-            },
-            {
-              "title": "Brandyou 13",
-              "name": "brandyou-13",
-              "onesize": "mobile"
-            },
-            {
-              "title": "Brandyou 14",
-              "name": "brandyou-14",
-              "onesize": "mobile"
-            },
-            {
-              "title": "Brandyou 19",
-              "name": "brandyou-19",
-              "onesize": "mobile"
-            },
-            {
-              "title": "Brandyou 20",
-              "name": "brandyou-20",
-              "onesize": "mobile"
-            },
-            {
-              "title": "Brandyou 22",
-              "name": "brandyou-22",
-              "onesize": "mobile"
-            },
-            {
-              "title": "Brandyou 21",
-              "name": "brandyou-21",
-              "onesize": "mobile"
-            },
-            {
-              "title": "Brandyou 3",
-              "name": "brandyou-3",
-              "onesize": "mobile"
-            },
-            {
-              "title": "Brandyou 4",
-              "name": "brandyou-4",
-              "onesize": "mobile"
             }
           ]
         }
