@@ -1,6 +1,4 @@
 @mixin work {
-  display: flex;
-
   .offer {
     @include offer;
   }

@@ -1,16 +1,15 @@
 @mixin fixed-scroll__slide($title-width) {
   position: relative;
-  display: flex;
 
   .title {
     position: absolute;
     top: 15vh;
-    width: $title-width;
-    flex-basis: $title-width;
+    width: auto;
   }
 
   .content {
-    flex-basis: calc(100% - #{$title-width});
+    width: calc(100% - #{$title-width});
+    margin-left: $title-width;
 
     @include list;
     @include list--list-view;
