@@ -8,6 +8,10 @@
 
   .fixed-scroll {
     @include fixed-scroll(10%);
+
+    @include tablet {
+      @include fixed-scroll(20%);
+    }
   }
 
   .title {
