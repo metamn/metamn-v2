@@ -258,12 +258,6 @@
               "name": "wanderlust-aspen",
               "onesize": "desktop",
               "mockup": "browser"
-            },
-            {
-              "title": "Wanderlust Snowshoe",
-              "name": "wanderlust-snowshoe",
-              "onesize": "desktop",
-              "mockup": "browser"
             }
           ]
         }
