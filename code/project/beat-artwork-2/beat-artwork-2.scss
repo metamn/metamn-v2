@@ -8,14 +8,5 @@
   .mockup {
     @include mockup;
     max-width: 60vw;
-
-    .figure,
-    .mockup-desktop-bottom,
-    .mockup__stand .trapezoid::before ,
-    .mockup__camera {
-      //border-color: $white;
-      //background: $blue;
-      //opacity: .9;
-    }
   }
 }

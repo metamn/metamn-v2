@@ -5,5 +5,4 @@
   {% include '../../../project/beat-intro/beat-intro.html.swig' %}
   {% include '../../../project/beat-artwork/beat-artwork.html.swig' %}
   {% include '../../../project/beat-artwork-2/beat-artwork-2.html.swig' %}
-  {% include '../../../project/beat-outro/beat-outro.html.swig' %}
 </section>
