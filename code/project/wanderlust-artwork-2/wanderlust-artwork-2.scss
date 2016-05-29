@@ -11,14 +11,9 @@
 		$blue 100px
 	) top left;
 
-  .figure {
-    @include figure;
+  .mockup {
+    @include mockup;
     transform: rotateX(-15deg) rotateZ(-15deg) translateY(0vw);
     transform-style: preserve-3d;
-
-    .img {
-      @include border(thin, all);
-      padding: $lem;
-    }
   }
 }
