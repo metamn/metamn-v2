@@ -1,0 +1,21 @@
+@mixin beat-artwork-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  @include colors(white-on-blue);
+
+  .mockup {
+    @include mockup;
+    max-width: 60vw;
+
+    .figure,
+    .mockup-desktop-bottom,
+    .mockup__stand .trapezoid::before ,
+    .mockup__camera {
+      //border-color: $white;
+      //background: $blue;
+      //opacity: .9;
+    }
+  }
+}

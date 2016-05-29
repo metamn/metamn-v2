@@ -9,4 +9,12 @@
   .beat-artwork {
     @include beat-artwork;
   }
+
+  .beat-artwork-2 {
+    @include beat-artwork-2;
+  }
+
+  .beat-outro {
+    @include beat-outro;
+  }
 }

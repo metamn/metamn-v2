@@ -13,7 +13,7 @@
 
   .mockup {
     @include mockup;
-    transform: rotateX(-15deg) rotateZ(-15deg) translateY(0vw);
+    transform: rotateX(-5deg) rotateZ(-5deg) translateY(0vw);
     transform-style: preserve-3d;
   }
 }

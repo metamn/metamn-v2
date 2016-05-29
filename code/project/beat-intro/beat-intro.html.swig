@@ -4,8 +4,7 @@
   {% set services = work.services %}
   {% include '../services/services.html.swig' %}
 
-  {% set artwork = work.artwork[1] %}
-  {% set image = artwork.images[0] %}
+  {% set image = work.intro_image %}
   {% set mockup = { type: image.mockup, image: image } %}
   {% include '../../framework/design/decorations/mockup/mockup.html.swig' %}
 </article>

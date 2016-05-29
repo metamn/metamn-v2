@@ -1,0 +1,6 @@
+@mixin beat-outro {
+  min-height: 70vh;
+  background-image: linear-gradient(-15deg, transparent 49.9%, $blue 50%);
+  position: relative;
+  z-index: 2;
+}

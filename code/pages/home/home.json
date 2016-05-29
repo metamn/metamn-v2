@@ -131,6 +131,12 @@
           "The back&ndash;end is a static site created with JSON, Gulp, Webpack. It's an experiment in the Headless CMS scene."
         ]
       },
+      "intro_image": {
+        "title": "Beat home on desktop",
+        "name": "beat-home-large-1",
+        "onesize": "desktop",
+        "mockup": "laptop"
+      },
       "artwork": [
         {
           "title": "Device pairs",
@@ -166,12 +172,6 @@
           "title": "Laptop and desktop",
           "structure": "image-list",
           "images": [
-            {
-              "title": "Beat home on desktop",
-              "name": "beat-home-large-1",
-              "onesize": "desktop",
-              "mockup": "laptop"
-            },
             {
               "title": "Beat home on desktop",
               "name": "beat-home-large-1",
