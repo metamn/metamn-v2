@@ -1,0 +1,12 @@
+@mixin home__wanderlust {
+  display: flex;
+  flex-direction: column;
+
+  .wanderlust-intro {
+    @include wanderlust-intro;
+  }
+
+  .wanderlust-artwork {
+    @include wanderlust-artwork;
+  }
+}

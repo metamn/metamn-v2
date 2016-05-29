@@ -195,82 +195,75 @@
           "And prepare the site for traffic peaks of 50.000 visitors / day when tickets go sale."
         ]
       },
+      "intro_image": {
+        "title": "Wanderlust intro",
+        "name": "wanderlust-intro",
+        "onesize": "desktop"
+      },
       "artwork": [
         {
           "title": "Wanderlust 108",
-          "structure": "single-image",
+          "structure": "image-list",
           "images": [
             {
               "title": "Wanderlust 108",
               "name": "wanderlust-108-top-large",
               "onesize": "desktop",
               "mockup": "browser"
-            }
-          ]
-        },
-        {
-          "title": "Wanderlust festivals",
-          "structure": "single-image",
-          "images": [
+            },
             {
               "title": "Wanderlust festivals",
               "name": "wanderlust-festivals-top-large",
               "onesize": "desktop",
               "mockup": "browser"
-            }
-          ]
-        },
-        {
-          "title": "Wanderlust festivals",
-          "structure": "single-image",
-          "images": [
+            },
             {
               "title": "Wanderlust festivals",
               "name": "wanderlust-festivals-explore-large",
               "onesize": "desktop",
               "mockup": "browser"
-            }
-          ]
-        },
-        {
-          "title": "Festival intros",
-          "mockup": "browser-mockup",
-          "structure": "horizontal-slider",
-          "images": [
+            },
             {
               "title": "Wanderlust Squash Valley",
               "name": "wanderlust-squash-valley",
-              "onesize": "desktop"
+              "onesize": "desktop",
+              "mockup": "browser"
             },
             {
               "title": "Wanderlust Stratton",
               "name": "wanderlust-stratton",
-              "onesize": "desktop"
+              "onesize": "desktop",
+              "mockup": "browser"
             },
             {
               "title": "Wanderlust Sunshine Coast",
               "name": "wanderlust-sunshinecoast",
-              "onesize": "desktop"
+              "onesize": "desktop",
+              "mockup": "browser"
             },
             {
               "title": "Wanderlust Tremblant",
               "name": "wanderlust-tremblant",
-              "onesize": "desktop"
+              "onesize": "desktop",
+              "mockup": "browser"
             },
             {
               "title": "Wanderlust Whistler",
               "name": "wanderlust-whistler",
-              "onesize": "desktop"
+              "onesize": "desktop",
+              "mockup": "browser"
             },
             {
               "title": "Wanderlust Aspen",
               "name": "wanderlust-aspen",
-              "onesize": "desktop"
+              "onesize": "desktop",
+              "mockup": "browser"
             },
             {
               "title": "Wanderlust Snowshoe",
               "name": "wanderlust-snowshoe",
-              "onesize": "desktop"
+              "onesize": "desktop",
+              "mockup": "browser"
             }
           ]
         }

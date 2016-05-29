@@ -1,0 +1,10 @@
+@mixin wanderlust-artwork {
+  display: flex;
+  flex-wrap: wrap;
+
+  display: none;
+
+  .mockup {
+    @include mockup;
+  }
+}
