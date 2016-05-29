@@ -1,7 +1,0 @@
-@mixin work-image-list--brandyou-all-mockups {
-  @include grid(3, $lem, $lem);
-
-  .figure {
-    @include figure;
-  }
-}

@@ -202,15 +202,9 @@
       },
       "artwork": [
         {
-          "title": "Wanderlust 108",
+          "title": "Large screenshots",
           "structure": "image-list",
           "images": [
-            {
-              "title": "Wanderlust 108",
-              "name": "wanderlust-108-top-large",
-              "onesize": "desktop",
-              "mockup": "browser"
-            },
             {
               "title": "Wanderlust festivals",
               "name": "wanderlust-festivals-top-large",
@@ -222,7 +216,13 @@
               "name": "wanderlust-festivals-explore-large",
               "onesize": "desktop",
               "mockup": "browser"
-            },
+            }
+          ]
+        },
+        {
+          "title": "Festival intros",
+          "structure": "image-list",
+          "images": [
             {
               "title": "Wanderlust Squash Valley",
               "name": "wanderlust-squash-valley",

@@ -1,4 +1,4 @@
-<article class="wanderlust-artwork">
+<article class="wanderlust-artwork-1">
   <h3>Wanderlust artwork</h3>
 
   {% set artwork = work.artwork[0] %}

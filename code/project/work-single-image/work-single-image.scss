@@ -1,8 +1,0 @@
-@mixin work-single-image {
-  display: flex;
-  justify-content: center;
-
-  .mockup {
-    @include mockup;
-  }
-}

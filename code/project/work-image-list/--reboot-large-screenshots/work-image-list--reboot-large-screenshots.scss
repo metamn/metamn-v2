@@ -1,8 +1,0 @@
-@mixin work-image-list--reboot-large-screenshots {
-  @include grid(2, $lem, $lem);
-  align-items: center;
-
-  .browser-mockup {
-    @include browser-mockup($border-color: $white, $all-borders: true);
-  }
-}

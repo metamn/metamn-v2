@@ -1,0 +1,24 @@
+@mixin wanderlust-artwork-1 {
+  @include section-padding;
+  @include section-fitscreen;
+
+  @include grid(2, $lem);
+  align-items: center;
+
+  position: relative;
+
+  .mockup {
+    @include mockup;
+
+    &:first-of-type {
+      position: relative;
+      left: 10vw;
+      z-index: 2;
+    }
+
+    &:last-of-type {
+      position: relative;
+      left: -10vw;
+    }
+  }
+}
