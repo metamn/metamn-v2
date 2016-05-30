@@ -6,4 +6,6 @@
     {% set mockup = { type: image.mockup, image: image } %}
     {% include '../../framework/design/decorations/mockup/mockup.html.swig' %}
   {% endfor %}
+
+  {% include '../description/description.html.swig' %}
 </article>

@@ -8,5 +8,17 @@
   .mockup {
     @include mockup;
     max-width: 60vw;
+
+    position: relative;
+    z-index: 1;
+  }
+
+  position: relative;
+  .description {
+    @include description;
+
+    position: absolute;
+    top: 30%;
+    left: 0;
   }
 }

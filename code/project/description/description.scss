@@ -1,0 +1,10 @@
+@mixin description {
+  @include text-style(headline);
+  line-height: 1.48;
+  
+  @include grid(3, $lem);
+
+  a, .link {
+    @include link(white-on-blue, white-on-blue, white-on-blue);
+  }
+}
