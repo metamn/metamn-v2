@@ -13,27 +13,27 @@ html {
 
       .home__intro {
         @include home__intro;
-        display: none;
+        //display: none;
       }
 
       .home__message {
         @include home__message;
-        display: none;
+        //display: none;
       }
 
       .home__styleguide {
         @include home__styleguide;
-        display: none;
+        //display: none;
       }
 
       .home__beat {
         @include home__beat;
-        display: none;
+        //display: none;
       }
 
       .home__wanderlust {
         @include home__wanderlust;
-        display: none;
+        //display: none;
       }
 
       .home__reboot {

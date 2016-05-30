@@ -6,10 +6,5 @@
   {% include '../../../project/reboot-artwork-1/reboot-artwork-1.html.swig' %}
 
   {% set artwork = work.artwork[1] %}
-  {% set nr = 2 %}
-  {% include '../../../project/reboot-artwork-2/reboot-artwork-2.html.swig' %}
-
-  {% set artwork = work.artwork[2] %}
-  {% set nr = 3 %}
   {% include '../../../project/reboot-artwork-2/reboot-artwork-2.html.swig' %}
 </section>

@@ -297,23 +297,18 @@
               "name": "reboot-tablet-1",
               "onesize": "desktop",
               "mockup": "tablet"
-            }
-          ]
-        },
-        {
-          "title": "Device pairs",
-          "images": [
-            {
-              "title": "Reboot mobile 2",
-              "name": "reboot-mobile-2",
-              "onesize": "desktop",
-              "mockup": "mobile"
             },
             {
               "title": "Reboot tablet 2",
               "name": "reboot-tablet-2",
               "onesize": "desktop",
               "mockup": "tablet"
+            },
+            {
+              "title": "Reboot mobile 2",
+              "name": "reboot-mobile-2",
+              "onesize": "desktop",
+              "mockup": "mobile"
             }
           ]
         }
