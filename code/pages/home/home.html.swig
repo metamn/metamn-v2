@@ -6,5 +6,6 @@
   {% include '__styleguide/home__styleguide.html.swig' %}
   {% include '__beat/home__beat.html.swig' %}
   {% include '__wanderlust/home__wanderlust.html.swig' %}
+  {% include '__reboot/home__reboot.html.swig' %}
   {% include '__contact/home__contact.html.swig' %}
 {% endblock %}

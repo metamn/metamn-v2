@@ -1740,7 +1740,11 @@
     "/home/cs/work/metamn-v2/code/project/wanderlust-artwork-1/wanderlust-artwork-1.json": "/home/cs/work/metamn-v2/code/project/wanderlust-artwork-1/wanderlust-artwork-1.json",
     "/home/cs/work/metamn-v2/code/project/wanderlust-artwork-2/wanderlust-artwork-2.json": "/home/cs/work/metamn-v2/code/project/wanderlust-artwork-2/wanderlust-artwork-2.json",
     "/home/cs/work/metamn-v2/code/project/beat-artwork-2/beat-artwork-2.json": "/home/cs/work/metamn-v2/code/project/beat-artwork-2/beat-artwork-2.json",
-    "/home/cs/work/metamn-v2/code/project/beat-outro/beat-outro.json": "/home/cs/work/metamn-v2/code/project/beat-outro/beat-outro.json"
+    "/home/cs/work/metamn-v2/code/project/beat-outro/beat-outro.json": "/home/cs/work/metamn-v2/code/project/beat-outro/beat-outro.json",
+    "/home/cs/work/metamn-v2/code/project/reboot-artwork-1/reboot-artwork-1.json": "/home/cs/work/metamn-v2/code/project/reboot-artwork-1/reboot-artwork-1.json",
+    "/home/cs/work/metamn-v2/code/project/reboot-artwork-2/reboot-artwork-2.json": "/home/cs/work/metamn-v2/code/project/reboot-artwork-2/reboot-artwork-2.json",
+    "/home/cs/work/metamn-v2/code/project/reboot-intro/reboot-intro.json": "/home/cs/work/metamn-v2/code/project/reboot-intro/reboot-intro.json",
+    "/home/cs/work/metamn-v2/code/pages/home/__reboot/home__reboot.json": "/home/cs/work/metamn-v2/code/pages/home/__reboot/home__reboot.json"
   },
   "/home/cs/work/metamn-v2/node_modules/gulp-image-resize/index.js": {
     "gulp-gm": "/home/cs/work/metamn-v2/node_modules/gulp-image-resize/node_modules/gulp-gm/index.js",

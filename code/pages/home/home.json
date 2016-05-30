@@ -140,7 +140,6 @@
       "artwork": [
         {
           "title": "Device pairs",
-          "structure": "image-list",
           "images": [
             {
               "title": "Beat Masters of Web",
@@ -170,7 +169,6 @@
         },
         {
           "title": "Laptop and desktop",
-          "structure": "image-list",
           "images": [
             {
               "title": "Beat home on desktop",
@@ -203,7 +201,6 @@
       "artwork": [
         {
           "title": "Large screenshots",
-          "structure": "image-list",
           "images": [
             {
               "title": "Wanderlust festivals",
@@ -221,7 +218,6 @@
         },
         {
           "title": "Festival intros",
-          "structure": "image-list",
           "images": [
             {
               "title": "Wanderlust Squash Valley",
@@ -278,9 +274,7 @@
       },
       "artwork": [
         {
-          "title": "Homepage",
-          "mockup": "none",
-          "structure": "single-image",
+          "title": "All devices",
           "images": [
             {
               "title": "Reboot",
@@ -290,53 +284,36 @@
           ]
         },
         {
-          "title": "Large screenshots",
-          "mockup": "browser-mockup",
-          "structure": "image-list",
-          "images": [
-            {
-              "title": "Reboot homepage",
-              "name": "reboot-large-2",
-              "onesize": "desktop"
-            },
-            {
-              "title": "Reboot services",
-              "name": "reboot-large-1",
-              "onesize": "desktop"
-            }
-          ]
-        },
-        {
           "title": "Device pairs",
-          "mockup": "device-mockup",
-          "structure": "image-list",
           "images": [
             {
               "title": "Reboot mobile 1",
               "name": "reboot-mobile-1",
-              "onesize": "desktop"
+              "onesize": "desktop",
+              "mockup": "mobile"
             },
             {
               "title": "Reboot tablet 1",
               "name": "reboot-tablet-1",
-              "onesize": "desktop"
+              "onesize": "desktop",
+              "mockup": "tablet"
             }
           ]
         },
         {
           "title": "Device pairs",
-          "mockup": "device-mockup",
-          "structure": "image-list",
           "images": [
             {
               "title": "Reboot mobile 2",
               "name": "reboot-mobile-2",
-              "onesize": "desktop"
+              "onesize": "desktop",
+              "mockup": "mobile"
             },
             {
               "title": "Reboot tablet 2",
               "name": "reboot-tablet-2",
-              "onesize": "desktop"
+              "onesize": "desktop",
+              "mockup": "tablet"
             }
           ]
         }

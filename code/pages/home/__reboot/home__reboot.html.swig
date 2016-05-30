@@ -1,0 +1,15 @@
+<section class="home__reboot">
+  <h3>Portfolio: Reboot</h3>
+
+  {% set work = works[2] %}
+  {% include '../../../project/reboot-intro/reboot-intro.html.swig' %}
+  {% include '../../../project/reboot-artwork-1/reboot-artwork-1.html.swig' %}
+
+  {% set artwork = work.artwork[1] %}
+  {% set nr = 2 %}
+  {% include '../../../project/reboot-artwork-2/reboot-artwork-2.html.swig' %}
+
+  {% set artwork = work.artwork[2] %}
+  {% set nr = 3 %}
+  {% include '../../../project/reboot-artwork-2/reboot-artwork-2.html.swig' %}
+</section>

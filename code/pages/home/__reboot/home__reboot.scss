@@ -1,0 +1,17 @@
+@mixin home__reboot {
+  display: flex;
+  flex-direction: column;
+
+  .reboot-intro {
+    @include reboot-intro;
+  }
+
+  .reboot-artwork-1 {
+    @include reboot-artwork-1;
+  }
+
+  .reboot-artwork-2,
+  .reboot-artwork-3 {
+    @include reboot-artwork-2;
+  }
+}

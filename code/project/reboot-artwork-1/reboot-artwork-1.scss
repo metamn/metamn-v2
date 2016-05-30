@@ -1,0 +1,12 @@
+@mixin reboot-artwork-1 {
+  @include section-padding;
+  @include section-fitscreen;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .figure {
+    @include figure;
+  }
+}

@@ -1,0 +1,22 @@
+@mixin reboot-artwork-2 {
+  @include section-padding;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+
+  .mockup {
+    @include mockup;
+
+    margin-right: $lem * 2;
+
+    &--mobile {
+      transform: scale(.75);
+    }
+
+    &--tablet {
+      transform: scale(1.15);
+    }
+  }
+}
