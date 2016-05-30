@@ -1,15 +1,15 @@
 @mixin reboot-artwork-2 {
   @include section-padding;
+  @include section-fitscreen;
 
-  display: none;
+  display: flex;
   justify-content: center;
   align-items: center;
 
   .mockup {
     @include mockup;
 
-    transform: rotateX(5deg) rotateZ(5deg) translateY(0vw);
-    transform-style: preserve-3d;
+    margin-right: $lem * 4;
 
     &--mobile {
       transform: scale(.75);
@@ -17,13 +17,6 @@
 
     &--tablet {
       transform: scale(1.15);
-    }
-
-    @for $i from 1 to 5 {
-      &:nth-of-type(#{$i}) {
-        position: relative;
-        z-index: $i;
-      }
     }
   }
 }

@@ -5,8 +5,8 @@
   {% include '../../../project/reboot-intro/reboot-intro.html.swig' %}
   {% include '../../../project/reboot-artwork-1/reboot-artwork-1.html.swig' %}
 
+  {% include '../../../project/description/description.html.swig' %}
+
   {% set artwork = work.artwork[1] %}
   {% include '../../../project/reboot-artwork-2/reboot-artwork-2.html.swig' %}
-
-  {% include '../../../project/description/description.html.swig' %}
 </section>
