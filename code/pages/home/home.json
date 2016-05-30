@@ -1,6 +1,95 @@
 {
   "title": "Design and code",
-  "about": "I'm a designer and developer specialized in marketing websites and landing pages",
+  "about": [
+    "Designer and developer",
+    "specialized in marketing websites and landing pages"
+  ],
+  "cv": {
+    "name": "Csongor Bartus",
+    "title": "Web designer and developer",
+    "image": "avatar.png",
+    "locations": [
+      {
+        "city": "Budapest",
+        "country": "Hungary"
+      },
+      {
+        "city": "Cluj Napoca",
+        "country": "Romania"
+      }
+    ],
+    "bio": [
+      "I have spent the last <span>10 years</span> creating user interfaces and experiences for the web.",
+      "Working together you'll get:"
+    ],
+    "offer": [
+      "Your message delivered",
+      "<span>Design</span> reusable",
+      "<span>Code</span> documented"
+    ],
+    "experience": [
+      {
+        "title": "Freelancer",
+        "years": "2013 &mdash; present",
+        "technologies": [
+          "HTML5", "SCSS", "Animations", "Javascript", "BEM", "Gulp", "Webpack", "Wordpress", "Static sites"
+        ],
+        "description": [
+          "Responive web design, front–end development and Wordpress work for clients around the world."
+        ]
+      },
+      {
+        "title": "Smuff, CTO, co-founder",
+        "years": "2006 &mdash; 2013",
+        "technologies": [
+          "HTML", "CSS", "jQuery", "Wordpress", "Ruby on Rails", "PHP / Yii / MVC framework", "Shopify", "Jekyll static sites",
+          "API integrations", "Google Analytics", "Mailchimp"
+        ],
+        "description": [
+          "The collaboration with Smuff started in the founding phase. The business idea for an online gadget store was ready and Smuff needed someone to build a web product around.",
+          "During years and iterations we have managed to build a custom e-commerce solution with a high conversion rate design and an automatic content distribution platform to aid sales and marketing.",
+          "Today Smuff is local market leader with 44% of returning customers."
+        ]
+      }
+    ],
+    "links": [
+      {
+        "description": "Contact",
+        "url": "bartus.csongor@gmail.com",
+        "title": "bartus.csongor@gmail",
+        "type": "email",
+        "glyph": "email"
+      },
+      {
+        "description": "Code",
+        "url": "http://github.com/metamn",
+        "title": "github.com/metamn",
+        "type": "external",
+        "glyph": "github"
+      },
+      {
+        "description": "Learn",
+        "url": "http://metamn.io/beat",
+        "title": "Beat",
+        "type": "external",
+        "glyph": "beat"
+      },
+      {
+        "description": "Inspiration",
+        "url": "http://metamn.tumblr.com",
+        "title": "Tumblr",
+        "type": "external",
+        "glyph": "tumblr"
+      },
+      {
+        "description": "Follow",
+        "url": "https://medium.com/@metamn",
+        "title": "Medium",
+        "type": "external",
+        "glyph": "medium"
+      }
+    ]
+  },
   "featured": [
     {
       "title": "Brandyou 1",
@@ -124,13 +213,11 @@
         "Design",
         "Front&ndash;end"
       ],
-      "description": {
-        "paragraphs": [
-          "<a href='http://metamn.io/beat' title='Beat'>Beat</a> is a blog about design and code. It's lazy yet meta. With focus on that few stories which are shaping the front&ndash;end a year.",
-          "The design is clean. Typography and form follows the modern style. The generous usage of negative space is the main ingredient of the design.",
-          "The back&ndash;end is a static site created with JSON, Gulp, Webpack. It's an experiment in the Headless CMS scene."
-        ]
-      },
+      "description": [
+        "<a href='http://metamn.io/beat' title='Beat'>Beat</a> is a blog about design and code. It's lazy yet meta. With focus on that few stories which are shaping the front&ndash;end a year.",
+        "The design is clean. Typography and form follows the modern style. The generous usage of negative space is the main ingredient of the design.",
+        "The back&ndash;end is a static site created with JSON, Gulp, Webpack. It's an experiment in the Headless CMS scene."
+      ],
       "intro_image": {
         "title": "Beat home on desktop",
         "name": "beat-home-large-1",
@@ -186,13 +273,11 @@
         "Front&ndash;end",
         "Wordpress"
       ],
-      "description": {
-        "paragraphs": [
-          "<a href='http://wanderlust.com' title='Wanderlust'>Wanderlust</a> is an international yoga events and festivals company coming up with an ambitious project including redesign, back&ndash;end migration and storytelling.",
-          "Our task &mdash; a team of three developers working remotely &mdash; was to develop the front-end code, migrate individual Drupal sites to Wordpress and create a storytelling engine for their team of editors.",
-          "And prepare the site for traffic peaks of 50.000 visitors / day when tickets go sale."
-        ]
-      },
+      "description": [
+        "<a href='http://wanderlust.com' title='Wanderlust'>Wanderlust</a> is an international yoga events and festivals company coming up with an ambitious project including redesign, back&ndash;end migration and storytelling.",
+        "Our task &mdash; a team of three developers working remotely &mdash; was to develop the front-end code, migrate individual Drupal sites to Wordpress and create a storytelling engine for their team of editors.",
+        "And prepare the site for traffic peaks of 50.000 visitors / day when tickets go sale."
+      ],
       "intro_image": {
         "title": "Wanderlust intro",
         "name": "wanderlust-intro",
@@ -265,13 +350,11 @@
         "Front&ndash;end",
         "Wordpress"
       ],
-      "description": {
-        "paragraphs": [
-          "<a href='http://reboot.org' title='Reboot'>Reboot</a> is a social design consultancy focused on international development.",
-          "After growing out the startup phase the Reboot design team created a new look and wanted a developer to implement in Wordpress.",
-          "The requirement for back&ndash;end was portability. No third-party plugins, just Wordpress core features and structures."
-        ]
-      },
+      "description": [
+        "<a href='http://reboot.org' title='Reboot'>Reboot</a> is a social design consultancy focused on international development.",
+        "After growing out the startup phase the Reboot design team created a new look and wanted a developer to implement in Wordpress.",
+        "The requirement for back&ndash;end was portability. No third-party plugins, just Wordpress core features and structures."
+      ],
       "artwork": [
         {
           "title": "All devices",

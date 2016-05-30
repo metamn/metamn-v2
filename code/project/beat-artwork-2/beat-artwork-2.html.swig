@@ -7,5 +7,6 @@
     {% include '../../framework/design/decorations/mockup/mockup.html.swig' %}
   {% endfor %}
 
+  {% set description = work.description %}
   {% include '../description/description.html.swig' %}
 </article>

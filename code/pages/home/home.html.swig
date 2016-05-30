@@ -7,5 +7,5 @@
   {% include '__beat/home__beat.html.swig' %}
   {% include '__wanderlust/home__wanderlust.html.swig' %}
   {% include '__reboot/home__reboot.html.swig' %}
-  {% include '__contact/home__contact.html.swig' %}
+  {% include '__cv/home__cv.html.swig' %}
 {% endblock %}

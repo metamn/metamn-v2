@@ -28,21 +28,21 @@ html {
 
       .home__beat {
         @include home__beat;
-        //display: none;
+        display: none;
       }
 
       .home__wanderlust {
         @include home__wanderlust;
-        //display: none;
+        display: none;
       }
 
       .home__reboot {
         @include home__reboot;
-        //display: none;
+        display: none;
       }
 
-      .home__contact {
-        @include home__contact;
+      .home__cv {
+        @include home__cv;
         //display: none;
       }
     }

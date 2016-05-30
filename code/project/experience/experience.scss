@@ -1,0 +1,8 @@
+@mixin experience {
+  display: flex;
+  flex-direction: column;
+
+  .experience-item {
+    @include experience-item;
+  }
+}

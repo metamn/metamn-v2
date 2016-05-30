@@ -1744,7 +1744,13 @@
     "/home/cs/work/metamn-v2/code/project/reboot-artwork-1/reboot-artwork-1.json": "/home/cs/work/metamn-v2/code/project/reboot-artwork-1/reboot-artwork-1.json",
     "/home/cs/work/metamn-v2/code/project/reboot-artwork-2/reboot-artwork-2.json": "/home/cs/work/metamn-v2/code/project/reboot-artwork-2/reboot-artwork-2.json",
     "/home/cs/work/metamn-v2/code/project/reboot-intro/reboot-intro.json": "/home/cs/work/metamn-v2/code/project/reboot-intro/reboot-intro.json",
-    "/home/cs/work/metamn-v2/code/pages/home/__reboot/home__reboot.json": "/home/cs/work/metamn-v2/code/pages/home/__reboot/home__reboot.json"
+    "/home/cs/work/metamn-v2/code/pages/home/__reboot/home__reboot.json": "/home/cs/work/metamn-v2/code/pages/home/__reboot/home__reboot.json",
+    "/home/cs/work/metamn-v2/code/pages/home/__cv/home__cv.json": "/home/cs/work/metamn-v2/code/pages/home/__cv/home__cv.json",
+    "/home/cs/work/metamn-v2/code/project/name-and-role/name-and-role.json": "/home/cs/work/metamn-v2/code/project/name-and-role/name-and-role.json",
+    "/home/cs/work/metamn-v2/code/project/locations/locations.json": "/home/cs/work/metamn-v2/code/project/locations/locations.json",
+    "/home/cs/work/metamn-v2/code/project/bio/bio.json": "/home/cs/work/metamn-v2/code/project/bio/bio.json",
+    "/home/cs/work/metamn-v2/code/project/experience/experience.json": "/home/cs/work/metamn-v2/code/project/experience/experience.json",
+    "/home/cs/work/metamn-v2/code/project/experience-item/experience-item.json": "/home/cs/work/metamn-v2/code/project/experience-item/experience-item.json"
   },
   "/home/cs/work/metamn-v2/node_modules/gulp-image-resize/index.js": {
     "gulp-gm": "/home/cs/work/metamn-v2/node_modules/gulp-image-resize/node_modules/gulp-gm/index.js",
