@@ -16,4 +16,8 @@
     transform: rotateX(-5deg) rotateZ(-5deg) translateY(0vw);
     transform-style: preserve-3d;
   }
+
+  .description {
+    @include description;
+  }
 }

@@ -13,4 +13,8 @@
   .reboot-artwork-2 {
     @include reboot-artwork-2;
   }
+
+  .description {
+    @include description;
+  }
 }

@@ -7,4 +7,6 @@
 
   {% set artwork = work.artwork[1] %}
   {% include '../../../project/reboot-artwork-2/reboot-artwork-2.html.swig' %}
+
+  {% include '../../../project/description/description.html.swig' %}
 </section>
