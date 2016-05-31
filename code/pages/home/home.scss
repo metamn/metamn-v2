@@ -33,12 +33,12 @@ html {
 
       .home__wanderlust {
         @include home__wanderlust;
-        display: none;
+        //display: none;
       }
 
       .home__reboot {
         @include home__reboot;
-        display: none;
+        //display: none;
       }
 
       .home__cv {

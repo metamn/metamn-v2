@@ -1,12 +1,21 @@
 @mixin contact {
   flex-basis: 100%;
-  display: flex;
+  @include grid(3, $lem, $lem);
 
   .icon {
     @include icon($color: $white);
 
     .link {
       @include link(white-on-blue, white-on-blue, white-on-blue);
+    }
+
+    .svg {
+      display: none;
+    }
+
+    &--email,
+    &--tumblr {
+      padding-left: $lem * 4;
     }
   }
 }
