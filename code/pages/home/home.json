@@ -19,8 +19,7 @@
       }
     ],
     "bio": [
-      "I have spent the last <span>10 years</span> creating user interfaces and experiences for the web.",
-      "Working together you'll get:"
+      "<span>10 years</span> of creating user interfaces and experiences for the web."
     ],
     "offer": [
       "Your message delivered",
@@ -35,19 +34,18 @@
           "HTML5", "SCSS", "Animations", "Javascript", "BEM", "Gulp", "Webpack", "Wordpress", "Static sites"
         ],
         "description": [
-          "Responive web design, front–end development and Wordpress work for clients around the world."
+          "Responive web design, front–end development and Wordpress for clients around the world."
         ]
       },
       {
         "title": "Smuff, CTO, co-founder",
         "years": "2006 &mdash; 2013",
         "technologies": [
-          "HTML", "CSS", "jQuery", "Wordpress", "Ruby on Rails", "PHP / Yii / MVC framework", "Shopify", "Jekyll static sites",
-          "API integrations", "Google Analytics", "Mailchimp"
+          "HTML", "CSS", "jQuery", "Wordpress", "Ruby on Rails", "PHP / Yii / MVC", "Shopify", "Jekyll",
+          "APIs", "Google Analytics", "Mailchimp"
         ],
         "description": [
-          "The collaboration with Smuff started in the founding phase. The business idea for an online gadget store was ready and Smuff needed someone to build a web product around.",
-          "During years and iterations we have managed to build a custom e-commerce solution with a high conversion rate design and an automatic content distribution platform to aid sales and marketing.",
+          "Custom e-commerce product with a high conversion rate design and an automatic content distribution platform to aid sales and marketing.",
           "Today Smuff is local market leader with 44% of returning customers."
         ]
       }

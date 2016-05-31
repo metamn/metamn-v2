@@ -1,7 +1,8 @@
-<section class="experience">
-  <h3>Experience</h3>
+{% for experience in cv.experience %}
+  <time class="experience-years">{{ experience.years | safe }}</time>
 
-  {% for experience in cv.experience %}
-    {% include '../experience-item/experience-item.html.swig' %}
-  {% endfor %}
-</section>
+  <h3 class="experience-title">{{ experience.title }}</h3>
+
+  {% set description = experience.description %}
+  {% include "../description/description.html.swig" %}
+{% endfor %}

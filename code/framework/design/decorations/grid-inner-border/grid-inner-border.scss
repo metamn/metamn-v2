@@ -17,7 +17,7 @@
     @include border--normal(bottom);
 
     // Remove some right borders
-    &:nth-child(#{$items-per-row}n + 1),
+    &:nth-child(#{$items-per-row}n),
     &:last-child {
       border-right: 0;
     }

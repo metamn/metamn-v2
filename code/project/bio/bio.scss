@@ -3,9 +3,9 @@
   flex-direction: column;
 
   @include text-style(body-text);
-  @include text-style(large);
 
   .ol-with-circle {
     @include ol-with-circle;
+    display: none;
   }
 }

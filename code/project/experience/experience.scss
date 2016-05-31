@@ -1,8 +1,18 @@
 @mixin experience {
-  display: flex;
-  flex-direction: column;
+  .experience-title {
+    display: flex;
+  }
 
-  .experience-item {
-    @include experience-item;
+  .experience-years {
+    padding-left: $lem * 4;
+  }
+
+  .description {
+    @include text-style(body-text);
+  }
+
+  .description,
+  .name-and-role {
+    max-width: none;
   }
 }
