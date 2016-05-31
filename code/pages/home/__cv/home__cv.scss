@@ -5,6 +5,7 @@
 
   min-height: 100vh;
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
 
   .card {
@@ -13,10 +14,11 @@
 
   .bio {
     @include bio;
-    display: none;
   }
 
-  @include experience;
+  .experiences {
+    @include experiences;
+  }
 
   .contact {
     @include contact;

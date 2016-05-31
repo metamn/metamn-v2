@@ -1,24 +1,19 @@
 @mixin experience {
-  .experience-title {
+  flex-basis: 100%;
+  display: flex;
+  justify-content: space-between;
+
+  margin-bottom: $lem;
+
+  &__title {
     display: flex;
   }
 
-  .experience-years {
-    @include mobile {
-      margin-bottom: 0;
-    }
-
-    @include mobile-and-up {
-      padding-left: $lem * 4;
-    }
-  }
-
   .description {
-    @include text-style(body-text);
+    @include description;
   }
 
-  .description,
-  .name-and-role {
-    max-width: none;
-  }
+  @include experience--reorder;
+  @include experience--mobile;
+  @include experience--mobile-and-up;
 }

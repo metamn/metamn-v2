@@ -1,0 +1,12 @@
+@mixin experience--mobile {
+  @include mobile {
+    flex-direction: column;
+
+    .description {
+      font-weight: normal;
+      font-size: 1em;
+      text-transform: none;
+      letter-spacing: 1px;
+    }
+  }
+}

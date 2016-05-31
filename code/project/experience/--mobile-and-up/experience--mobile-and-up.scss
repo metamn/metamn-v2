@@ -1,0 +1,15 @@
+@mixin experience--mobile-and-up {
+  @include mobile-and-up {
+    &__title,
+    &__time {
+      flex-basis: 20%;
+      margin-right: $lem;
+    }
+
+    .description {
+      font-weight: normal;
+      font-size: 1em;
+      line-height: 1.48;
+    }
+  }
+}

@@ -1752,7 +1752,8 @@
     "/home/cs/work/metamn-v2/code/project/experience/experience.json": "/home/cs/work/metamn-v2/code/project/experience/experience.json",
     "/home/cs/work/metamn-v2/code/project/experience-item/experience-item.json": "/home/cs/work/metamn-v2/code/project/experience-item/experience-item.json",
     "/home/cs/work/metamn-v2/code/project/contact/contact.json": "/home/cs/work/metamn-v2/code/project/contact/contact.json",
-    "/home/cs/work/metamn-v2/code/project/card/card.json": "/home/cs/work/metamn-v2/code/project/card/card.json"
+    "/home/cs/work/metamn-v2/code/project/card/card.json": "/home/cs/work/metamn-v2/code/project/card/card.json",
+    "/home/cs/work/metamn-v2/code/project/experiences/experiences.json": "/home/cs/work/metamn-v2/code/project/experiences/experiences.json"
   },
   "/home/cs/work/metamn-v2/node_modules/gulp-image-resize/index.js": {
     "gulp-gm": "/home/cs/work/metamn-v2/node_modules/gulp-image-resize/node_modules/gulp-gm/index.js",

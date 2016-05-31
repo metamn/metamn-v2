@@ -1,7 +1,0 @@
-@mixin name-and-role {
-  @include text-style(body-text);
-  margin-right: $lem;
-  .author {
-    @include author;
-  }
-}

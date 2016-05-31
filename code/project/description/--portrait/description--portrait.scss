@@ -1,0 +1,5 @@
+@mixin description--portrait {
+  @include portrait {
+    @include grid(1, 0px, $lem);
+  }
+}
