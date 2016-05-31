@@ -1,5 +1,9 @@
 @mixin locations {
-  
+
+  @include mobile {
+    margin-left: $lem * 4;
+  }
+
   .ul {
     @include ul;
   }

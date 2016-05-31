@@ -4,21 +4,16 @@
   @include colors(white-on-blue);
 
   min-height: 100vh;
+  display: flex;
   align-items: center;
-  @include grid(3, $lem, $lem);
 
-  .name-and-role {
-    @include name-and-role;
-  }
-
-  .locations {
-    @include locations;
-    //display: none;
+  .card {
+    @include card;
   }
 
   .bio {
     @include bio;
-    //display: none;
+    display: none;
   }
 
   @include experience;

@@ -4,7 +4,13 @@
   }
 
   .experience-years {
-    padding-left: $lem * 4;
+    @include mobile {
+      margin-bottom: 0;
+    }
+
+    @include mobile-and-up {
+      padding-left: $lem * 4;
+    }
   }
 
   .description {

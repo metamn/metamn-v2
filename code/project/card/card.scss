@@ -1,0 +1,25 @@
+@mixin card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  @include border(normal, all);
+  @include text-style(body-text);
+  padding: $lem;
+
+  min-height: 30vh;
+  position: relative;
+
+  .avatar {
+    @include avatar;
+
+    position: absolute;
+    top: - $lem - $lem / 2;
+    left: calc(50% - #{$lem + $lem / 2});
+  }
+
+  &__name {
+    @include text-style(name);
+  }
+}
