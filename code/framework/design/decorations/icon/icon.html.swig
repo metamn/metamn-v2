@@ -6,5 +6,7 @@
     <use xlink:href="#icon-{{ icon.name }}"></use>
   </svg>
 
+  <span class="text">{{ icon.title }}</span>
+
   {% if icon.link %}</a>{% endif %}
 </div>

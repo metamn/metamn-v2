@@ -22,4 +22,8 @@
   }
 
   @include experience;
+
+  .contact {
+    @include contact;
+  }
 }

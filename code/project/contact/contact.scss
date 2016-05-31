@@ -1,0 +1,12 @@
+@mixin contact {
+  flex-basis: 100%;
+  display: flex;
+
+  .icon {
+    @include icon($color: $white);
+
+    .link {
+      @include link(white-on-blue, white-on-blue, white-on-blue);
+    }
+  }
+}

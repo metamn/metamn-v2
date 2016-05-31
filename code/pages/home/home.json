@@ -52,37 +52,32 @@
     ],
     "links": [
       {
-        "description": "Contact",
+        "title": "E-mail",
         "url": "bartus.csongor@gmail.com",
-        "title": "bartus.csongor@gmail",
         "type": "email",
         "glyph": "email"
       },
       {
-        "description": "Code",
+        "title": "Code",
         "url": "http://github.com/metamn",
-        "title": "github.com/metamn",
         "type": "external",
         "glyph": "github"
       },
       {
-        "description": "Learn",
+        "title": "Learn",
         "url": "http://metamn.io/beat",
-        "title": "Beat",
         "type": "external",
         "glyph": "beat"
       },
       {
-        "description": "Inspiration",
+        "title": "Inspiration",
         "url": "http://metamn.tumblr.com",
-        "title": "Tumblr",
         "type": "external",
         "glyph": "tumblr"
       },
       {
-        "description": "Follow",
+        "title": "Follow",
         "url": "https://medium.com/@metamn",
-        "title": "Medium",
         "type": "external",
         "glyph": "medium"
       }
