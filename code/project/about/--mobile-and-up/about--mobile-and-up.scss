@@ -1,0 +1,5 @@
+@mixin about--mobile-and-up {
+  @include mobile-and-up {
+    @include text-style(large);
+  }
+}

@@ -1,6 +1,6 @@
 @mixin about {
   @include text-style(body-text);
-  @include text-style(large);
+  align-self: center;
 
-  @include about--landscape;
+  @include about--mobile-and-up;
 }

@@ -1,7 +1,5 @@
 @mixin home__intro {
   @include section-margin;
-  @include section-fitscreen;
-
   display: flex;
   height: 100vh;
 
