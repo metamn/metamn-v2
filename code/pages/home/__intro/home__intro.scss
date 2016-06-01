@@ -3,7 +3,7 @@
   @include section-fitscreen;
 
   display: flex;
-  height: 100vh;
+  min-height: 100vh;
 
   .about {
     @include about;

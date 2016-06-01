@@ -1,50 +1,48 @@
 // Home page
 //
-// desc
+// The homepage
 //
 // Styleguide home
 html {
-  &.design-and-code {
-    body {
-      @include colors(blue-on-white);
+  body {
+    @include colors(blue-on-white);
 
-      overflow-x: hidden;
-      position: relative;
+    overflow-x: hidden;
+    position: relative;
 
-      .home__intro {
-        @include home__intro;
-        //display: none;
-      }
+    .home__intro {
+      @include home__intro;
+      //display: none;
+    }
 
-      .home__message {
-        @include home__message;
-        //display: none;
-      }
+    .home__message {
+      @include home__message;
+      //display: none;
+    }
 
-      .home__styleguide {
-        @include home__styleguide;
-        //display: none;
-      }
+    .home__styleguide {
+      @include home__styleguide;
+      display: none;
+    }
 
-      .home__beat {
-        @include home__beat;
-        //display: none;
-      }
+    .home__beat {
+      @include home__beat;
+      display: none;
+    }
 
-      .home__wanderlust {
-        @include home__wanderlust;
-        //display: none;
-      }
+    .home__wanderlust {
+      @include home__wanderlust;
+      display: none;
+    }
 
-      .home__reboot {
-        @include home__reboot;
-        //display: none;
-      }
+    .home__reboot {
+      @include home__reboot;
+      display: none;
+    }
 
-      .home__cv {
-        @include home__cv;
-        //display: none;
-      }
+    .home__cv {
+      @include home__cv;
+      display: none;
     }
   }
 }
