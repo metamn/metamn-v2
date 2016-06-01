@@ -1,12 +1,16 @@
 @mixin home__intro {
   display: flex;
+  flex-direction: column;
   height: 100vh;
 
   @include home__intro--overflow-hidden;
-  @include home__intro--portrait;
 
   .header {
     @include header;
+  }
+
+  .about {
+    @include about;
   }
 
   .featured-images {

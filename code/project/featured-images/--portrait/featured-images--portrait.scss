@@ -1,6 +1,6 @@
 @mixin featured-images--portrait {
   @include portrait {
-    transform: rotateX(45deg) rotateZ(45deg);
+    transform: rotateX(45deg) rotateZ(45deg) translateX(-10vh) translateY(-10vw);
     transform-style: preserve-3d;
   }
 }

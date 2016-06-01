@@ -1,0 +1,5 @@
+@mixin about--landscape {
+  @include landscape {
+    @include text-style(large);
+  }
+}

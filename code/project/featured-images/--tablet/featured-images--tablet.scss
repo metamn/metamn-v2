@@ -1,6 +1,0 @@
-@mixin featured-images--tablet {
-  @include tablet {
-    transform: rotateX(45deg) rotateZ(45deg) translateY(30vw) translateX(20vh);
-    transform-style: preserve-3d;
-  }
-}

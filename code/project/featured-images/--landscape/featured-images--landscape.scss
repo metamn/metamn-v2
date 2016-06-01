@@ -1,6 +1,6 @@
 @mixin featured-images--landscape {
   @include landscape {
-    transform: rotateX(45deg) rotateZ(45deg) translateY(-30vw) translateX(-100vh);
+    transform: rotateX(45deg) rotateZ(45deg) translateY(-30vw) translateX(-75vh);
     transform-style: preserve-3d;
   }
 }
