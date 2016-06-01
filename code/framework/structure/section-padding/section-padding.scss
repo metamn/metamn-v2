@@ -1,6 +1,6 @@
 @mixin section-padding {
-  padding-left: $lem / 2;
-  padding-right: $lem / 2;
+  padding-left: $lem;
+  padding-right: $lem;
 
   @include laptop {
     padding-left: 5%;

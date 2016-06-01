@@ -1,10 +1,12 @@
 @mixin home__intro {
-  @include section-margin;
   display: flex;
   height: 100vh;
 
-  .about {
-    @include about;
+  @include home__intro--overflow-hidden;
+  @include home__intro--portrait;
+
+  .header {
+    @include header;
   }
 
   .featured-images {

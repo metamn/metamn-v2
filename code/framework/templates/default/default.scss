@@ -11,6 +11,7 @@
 
 html {
   body {
+    @include default--mobile;
     @include semantic-html5-titles;
     @include typography-reset;
     @include text-style(default);

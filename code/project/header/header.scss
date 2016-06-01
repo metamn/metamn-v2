@@ -3,7 +3,11 @@
 // A simple header containing just the logo.
 //
 // Styleguide header
-@mixin header($color-scheme: white-on-blue) {
+@mixin header($color-scheme: blue-on-white) {
+  @include section-margin;
+  width: auto !important;
+  margin-top: 15vh;
+
   .logo {
     @include text-style(logo);
 

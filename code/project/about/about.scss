@@ -1,6 +1,8 @@
 @mixin about {
   @include text-style(body-text);
-  align-self: center;
 
+  @include about--mobile;
   @include about--mobile-and-up;
+
+  display: none;
 }
