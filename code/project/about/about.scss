@@ -2,6 +2,6 @@
   @include section-margin;
   @include text-style(body-text);
 
-  @include about--mobile;
+  @include about--portrait;
   @include about--landscape;
 }

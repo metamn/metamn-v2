@@ -1,0 +1,5 @@
+@mixin about--portrait {
+  @include portrait {
+    margin-top: $lem * 2;
+  }
+}

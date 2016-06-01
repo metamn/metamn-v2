@@ -1,9 +1,9 @@
 @mixin home__intro {
+  @include home__intro--overflow-hidden;
+
   display: flex;
   flex-direction: column;
-  height: 100vh;
-
-  @include home__intro--overflow-hidden;
+  min-height: 100vh;
 
   .header {
     @include header;

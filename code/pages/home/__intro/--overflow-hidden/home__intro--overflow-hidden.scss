@@ -1,7 +1,6 @@
 // Do not overflow when featured images are rotated
 // - http://stackoverflow.com/questions/21248111/overflow-behavior-after-using-css3-transform
 //
-// Chrome works well without, Firefox needs it
 @mixin home__intro--overflow-hidden {
   position: relative;
   overflow: hidden;

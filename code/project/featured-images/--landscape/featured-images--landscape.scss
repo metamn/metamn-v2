@@ -1,6 +1,15 @@
 @mixin featured-images--landscape {
   @include landscape {
-    transform: rotateX(45deg) rotateZ(45deg) translateY(-30vw) translateX(-75vh);
+    width: 75%;
+    @include grid(3, $lem, $lem);
+
+    transform: rotateX(45deg) rotateZ(45deg) translateY(-40vw) translateX(-85vh);
     transform-style: preserve-3d;
+
+    .figure {    
+      .img {
+        box-shadow: $lem / 2 $lem / 2 $gray;
+      }
+    }
   }
 }
