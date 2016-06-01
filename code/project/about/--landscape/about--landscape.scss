@@ -1,0 +1,5 @@
+@mixin about--landscape {
+  @include landscape {
+    margin-top: 25vh;
+  }
+}
