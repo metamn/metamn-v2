@@ -11,13 +11,10 @@
   padding: $lem;
   box-sizing: border-box;
 
-  position: relative;
-  z-index: 2;
-  opacity: .9;
-
 
   .header {
     @include header;
+    display: none;
   }
 
   .offer {

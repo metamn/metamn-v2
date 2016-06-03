@@ -1,13 +1,9 @@
 @mixin featured-images--portrait {
   @include portrait {
     @include grid(4, $lem, $lem);
-    top: 0;
-
-    transform: rotate(5deg);
+    padding: $lem * 2 $lem;
 
     .figure {
-      padding: $lem;
-      
       .img {
         box-shadow: $lem / 4 $lem / 4 $gray;
       }
