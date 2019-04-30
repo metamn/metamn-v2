@@ -12,9 +12,15 @@ var destination = 'production';
 // supported image extensions
 var image_extensions = '/*.{png,jpg,gif,jpeg,svg}';
 
+// supported video extensions
+var video_extensions = '/*.{mp4,m4v,webm,ogv}';
+
 
 
 module.exports = {
+
+  rootDir: rootDir,
+
   // The destination folder where all the generated files will be copied
   // - the contents of this folder will be uploaded to a static web server like Github Pages
   dest: destination,
@@ -90,5 +96,16 @@ module.exports = {
   archives_json: sourceCode + '/archives.json',
 
   // Where to put archives
-  archives_folder: sourceCode + '/pages/archive/'
+  archives_folder: sourceCode + '/pages/archive/',
+
+
+  // Sitemap
+  site_url: "http://metamn.io/beat",
+
+
+  // video source folder
+  video_src: sourceCode + '/**/' + video_extensions,
+
+  // video destination folder
+  video_dest: destination + '/assets/videos',
 }

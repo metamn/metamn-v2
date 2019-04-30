@@ -26,9 +26,12 @@ gulp.task('articleCreateFile', function() {
   return gulp.src(paths.articles_src)
     .pipe(plumber({errorHandler: onError}))
     .pipe(data(function(file) {
-      // Do not include .jsons from @assets
-      if (file.path.indexOf('@assets') == -1) {
-        fs.appendFileSync(paths.articles_json, file.contents + ',');
+      // Do not include .jsons from @assets && the home.json
+      if ((file.path.indexOf('@assets') == -1) && (file.path.indexOf('home.json') == -1)) {
+        // Do not include empty JSONS
+        if (file.contents != '{}') {
+          fs.appendFileSync(paths.articles_json, file.contents + ',');
+        }
       }
     }))
 });
@@ -41,11 +44,12 @@ gulp.task('articleCloseFile', function() {
 
 
 // Sort articles by date
+// - after working well for a year this code broke without being touched
 function sortByDate(data) {
   var sorted = [];
 
   Object.keys(data).sort(function(a, b) {
-    return data[a].date < data[b].date ? -1 : 1
+    return data[a].date > data[b].date ? -1 : 1
   }).forEach(function(key) {
     sorted.push(data[key]);
   });
@@ -58,7 +62,12 @@ function sortByDate(data) {
 gulp.task('articleOrderArticles', function() {
   var articles = JSON.parse(fs.readFileSync(paths.articles_json, 'utf8'));
 
-  articles = sortByDate(articles);
+  //articles = sortByDate(articles);
+  articles.sort(function(a,b){
+    // Turn your strings into dates, and then subtract them
+    // to get a value that is either negative, positive, or zero.
+    return new Date(b.date) - new Date(a.date);
+  });
 
   fs.openSync(paths.articles_json, 'w');
   fs.appendFileSync(paths.articles_json, JSON.stringify(articles));

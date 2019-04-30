@@ -11,47 +11,60 @@
 //
 // Styleguide swig
 
-
 // Plugins
-var gulp = require('gulp'),
-    plumber = require('gulp-plumber'),
-    rename = require('gulp-rename'),
-
-    swig = require('gulp-swig'),
-    data = require('gulp-data'),
-    fs = require('fs'),
-    path = require('path'),
-    onError = require('../utils/onError'),
-    getJSONData = require('../utils/getJSONData');
-
+var gulp = require("gulp"),
+  plumber = require("gulp-plumber"),
+  rename = require("gulp-rename"),
+  swig = require("gulp-swig"),
+  data = require("gulp-data"),
+  marked = require("swig-marked"),
+  typeset = require("gulp-typeset"),
+  gulpif = require("gulp-if"),
+  fs = require("fs"),
+  path = require("path"),
+  onError = require("../utils/onError"),
+  getJSONData = require("../utils/getJSONData");
 
 // Configuration
-var paths = require('./../config');
+var paths = require("./../config");
 
+// check if file contains markdown
+// - wanted to fix the &mdash; which is rendered with random spacw by swig. No luck
+// - used gulp-typeset, gulp-typogr etc...
+var isMarkdown = function(file) {
+  //var fileContent = fs.readFileSync(file.path, "utf8");
+  //var md = (fileContent.indexOf('class="markdown"') !== -1)
+  //return md;
+  return false;
+};
 
-
-var _swig = function(source, dest, config, grabJSON) {
-  return gulp.src(source)
-    .pipe(plumber({errorHandler: onError}))
+var _swig = function(source, dest, config) {
+  gulp
+    .src(source)
+    .pipe(plumber({ errorHandler: onError }))
 
     // load JSONs
     .pipe(data(getJSONData))
-    .pipe(swig({
-      defaults: {
-        cache: false,
-        locals: {
-          // Load site-wide JSON settings
-          site: require(config),
+    .pipe(
+      swig({
+        defaults: {
+          cache: false,
+          locals: {
+            // Load site-wide JSON settings
+            site: require(config)
+          }
+        },
+        setup: function(swig) {
+          marked.useTag(swig, "markdown");
         }
-      }
-    }))
-
-    .pipe(rename({ extname: '' }))
+      })
+    )
+    .pipe(rename({ extname: "" }))
+    //.pipe(gulpif(isMarkdown, typeset()))
     .pipe(gulp.dest(dest));
-}
-
+};
 
 // Task for compiling .swig files from /site
-gulp.task('swig', function() {
+gulp.task("swig", function() {
   _swig(paths.swig_src, paths.swig_dest, paths.config_json);
 });
