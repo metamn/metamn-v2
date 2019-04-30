@@ -19,12 +19,14 @@ html {
 
     .home__styleguide {
       @include home__styleguide;
-      display: none;
+      overflow: hidden;
+      //display: none;
     }
 
     .home__beat {
       @include home__beat;
-      display: none;
+      overflow: hidden;
+      //display: none;
     }
 
     .home__wanderlust {
