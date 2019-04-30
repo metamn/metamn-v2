@@ -1,6 +1,6 @@
 {
-  "resize": "true",
-  "optimize": "true",
+  "resize": "false",
+  "optimize": "false",
   "sizes": [
     {
       "name": "desktop",
