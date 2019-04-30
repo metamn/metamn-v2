@@ -12,10 +12,24 @@
 
     .link {
       @include link($color-scheme, $color-scheme, $color-scheme, $color-scheme);
+      background-color: transparent !important;
+
+      .flip__span {
+        background-color: transparent !important;
+
+        &:before {
+          background-color: transparent !important;
+        }
+      }
     }
 
     .flip {
       @include flip;
     }
+  }
+
+  @include landscape {
+    position: fixed;
+    bottom: $lem * 2;
   }
 }
