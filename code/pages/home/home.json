@@ -6,7 +6,7 @@
   ],
   "cv": {
     "name": "Csongor Bartus",
-    "title": "Web designer and developer",
+    "title": "design & code",
     "image": "avatar.png",
     "locations": [
       {
@@ -19,7 +19,7 @@
       }
     ],
     "bio": [
-      "<span>10 years</span> of creating user interfaces and experiences for the web."
+      "<span>10 years</span> of creating user interfaces, experiences and products for the web."
     ],
     "offer": [
       "Your message delivered",
@@ -31,7 +31,15 @@
         "title": "Freelancer",
         "years": "2013 &mdash; present",
         "technologies": [
-          "HTML5", "SCSS", "Animations", "Javascript", "BEM", "Gulp", "Webpack", "Wordpress", "Static sites"
+          "HTML5",
+          "SCSS",
+          "Animations",
+          "Javascript",
+          "BEM",
+          "Gulp",
+          "Webpack",
+          "Wordpress",
+          "Static sites"
         ],
         "description": [
           "Responsive web design, front–end development and Wordpress for clients around the world."
@@ -41,8 +49,17 @@
         "title": "Smuff, CTO, co-founder",
         "years": "2006 &mdash; 2013",
         "technologies": [
-          "HTML", "CSS", "jQuery", "Wordpress", "Ruby on Rails", "PHP / Yii / MVC", "Shopify", "Jekyll",
-          "APIs", "Google Analytics", "Mailchimp"
+          "HTML",
+          "CSS",
+          "jQuery",
+          "Wordpress",
+          "Ruby on Rails",
+          "PHP / Yii / MVC",
+          "Shopify",
+          "Jekyll",
+          "APIs",
+          "Google Analytics",
+          "Mailchimp"
         ],
         "description": [
           "Custom e-commerce product design and development.",
@@ -182,10 +199,7 @@
   "works": [
     {
       "title": "Beat",
-      "services": [
-        "Design",
-        "Front&ndash;end"
-      ],
+      "services": ["Design", "Front&ndash;end"],
       "description": [
         "<a href='http://metamn.io/beat' title='Beat'>Beat</a> is a blog about design and code. It's lazy yet meta. With focus on that few stories which are shaping the front&ndash;end a year.",
         "The design is clean. Typography and form follows the modern style. The generous usage of negative space is the main ingredient of the design.",
@@ -242,10 +256,7 @@
     },
     {
       "title": "Wanderlust",
-      "services": [
-        "Front&ndash;end",
-        "Wordpress"
-      ],
+      "services": ["Front&ndash;end", "Wordpress"],
       "description": [
         "<a href='http://wanderlust.com' title='Wanderlust'>Wanderlust</a> is an international yoga events and festivals company coming up with an ambitious project including redesign, back&ndash;end migration and storytelling.",
         "Our task &mdash; a team of three developers working remotely &mdash; was to develop the front-end code, migrate individual Drupal sites to Wordpress and create a storytelling engine for their team of editors.",
@@ -319,10 +330,7 @@
     },
     {
       "title": "Reboot",
-      "services": [
-        "Front&ndash;end",
-        "Wordpress"
-      ],
+      "services": ["Front&ndash;end", "Wordpress"],
       "description": [
         "<a href='http://reboot.org' title='Reboot'>Reboot</a> is a social design consultancy focused on international development.",
         "After growing out the startup phase the Reboot design team created a new look and wanted a developer to implement in Wordpress.",
@@ -371,13 +379,7 @@
       ]
     }
   ],
-  "focus_points": [
-    "Identity",
-    "Offer",
-    "Values",
-    "Action",
-    "Entertainment"
-  ],
+  "focus_points": ["Identity", "Offer", "Values", "Action", "Entertainment"],
   "styleguide_sliders": [
     {
       "title": "Typography"

@@ -1,6 +1,6 @@
 @mixin description--landscape {
   @include landscape {
-    @include grid(3, $lem);
+    //@include grid(3, $lem);
     flex-basis: 100%;
   }
 }

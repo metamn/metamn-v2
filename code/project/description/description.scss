@@ -1,7 +1,10 @@
 @mixin description {
   @include text-style(headline);
+  font-weight: normal;
+  text-transform: none;
 
-  a, .link {
+  a,
+  .link {
     @include link(white-on-blue, white-on-blue, white-on-blue);
   }
 

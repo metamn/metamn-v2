@@ -16,6 +16,7 @@
   position: relative;
   .description {
     @include description;
+    padding: 0 $lem;
 
     position: absolute;
     top: 30%;
