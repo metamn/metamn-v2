@@ -1,8 +1,9 @@
-var responsiveImageURL = require("./../../helpers/js/responsiveImageURL.js");
+var responsiveImageURL = require('./../../helpers/js/responsiveImageURL.js');
 
 // Read the `figure` element's responsive images and breakpoints
 // Set as background image with `matchMedia` coming from `Picturefill`
 var backgroundImage = function(elementID) {
+
   // Set a responsive background image using `mathcMedia`
   function setResponsiveBackgroundImage(element, image, breakpoint, retina) {
     var mediaQuery = "only screen and " + breakpoint;
