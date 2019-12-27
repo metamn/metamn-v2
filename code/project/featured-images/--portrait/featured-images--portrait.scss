@@ -7,6 +7,10 @@
     transform-style: preserve-3d;
 
     .figure {
+      @include tablet {
+        padding: $lem / 2;
+      }
+
       .img {
         box-shadow: $lem / 4 $lem / 4 $gray;
       }
