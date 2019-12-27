@@ -4,6 +4,8 @@
   @include colors(white-on-blue);
 
   min-height: 100vh;
+  margin-top: $lem * 6; // 4 from section above, 2 from negative avatar top margin
+
   display: flex;
   flex-wrap: wrap;
   align-items: center;

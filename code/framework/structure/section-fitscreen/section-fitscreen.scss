@@ -1,5 +1,5 @@
 @mixin section-fitscreen {
-  height: 80vh;
-  margin-top: 10vh;
-  margin-bottom: 10vh;
+  height: calc(100vh - #{$lem * 8});
+  margin-top: $lem * 4;
+  margin-bottom: $lem * 4;
 }

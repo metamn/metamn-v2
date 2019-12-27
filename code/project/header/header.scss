@@ -29,5 +29,5 @@
   }
 
   position: fixed;
-  top: 92.5vh;
+  top: calc(100vh - #{$lem * 3});
 }

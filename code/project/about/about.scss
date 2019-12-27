@@ -3,12 +3,8 @@
 
   &__title {
     @include text-style(body-text);
-
-    @include landscape {
-      @include text-style(large);
-    }
   }
 
   position: fixed;
-  top: 95vh;
+  top: calc(100vh - #{$lem * 2});
 }
