@@ -2,8 +2,6 @@
   display: flex;
   flex-direction: column;
 
-  @include text-style(headline);
-
   .ol-with-circle {
     @include ol-with-circle;
     display: none;

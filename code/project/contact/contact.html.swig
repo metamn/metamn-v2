@@ -4,7 +4,7 @@
 
 <ul class="list list--list-view">
   {% for link in cv.links %}
-  <li class="list-item">{{ l.link(link) }}{{ link.title }}</a></li>
+  <li class="list-item">{{ l.link(link) }}{{ link.initiale }}&nbsp;&mdash;&nbsp;{{ link.title }}</a></li>
   {% endfor %}
   </ul>
 </aside>

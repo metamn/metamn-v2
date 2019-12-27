@@ -26,13 +26,13 @@
     ],
     "experience": [
       {
-        "title": "CEO",
-        "years": "Present",
+        "title": "ceo",
+        "years": "present",
         "technologies": [],
-        "description": ["Os Equi Software"]
+        "description": ["os equi software"]
       },
       {
-        "title": "Freelancer, Consultant",
+        "title": "consultant",
         "years": "2019 &mdash; 2013",
         "technologies": [
           "HTML5",
@@ -45,10 +45,10 @@
           "Wordpress",
           "Static sites"
         ],
-        "description": ["UI/UX design, web development for clients worldwide"]
+        "description": ["ui/ux design, web development"]
       },
       {
-        "title": "CTO, co-founder",
+        "title": "cto",
         "years": "2013 &mdash; 2006",
         "technologies": [
           "HTML",
@@ -63,51 +63,65 @@
           "Google Analytics",
           "Mailchimp"
         ],
-        "description": ["Of Smuff, a local e-commerce business"]
+        "description": ["local e-commerce business"]
       }
     ],
     "links": [
       {
-        "title": "Contact",
+        "title": "contact",
         "url": "bartus.csongor@gmail.com",
         "type": "email",
-        "glyph": "email"
+        "glyph": "email",
+        "initiale": "c"
       },
       {
-        "title": "Projects",
+        "title": "projects",
         "url": "http://github.com/metamn",
         "type": "external",
-        "glyph": "github"
+        "glyph": "github",
+        "initiale": "p"
       },
       {
-        "title": "React",
+        "title": "react",
         "url": "http://metamn.io/react",
         "type": "external",
-        "glyph": "react"
+        "glyph": "react",
+        "initiale": "r"
       },
       {
-        "title": "Beat",
+        "title": "beat",
         "url": "http://metamn.io/beat",
         "type": "external",
-        "glyph": "beat"
+        "glyph": "beat",
+        "initiale": "b"
       },
       {
-        "title": "Pulse",
+        "title": "pulse",
         "url": "http://metamn.io/pulse",
         "type": "external",
-        "glyph": "pulse"
+        "glyph": "pulse",
+        "initiale": "p"
       },
       {
-        "title": "Gust",
+        "title": "gust",
         "url": "http://metamn.io/gust",
         "type": "external",
-        "glyph": "gust"
+        "glyph": "gust",
+        "initiale": "g"
       },
       {
-        "title": "Moodboard",
+        "title": "moodboard",
         "url": "http://metamn.tumblr.com",
         "type": "external",
-        "glyph": "tumblr"
+        "glyph": "tumblr",
+        "initiale": "m"
+      },
+      {
+        "title": "twitter",
+        "url": "https://twitter.com/metamn/",
+        "type": "external",
+        "glyph": "twitter",
+        "initiale": "t"
       }
     ]
   },

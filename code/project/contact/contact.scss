@@ -1,7 +1,7 @@
 @mixin contact {
   .list {
     @include list;
-    list-style: decimal-leading-zero;
+    list-style: none;
 
     .link {
       @include link(white-on-blue, white-on-blue, white-on-blue);
