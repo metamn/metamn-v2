@@ -1,5 +1,8 @@
 @mixin experience--mobile-and-up {
   @include mobile-and-up {
+    align-items: flex-end;
+    border-bottom: 4px double;
+
     &__title,
     &__time {
       width: 30%;

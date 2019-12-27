@@ -9,8 +9,12 @@
     @include list;
     list-style: none;
 
-    .link {
-      @include link(white-on-blue, white-on-blue, white-on-blue);
+    .list-item {
+      border-bottom: 4px double;
+
+      .link {
+        @include link(white-on-blue, white-on-blue, white-on-blue);
+      }
     }
   }
 }

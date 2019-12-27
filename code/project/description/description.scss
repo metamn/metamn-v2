@@ -1,13 +1,6 @@
 @mixin description {
-  @include text-style(headline);
-  font-weight: normal;
-  text-transform: none;
-
   a,
   .link {
     @include link(white-on-blue, white-on-blue, white-on-blue);
   }
-
-  @include description--portrait;
-  @include description--landscape;
 }
