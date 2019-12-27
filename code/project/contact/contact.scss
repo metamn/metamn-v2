@@ -1,21 +1,10 @@
 @mixin contact {
-  flex-basis: 100%;
-  @include grid(3, $lem, $lem);
-
-  .icon {
-    @include icon($color: $white);
+  .list {
+    @include list;
+    list-style: decimal-leading-zero;
 
     .link {
       @include link(white-on-blue, white-on-blue, white-on-blue);
-    }
-
-    .svg {
-      display: none;
-    }
-
-    &--email,
-    &--tumblr {
-      padding-left: $lem * 4;
     }
   }
 }

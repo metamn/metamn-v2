@@ -11,6 +11,7 @@
     &:focus,
     &:active {
       @include colors($color-scheme);
+      text-decoration: line-through;
     }
   }
 }

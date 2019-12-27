@@ -1,8 +1,10 @@
+{% import "../../framework/helpers/link/link.swig" as l  %}
 <aside class="contact">
   <h3>Contact</h3>
 
+<ul class="list list--list-view">
   {% for link in cv.links %}
-    {% set icon = { 'title': link.title, 'name': link.glyph, 'link': link } %}
-    {% include '../../framework/design/decorations/icon/icon.html.swig' %}
+  <li class="list-item">{{ l.link(link) }}{{ link.title }}</a></li>
   {% endfor %}
+  </ul>
 </aside>

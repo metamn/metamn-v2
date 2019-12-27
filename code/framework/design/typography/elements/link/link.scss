@@ -11,8 +11,14 @@
 // Experimental - Visited links are not working well across browsers
 //
 // Styleguide link
-@mixin link($color-scheme: none, $color-scheme-hover: none, $color-scheme-visited: none, $color-scheme-visited-hover: none) {
+@mixin link(
+  $color-scheme: none,
+  $color-scheme-hover: none,
+  $color-scheme-visited: none,
+  $color-scheme-visited-hover: none
+) {
   display: inline-flex;
+  text-decoration: none;
 
   &:link {
     @if ($color-scheme != none) {

@@ -5,5 +5,5 @@
   {% include '../../framework/design/decorations/avatar/avatar.html.swig' %}
 
   <span class="card__name">{{ cv.name }}</span>
-  <span class="card__title">{{ cv.title }}</span>
+  {% include '../contact/contact.html.swig' %}
 </article>

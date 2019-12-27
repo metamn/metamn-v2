@@ -14,10 +14,13 @@
 
   .bio {
     @include bio;
+    max-width: $lem * 15;
+    padding: $lem;
   }
 
   .experiences {
     @include experiences;
+    width: 100%;
   }
 
   .contact {

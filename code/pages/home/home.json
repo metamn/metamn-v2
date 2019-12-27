@@ -18,7 +18,7 @@
         "country": "Romania"
       }
     ],
-    "bio": ["Software development and UI/UX design."],
+    "bio": ["Software product design and development."],
     "offer": [
       "Your message delivered",
       "<span>Design</span> reusable",
@@ -45,7 +45,7 @@
           "Wordpress",
           "Static sites"
         ],
-        "description": ["Product design and development for clients worldwide"]
+        "description": ["UI/UX design, web development for clients worldwide"]
       },
       {
         "title": "CTO, co-founder",
@@ -68,34 +68,46 @@
     ],
     "links": [
       {
-        "title": "E-mail",
+        "title": "Contact",
         "url": "bartus.csongor@gmail.com",
         "type": "email",
         "glyph": "email"
       },
       {
-        "title": "Code",
+        "title": "Projects",
         "url": "http://github.com/metamn",
         "type": "external",
         "glyph": "github"
       },
       {
-        "title": "Learn",
+        "title": "React",
+        "url": "http://metamn.io/react",
+        "type": "external",
+        "glyph": "react"
+      },
+      {
+        "title": "Beat",
         "url": "http://metamn.io/beat",
         "type": "external",
         "glyph": "beat"
       },
       {
-        "title": "Inspiration",
+        "title": "Pulse",
+        "url": "http://metamn.io/pulse",
+        "type": "external",
+        "glyph": "pulse"
+      },
+      {
+        "title": "Gust",
+        "url": "http://metamn.io/gust",
+        "type": "external",
+        "glyph": "gust"
+      },
+      {
+        "title": "Moodboard",
         "url": "http://metamn.tumblr.com",
         "type": "external",
         "glyph": "tumblr"
-      },
-      {
-        "title": "Follow",
-        "url": "https://medium.com/@metamn",
-        "type": "external",
-        "glyph": "medium"
       }
     ]
   },
