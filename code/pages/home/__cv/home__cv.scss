@@ -27,4 +27,16 @@
   .contact {
     @include contact;
   }
+
+  @include landscape {
+    flex-direction: row;
+
+    .card {
+      width: 30%;
+    }
+
+    .experiences {
+      padding: $lem;
+    }
+  }
 }
