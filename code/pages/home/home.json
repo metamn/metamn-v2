@@ -1,7 +1,7 @@
 {
   "title": "Home",
   "about": [
-    "Design and code",
+    "design and code",
     "specialized in marketing websites and landing pages"
   ],
   "cv": {
@@ -18,9 +18,7 @@
         "country": "Romania"
       }
     ],
-    "bio": [
-      "<span>10 years</span> of creating user interfaces, experiences and products for the web."
-    ],
+    "bio": ["Software development and UI/UX design."],
     "offer": [
       "Your message delivered",
       "<span>Design</span> reusable",
@@ -28,8 +26,14 @@
     ],
     "experience": [
       {
-        "title": "Freelancer",
-        "years": "2013 &mdash; present",
+        "title": "CEO",
+        "years": "Present",
+        "technologies": [],
+        "description": ["Os Equi Software"]
+      },
+      {
+        "title": "Freelancer, Consultant",
+        "years": "2019 &mdash; 2013",
         "technologies": [
           "HTML5",
           "SCSS",
@@ -41,13 +45,11 @@
           "Wordpress",
           "Static sites"
         ],
-        "description": [
-          "Responsive web design, front–end development and Wordpress for clients around the world."
-        ]
+        "description": ["Product design and development for clients worldwide"]
       },
       {
-        "title": "Smuff, CTO, co-founder",
-        "years": "2006 &mdash; 2013",
+        "title": "CTO, co-founder",
+        "years": "2013 &mdash; 2006",
         "technologies": [
           "HTML",
           "CSS",
@@ -61,10 +63,7 @@
           "Google Analytics",
           "Mailchimp"
         ],
-        "description": [
-          "Custom e-commerce product design and development.",
-          "Today Smuff is local market leader with 44% of returning customers."
-        ]
+        "description": ["Of Smuff, a local e-commerce business"]
       }
     ],
     "links": [

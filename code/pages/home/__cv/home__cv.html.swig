@@ -4,5 +4,5 @@
   {% include '../../../project/card/card.html.swig' %}
   {% include '../../../project/bio/bio.html.swig' %}
   {% include '../../../project/experiences/experiences.html.swig' %}
-  {# include '../../../project/contact/contact.html.swig' #}
+  {% include '../../../project/contact/contact.html.swig' %}
 </section>
