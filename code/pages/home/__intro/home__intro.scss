@@ -1,22 +1,23 @@
 @mixin home__intro {
-  @include home__intro--overflow-hidden;
-  @include section-fitscreen;
-
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
+  overflow: hidden;
+
+  @include section-fitscreen;
 
   .header {
     @include header;
-    //display: none;
+    order: 2;
   }
 
   .about {
     @include about;
-    //display: none;
+    oder: 3;
   }
 
   .featured-images {
     @include featured-images;
+    order: 1;
   }
 }

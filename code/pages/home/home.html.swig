@@ -1,7 +1,6 @@
 {% extends '../../framework/templates/default/default.html.swig' %}
 {% block content %}
 
-	{# into seems to mess up the swig generator #}
   {% include '__intro/home__intro.html.swig' %}
   {# include '__message/home__message.html.swig' #}
   {# include '__styleguide/home__styleguide.html.swig' #}

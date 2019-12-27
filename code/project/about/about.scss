@@ -1,7 +1,14 @@
 @mixin about {
   @include section-margin;
-  @include text-style(body-text);
 
-  @include about--portrait;
-  @include about--landscape;
+  &__title {
+    @include text-style(body-text);
+
+    @include landscape {
+      @include text-style(large);
+    }
+  }
+
+  position: fixed;
+  top: 95vh;
 }

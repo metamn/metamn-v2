@@ -2,10 +2,5 @@
 // - http://stackoverflow.com/questions/21248111/overflow-behavior-after-using-css3-transform
 //
 @mixin home__intro--overflow-hidden {
-  position: relative;
   overflow: hidden;
-
-  .featured-images {
-    position: absolute;
-  }
 }

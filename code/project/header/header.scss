@@ -28,8 +28,6 @@
     }
   }
 
-  @include landscape {
-    position: fixed;
-    bottom: $lem * 2;
-  }
+  position: fixed;
+  top: 92.5vh;
 }
