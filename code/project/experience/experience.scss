@@ -2,10 +2,6 @@
   display: flex;
   margin-bottom: $lem;
 
-  @include landscape {
-    margin-bottom: 0;
-  }
-
   &__title {
     display: flex;
   }
