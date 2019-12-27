@@ -1,7 +1,10 @@
 @mixin featured-images--portrait {
   @include portrait {
-    @include grid(4, $lem, $lem);
-    padding: $lem * 2 $lem;
+    @include grid(5, 1px, 1px);
+
+    transform: rotateX(45deg) rotateZ(45deg) translateY(-20vh) translateX(-10vw)
+      scale(2.5);
+    transform-style: preserve-3d;
 
     .figure {
       .img {
