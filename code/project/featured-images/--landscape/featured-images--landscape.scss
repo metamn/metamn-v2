@@ -2,7 +2,7 @@
   @include landscape {
     @include grid(4, $lem, $lem);
 
-    transform: rotateX(45deg) rotateZ(45deg) translateY(-50vh) translateX(5vw);
+    transform: rotateX(45deg) rotateZ(45deg) translateY(-160vh) translateX(-5vw);
     transform-style: preserve-3d;
 
     .figure {
