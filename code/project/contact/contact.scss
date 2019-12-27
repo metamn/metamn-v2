@@ -1,6 +1,10 @@
 @mixin contact {
   width: 100%;
 
+  @include landscape {
+    margin-bottom: $lem;
+  }
+
   .list {
     @include list;
     list-style: none;
