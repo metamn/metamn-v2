@@ -1,4 +1,6 @@
 @mixin contact {
+  width: 100%;
+
   .list {
     @include list;
     list-style: none;

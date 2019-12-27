@@ -2,11 +2,12 @@
   @include mobile-and-up {
     &__title,
     &__time {
-      flex-basis: 20%;
+      width: 30%;
       margin-right: $lem;
     }
 
     .description {
+      width: 40%;
       font-weight: normal;
       font-size: 1em;
       line-height: 1.48;

@@ -1,8 +1,5 @@
 @mixin experience {
-  flex-basis: 100%;
   display: flex;
-  justify-content: space-between;
-
   margin-bottom: $lem;
 
   &__title {

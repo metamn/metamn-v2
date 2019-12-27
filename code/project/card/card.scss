@@ -7,15 +7,12 @@
   @include border(normal, all);
   @include text-style(body-text);
 
-  padding: $lem;
+  position: relative;
 
   @include portrait {
-    @include section-margin;
-    margin-left: 0;
-    margin-right: 0;
+    width: 100%;
+    margin-bottom: $lem * 2;
   }
-
-  position: relative;
 
   .avatar {
     @include avatar;
