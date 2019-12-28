@@ -9,39 +9,10 @@ html {
 
     .home__intro {
       @include home__intro;
-      //display: none;
-    }
-
-    .home__message {
-      @include home__message;
-      //display: none;
-    }
-
-    .home__styleguide {
-      @include home__styleguide;
-      overflow: hidden;
-      //display: none;
-    }
-
-    .home__beat {
-      @include home__beat;
-      overflow: hidden;
-      //display: none;
-    }
-
-    .home__wanderlust {
-      @include home__wanderlust;
-      //display: none;
-    }
-
-    .home__reboot {
-      @include home__reboot;
-      //display: none;
     }
 
     .home__cv {
       @include home__cv;
-      //display: none;
     }
   }
 }

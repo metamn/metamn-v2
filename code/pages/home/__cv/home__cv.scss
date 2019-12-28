@@ -12,28 +12,12 @@
   align-items: center;
   font-size: larger;
 
-  .card {
-    @include card;
-  }
-
-  .bio {
-    @include bio;
-  }
-
   .experiences {
     @include experiences;
   }
 
-  .contact {
-    @include contact;
-  }
-
   @include landscape {
     flex-direction: row;
-
-    .card {
-      width: 40%;
-    }
 
     .experiences {
       width: 60%;
