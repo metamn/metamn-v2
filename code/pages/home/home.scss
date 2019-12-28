@@ -14,5 +14,9 @@ html {
     .experiences {
       @include experiences;
     }
+
+    .contact {
+      @include contact;
+    }
   }
 }

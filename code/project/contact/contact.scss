@@ -1,20 +1,15 @@
 @mixin contact {
-  width: 100%;
+  @include section-padding;
+  @include colors(white-on-blue);
 
-  @include landscape {
-    margin-bottom: $lem;
-  }
+  padding-bottom: $lem;
 
   .list {
     @include list;
-    list-style: none;
+    list-style-type: none;
 
-    .list-item {
-      border-bottom: 4px double;
-
-      .link {
-        @include link(white-on-blue, white-on-blue, white-on-blue);
-      }
+    .link {
+      @include link(white-on-blue, white-on-blue, white-on-blue);
     }
   }
 }
