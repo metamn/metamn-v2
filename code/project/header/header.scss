@@ -12,7 +12,7 @@
 
   position: fixed;
   top: calc(100vh - #{$lem * 3});
-  z-index: -1;
+  z-index: 1;
 
   .logo {
     @include text-style(logo);
@@ -21,15 +21,6 @@
 
     .link {
       @include link($color-scheme, $color-scheme, $color-scheme, $color-scheme);
-      background-color: transparent !important;
-
-      .flip__span {
-        background-color: transparent !important;
-
-        &:before {
-          background-color: transparent !important;
-        }
-      }
     }
 
     .flip {

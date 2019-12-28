@@ -11,6 +11,9 @@
   justify-content: center;
   font-size: larger;
 
+  position: relative;
+  z-index: 2; // Make the header invisible on scroll
+
   .experience {
     @include experience;
   }

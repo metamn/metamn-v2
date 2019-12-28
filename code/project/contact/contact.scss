@@ -4,6 +4,9 @@
 
   padding-bottom: $lem;
 
+  position: relative;
+  z-index: 2; // Make the header invisible on scroll
+
   .list {
     @include list;
     list-style-type: none;
