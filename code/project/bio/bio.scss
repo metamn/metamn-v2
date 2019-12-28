@@ -1,9 +1,0 @@
-@mixin bio {
-  display: flex;
-  flex-direction: column;
-
-  .ol-with-circle {
-    @include ol-with-circle;
-    display: none;
-  }
-}

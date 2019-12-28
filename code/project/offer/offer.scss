@@ -1,6 +1,0 @@
-@mixin offer($color: $white, $background: $blue) {
-  .glitch-text {
-    @include text-style(headline);
-    @include glitch-text($color: $color, $background: $background);
-  }
-}

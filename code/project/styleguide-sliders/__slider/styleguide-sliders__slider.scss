@@ -1,9 +1,0 @@
-@mixin styleguide-sliders__slider($width, $height, $margin) {
-  width: $width;
-  height: $height;
-  margin: 0 $margin;
-
-  position: relative;
-
-  @include border(thin, all);
-}
