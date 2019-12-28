@@ -1,0 +1,18 @@
+@mixin intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  overflow: hidden;
+
+  @include section-fitscreen;
+
+  .header {
+    @include header;
+    order: 2;
+  }
+
+  .featured-images {
+    @include featured-images;
+    order: 1;
+  }
+}

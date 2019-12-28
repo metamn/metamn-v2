@@ -7,8 +7,8 @@ html {
   body {
     @include colors(blue-on-white);
 
-    .home__intro {
-      @include home__intro;
+    .intro {
+      @include intro;
     }
 
     .home__cv {
