@@ -5,4 +5,6 @@
     {% set link = { 'title': site.title, 'url': site.url, 'type': 'external', 'klass': 'flip' } %}
     {% include '../../framework/design/typography/elements/link-with-fliptext/link-with-fliptext.html.swig' %}
   </div>
+
+  <div class="about">{{ about[0] }}</div>
 </header>

@@ -11,11 +11,6 @@
     order: 2;
   }
 
-  .about {
-    @include about;
-    oder: 3;
-  }
-
   .featured-images {
     @include featured-images;
     order: 1;

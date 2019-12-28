@@ -1,14 +1,19 @@
 // Header
 //
-// A simple header containing just the logo.
+// A simple header.
 //
 // Styleguide header
 @mixin header($color-scheme: blue-on-white) {
   @include section-margin;
   width: auto !important;
 
+  display: flex;
+  flex-direction: column;
+
   .logo {
     @include text-style(logo);
+
+    display: inline-flex;
 
     .link {
       @include link($color-scheme, $color-scheme, $color-scheme, $color-scheme);
@@ -26,6 +31,10 @@
     .flip {
       @include flip;
     }
+  }
+
+  .about {
+    // ...
   }
 
   position: fixed;
