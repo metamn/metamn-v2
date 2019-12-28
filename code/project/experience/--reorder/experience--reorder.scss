@@ -1,9 +1,0 @@
-@mixin experience--reorder {
-  > * {
-    order: 2;
-  }
-
-  &__time {
-    order: 1;
-  }
-}

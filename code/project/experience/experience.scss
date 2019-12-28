@@ -3,10 +3,15 @@
   flex-direction: column;
   margin-bottom: $lem;
 
+  > * {
+    order: 2;
+  }
+
+  &__time {
+    order: 1;
+  }
+
   &__title {
     display: flex;
   }
-
-  @include experience--reorder;
-  @include experience--mobile-and-up;
 }
