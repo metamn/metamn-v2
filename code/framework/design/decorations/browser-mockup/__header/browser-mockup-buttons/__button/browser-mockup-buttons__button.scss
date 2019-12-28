@@ -1,7 +1,0 @@
-@mixin browser-mockup-buttons__button($border-size, $border-color) {
-  @include circle($lem / 3);
-  @include border($border-size, all);
-
-  border-color: $border-color;
-  margin-right: $lem / 4;
-}

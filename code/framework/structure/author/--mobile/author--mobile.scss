@@ -1,7 +1,0 @@
-@mixin author--mobile {
-  @include mobile {
-    .author__name {
-      margin-top: $lem;
-    }
-  }
-}

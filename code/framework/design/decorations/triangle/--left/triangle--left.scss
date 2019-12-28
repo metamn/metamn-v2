@@ -1,4 +1,0 @@
-@mixin triangle--left($size, $color) {
-  border-width: $size $size $size 0;
-  border-color: transparent $color transparent transparent;
-}

@@ -1,7 +1,0 @@
-@mixin x-slide {
-  @include colors(white-on-blue);
-
-  &__title {
-    display: flex;
-  }
-}

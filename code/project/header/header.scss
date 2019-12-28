@@ -15,9 +15,9 @@
   z-index: 1;
 
   .logo {
-    @include text-style(logo);
-
     display: inline-flex;
+
+    @include text-style(logo);
 
     .link {
       @include link($color-scheme, $color-scheme, $color-scheme, $color-scheme);
@@ -26,9 +26,5 @@
     .flip {
       @include flip;
     }
-  }
-
-  .about {
-    // ...
   }
 }
