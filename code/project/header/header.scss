@@ -27,4 +27,11 @@
       @include flip;
     }
   }
+
+  @include laptop {
+    .logo,
+    .about {
+      font-size: larger;
+    }
+  }
 }

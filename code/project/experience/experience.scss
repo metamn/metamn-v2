@@ -5,6 +5,10 @@
 
   > * {
     order: 2;
+
+    @include laptop {
+      font-size: larger;
+    }
   }
 
   &__time {

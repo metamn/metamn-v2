@@ -13,6 +13,10 @@
 
     .link {
       @include link(white-on-blue, white-on-blue, white-on-blue);
+
+      @include laptop {
+        font-size: larger;
+      }
     }
   }
 }
