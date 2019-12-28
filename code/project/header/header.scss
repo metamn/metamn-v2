@@ -28,7 +28,7 @@
     }
   }
 
-  @include laptop {
+  @include laptop-and-up {
     .logo,
     .about {
       font-size: larger;

@@ -6,7 +6,7 @@
   > * {
     order: 2;
 
-    @include laptop {
+    @include laptop-and-up {
       font-size: larger;
     }
   }

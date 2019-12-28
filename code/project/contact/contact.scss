@@ -14,7 +14,7 @@
     .link {
       @include link(white-on-blue, white-on-blue, white-on-blue);
 
-      @include laptop {
+      @include laptop-and-up {
         font-size: larger;
       }
     }
