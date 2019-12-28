@@ -3,8 +3,6 @@
   @include colors(white-on-blue);
 
   min-height: 100vh;
-  margin-top: $lem * 6; // 4 from section above, 2 from negative avatar top margin
-  padding-top: $lem / 2; // to make room for card border
 
   display: flex;
   flex-direction: column;

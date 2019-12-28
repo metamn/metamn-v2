@@ -7,6 +7,10 @@ html {
   body {
     @include colors(blue-on-white);
 
+    .header {
+      @include header;
+    }
+
     .intro {
       @include intro;
     }
