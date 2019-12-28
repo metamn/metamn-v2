@@ -1,19 +1,12 @@
 @mixin experience {
   display: flex;
+  flex-direction: column;
   margin-bottom: $lem;
 
   &__title {
     display: flex;
   }
 
-  .description {
-    a,
-    .link {
-      @include link(white-on-blue, white-on-blue, white-on-blue);
-    }
-  }
-
   @include experience--reorder;
-  @include experience--mobile;
   @include experience--mobile-and-up;
 }

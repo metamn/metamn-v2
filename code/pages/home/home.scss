@@ -11,8 +11,8 @@ html {
       @include intro;
     }
 
-    .home__cv {
-      @include home__cv;
+    .experiences {
+      @include experiences;
     }
   }
 }

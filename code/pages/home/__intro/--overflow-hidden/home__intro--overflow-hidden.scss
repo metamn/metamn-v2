@@ -1,6 +1,0 @@
-// Do not overflow when featured images are rotated
-// - http://stackoverflow.com/questions/21248111/overflow-behavior-after-using-css3-transform
-//
-@mixin home__intro--overflow-hidden {
-  overflow: hidden;
-}

@@ -3,18 +3,18 @@
   "about": ["design and code"],
   "experiences": [
     {
-      "title": "ceo",
       "years": "present",
+      "title": "ceo",
       "description": ["os equi software company"]
     },
     {
-      "title": "consultant",
       "years": "2019 &mdash; 2013",
+      "title": "consultant",
       "description": ["ui/ux design, web development"]
     },
     {
-      "title": "cto",
       "years": "2013 &mdash; 2006",
+      "title": "cto",
       "description": ["e-commerce"]
     }
   ],
