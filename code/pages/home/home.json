@@ -85,88 +85,8 @@
   ],
   "featured": [
     {
-      "title": "Lynx 4a-gray",
-      "name": "lynx-4a-gray"
-    },
-    {
-      "title": "Lynx 5b-gradient",
-      "name": "lynx-5b-gradient"
-    },
-    {
       "title": "Lynx 4a",
       "name": "lynx-4a"
-    },
-    {
-      "title": "Lynx 5b-red",
-      "name": "lynx-5b-red"
-    },
-    {
-      "title": "Lynx 5b",
-      "name": "lynx-5b"
-    },
-    {
-      "title": "Lynx pacman",
-      "name": "lynx-pacman"
-    },
-    {
-      "title": "Lynx 4a-gray",
-      "name": "lynx-4a-gray"
-    },
-    {
-      "title": "Lynx button",
-      "name": "lynx-button"
-    },
-    {
-      "title": "Lynx 4a",
-      "name": "lynx-4a"
-    },
-    {
-      "title": "Lynx 5b-gradient",
-      "name": "lynx-5b-gradient"
-    },
-    {
-      "title": "Lynx 4a-gray",
-      "name": "lynx-4a-gray"
-    },
-    {
-      "title": "Lynx 5b-red",
-      "name": "lynx-5b-red"
-    },
-    {
-      "title": "Lynx my-style",
-      "name": "lynx-my-style"
-    },
-    {
-      "title": "Lynx 5b-gradient",
-      "name": "lynx-5b-gradient"
-    },
-    {
-      "title": "Lynx 4a",
-      "name": "lynx-4a"
-    },
-    {
-      "title": "Lynx pacman",
-      "name": "lynx-pacman"
-    },
-    {
-      "title": "Lynx button",
-      "name": "lynx-button"
-    },
-    {
-      "title": "Lynx 4a-gray",
-      "name": "lynx-4a-gray"
-    },
-    {
-      "title": "Lynx my-style",
-      "name": "lynx-my-style"
-    },
-    {
-      "title": "Lynx 5b",
-      "name": "lynx-5b"
-    },
-    {
-      "title": "Lynx 5b-gradient",
-      "name": "lynx-5b-gradient"
     },
     {
       "title": "Lynx 4a",
@@ -177,12 +97,8 @@
       "name": "lynx-4a-gray"
     },
     {
-      "title": "Lynx button",
-      "name": "lynx-button"
-    },
-    {
-      "title": "Lynx my-style",
-      "name": "lynx-my-style"
+      "title": "Lynx 5a",
+      "name": "lynx-5a"
     },
     {
       "title": "Lynx 5b-gradient",
@@ -193,16 +109,72 @@
       "name": "lynx-5b-red"
     },
     {
+      "title": "Lynx button",
+      "name": "lynx-button"
+    },
+    {
       "title": "Lynx pacman",
       "name": "lynx-pacman"
+    },
+    {
+      "title": "Lynx 4a",
+      "name": "lynx-4a"
     },
     {
       "title": "Lynx 4a-gray",
       "name": "lynx-4a-gray"
     },
     {
+      "title": "Lynx 5a",
+      "name": "lynx-5a"
+    },
+    {
+      "title": "Lynx 5b-gradient",
+      "name": "lynx-5b-gradient"
+    },
+    {
+      "title": "Lynx 5b-red",
+      "name": "lynx-5b-red"
+    },
+    {
+      "title": "Lynx button",
+      "name": "lynx-button"
+    },
+    {
+      "title": "Lynx pacman",
+      "name": "lynx-pacman"
+    },
+    {
       "title": "Lynx 4a",
+      "name": "lynx-4a"
+    },
+    {
+      "title": "Lynx 4a-gray",
       "name": "lynx-4a-gray"
+    },
+    {
+      "title": "Lynx 5a",
+      "name": "lynx-5a"
+    },
+    {
+      "title": "Lynx 5b-gradient",
+      "name": "lynx-5b-gradient"
+    },
+    {
+      "title": "Lynx 5b-red",
+      "name": "lynx-5b-red"
+    },
+    {
+      "title": "Lynx button",
+      "name": "lynx-button"
+    },
+    {
+      "title": "Lynx button",
+      "name": "lynx-button"
+    },
+    {
+      "title": "Lynx pacman",
+      "name": "lynx-pacman"
     }
   ],
   "featured2": [

@@ -1,8 +1,8 @@
 @mixin featured-images--landscape {
   @include landscape {
-    @include grid(4, $lem, $lem);
+    @include grid(4, 0px, 0px);
 
-    transform: rotateX(45deg) rotateZ(45deg) translateY(-160vh) translateX(-5vw);
+    transform: rotateX(45deg) rotateZ(45deg) translateY(-60vh) translateX(-5vw);
     transform-style: preserve-3d;
 
     .figure {
