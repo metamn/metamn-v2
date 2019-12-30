@@ -74,6 +74,13 @@
       "type": "external",
       "glyph": "twitter",
       "initiale": "t"
+    },
+    {
+      "title": "linkedin",
+      "url": "https://www.linkedin.com/in/csongor-bartus/",
+      "type": "external",
+      "glyph": "linkedin",
+      "initiale": "l"
     }
   ],
   "featured": [
