@@ -2,7 +2,8 @@
   @include landscape {
     @include grid(4, 0px, 0px);
 
-    transform: rotateX(45deg) rotateZ(45deg) translateY(-60vh) translateX(-5vw);
+    transform: rotateX(45deg) rotateZ(45deg) translateY(-60vh) translateX(-5vw)
+      scale(1.25);
     transform-style: preserve-3d;
 
     .figure {
