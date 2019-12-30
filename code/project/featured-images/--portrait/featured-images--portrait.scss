@@ -1,14 +1,20 @@
 @mixin featured-images--portrait {
   @include portrait {
-    @include grid(6, 1px, 1px);
+    // @include grid(6, 1px, 1px); // samefernandez
+    @include grid(5, 1px, 1px); // lynx
 
+    /* samefernandez
     transform: rotateX(45deg) rotateZ(45deg) translateY(-20vh) translateX(10vw)
       scale(3.5);
+	  */
+    transform: rotateX(45deg) rotateZ(45deg) translateY(-20vh) translateX(-10vw)
+      scale(2.5); // lynx
     transform-style: preserve-3d;
 
     .figure {
       @include tablet {
-        padding: $lem / 3;
+        //padding: $lem / 3; // lynx
+        padding: $lem / 2; // samefernandez
       }
 
       .img {

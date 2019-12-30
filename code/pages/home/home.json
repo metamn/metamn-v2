@@ -83,7 +83,7 @@
       "initiale": "l"
     }
   ],
-  "featured": [
+  "featured1": [
     {
       "title": "Lynx 4a",
       "name": "lynx-4a"
@@ -195,57 +195,9 @@
     {
       "title": "Lynx pacman",
       "name": "lynx-pacman"
-    },
-    {
-      "title": "Lynx 4a",
-      "name": "lynx-4a"
-    },
-    {
-      "title": "Lynx 4a",
-      "name": "lynx-4a"
-    },
-    {
-      "title": "Lynx 4a",
-      "name": "lynx-4a"
-    },
-    {
-      "title": "Lynx 4a",
-      "name": "lynx-4a"
-    },
-    {
-      "title": "Lynx 4a-gray",
-      "name": "lynx-4a-gray"
-    },
-    {
-      "title": "Lynx 4a-gray",
-      "name": "lynx-4a-gray"
-    },
-    {
-      "title": "Lynx 4a-gray",
-      "name": "lynx-4a-gray"
-    },
-    {
-      "title": "Lynx 4a-gray",
-      "name": "lynx-4a-gray"
-    },
-    {
-      "title": "Lynx 5a",
-      "name": "lynx-5a"
-    },
-    {
-      "title": "Lynx 5a",
-      "name": "lynx-5a"
-    },
-    {
-      "title": "Lynx 5a",
-      "name": "lynx-5a"
-    },
-    {
-      "title": "Lynx 5a",
-      "name": "lynx-5a"
     }
   ],
-  "featured2": [
+  "featured": [
     {
       "title": "Brandyou 1",
       "name": "brandyou-1"

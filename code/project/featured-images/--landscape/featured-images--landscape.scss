@@ -1,9 +1,13 @@
 @mixin featured-images--landscape {
   @include landscape {
-    @include grid(4, 0px, 0px);
+    //@include grid(4, 0px, 0px); // lynx
+    @include grid(4, $lem, $lem); // samefernandez
 
+    /* lynx
     transform: rotateX(45deg) rotateZ(45deg) translateY(-60vh) translateX(-5vw)
       scale(1.25);
+	  */
+    transform: rotateX(45deg) rotateZ(45deg) translateY(-160vh) translateX(-5vw); // samefernandez
     transform-style: preserve-3d;
 
     .figure {
