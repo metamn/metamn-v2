@@ -1,6 +1,6 @@
 WebFontConfig = {
   custom: {
-    families: ["silkscreen"],
+    families: ["silkscreen", "nimbus-sans"],
     urls: ["assets/styles/site.min.css"]
   }
 };
