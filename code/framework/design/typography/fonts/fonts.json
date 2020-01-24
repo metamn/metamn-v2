@@ -6,10 +6,20 @@
       "family": "sans-serif",
       "character_set": "Full character set, with OpenType Features",
       "served_from": "local",
-      "face": {
-        "url": "nimbussanl-reg-webfont.ttf",
-        "format": "truetype"
-      },
+      "face": [
+        {
+          "url": "nimbussanl-reg-webfont.ttf",
+          "format": "truetype"
+        },
+        {
+          "url": "nimbussanl-reg-webfont.woff",
+          "format": "woff"
+        },
+        {
+          "url": "nimbussanl-reg-webfont.woff2",
+          "format": "woff2"
+        }
+      ],
       "styles": [
         {
           "name": "Regular",
@@ -24,10 +34,12 @@
       "family": "sans-serif",
       "character_set": "English, with OpenType Features",
       "served_from": "local",
-      "face": {
-        "url": "slkscr.ttf",
-        "format": "truetype"
-      },
+      "face": [
+        {
+          "url": "slkscr.ttf",
+          "format": "truetype"
+        }
+      ],
       "styles": [
         {
           "name": "Regular",

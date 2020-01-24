@@ -22,9 +22,15 @@
 
 // Font faces
 {% for font in fonts %}{% if font.served_from == 'local' %}{% set font_name = c.classname(font.name) %}
+{% set src = {} %}
+{% for key, face in font.face %}
+{% set format = face.format %}
+{% set url = face.url %}
+{% set src[key] = 'url(/assets/fonts/' + url + ') format("' + format + '")' %}
+{% endfor %}
 @font-face {
   font-family: '{{ font_name }}';
-  src: url(/assets/fonts/{{ font.face.url }}) format('{{ font.face.format }}');
+  src: {{ src | join(', ') | safe }};
 }
 {% endif %}{% endfor %}
 
