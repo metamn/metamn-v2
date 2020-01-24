@@ -1,7 +1,7 @@
 WebFontConfig = {
   custom: {
-    families: ["Nimbus Sans", "Silkscreen"],
-    urls: ["/assets/styles/site.min.css"]
+    families: ["silkscreen"],
+    urls: ["assets/styles/site.min.css"]
   }
 };
 

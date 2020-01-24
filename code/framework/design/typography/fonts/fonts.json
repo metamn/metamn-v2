@@ -20,6 +20,10 @@
       "family": "sans-serif",
       "character_set": "English, with OpenType Features",
       "served_from": "local",
+      "face": {
+        "url": "slkscr.ttf",
+        "format": "truetype"
+      },
       "styles": [
         {
           "name": "Regular",

@@ -20,7 +20,13 @@
 {% endif %}
 {% endfor %}
 
-
+// Font faces
+{% for font in fonts %}{% if font.served_from == 'local' %}{% set font_name = c.classname(font.name) %}
+@font-face {
+  font-family: '{{ font_name }}';
+  src: url(/assets/fonts/{{ font.face.url }}) format('{{ font.face.format }}');
+}
+{% endif %}{% endfor %}
 
 // The font mixin
 @mixin font($variant) {
