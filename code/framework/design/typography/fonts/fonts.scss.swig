@@ -7,6 +7,8 @@
 //
 // Styleguide fonts
 
+{% set local_fonts = [] %}
+
 {% for font in fonts %}
 // {{ font.name }}
 // - {{ font.description }}, {{ font.family }}
@@ -17,6 +19,7 @@
 @import url(http://fonts.googleapis.com/css?family={{ font.google_font_id }}:{% for style in font.styles %}{{ style.id }},{% endfor %});
 {% endif %}
 {% endfor %}
+
 
 
 // The font mixin

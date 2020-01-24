@@ -19,7 +19,7 @@
       "description": "The logo typeface",
       "family": "sans-serif",
       "character_set": "English, with OpenType Features",
-      "served_from": "Typekit",
+      "served_from": "local",
       "styles": [
         {
           "name": "Regular",
