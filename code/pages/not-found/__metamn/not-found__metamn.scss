@@ -1,0 +1,22 @@
+@mixin not-found__metamn {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  width: $lem * 10;
+  height: $lem * 10;
+
+  @include portrait {
+    width: $lem * 5;
+    height: $lem * 5;
+  }
+
+  .row {
+    display: flex;
+    flex-wrap: no-wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  @include spin;
+}

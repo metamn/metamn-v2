@@ -1,0 +1,26 @@
+html {
+  body {
+    .not-found {
+      @include section-padding;
+      @include colors(white-on-blue);
+
+      min-height: 100vh;
+
+      .not-found__title {
+        display: flex;
+        padding: $lem 0;
+      }
+
+      .not-found__animation {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 80vh;
+      }
+
+      .not-found__metamn {
+        @include not-found__metamn;
+      }
+    }
+  }
+}

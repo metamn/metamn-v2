@@ -1,0 +1,302 @@
+{
+  "title": "Home",
+  "about": ["design and code"],
+  "experiences": [
+    {
+      "years": "present",
+      "title": "ceo",
+      "description": ["os equi software"]
+    },
+    {
+      "years": "2019 &mdash; 2013",
+      "title": "consultant",
+      "description": ["ui/ux design, web development"]
+    },
+    {
+      "years": "2013 &mdash; 2006",
+      "title": "cto",
+      "description": ["e-commerce startup"]
+    }
+  ],
+  "links": [
+    {
+      "title": "contact",
+      "url": "bartus.csongor@gmail.com",
+      "type": "email",
+      "glyph": "email",
+      "initiale": "c"
+    },
+    {
+      "title": "projects",
+      "url": "http://github.com/metamn",
+      "type": "external",
+      "glyph": "github",
+      "initiale": "p"
+    },
+    {
+      "title": "react",
+      "url": "http://metamn.io/react",
+      "type": "external",
+      "glyph": "react",
+      "initiale": "r"
+    },
+    {
+      "title": "beat",
+      "url": "http://metamn.io/beat",
+      "type": "external",
+      "glyph": "beat",
+      "initiale": "b"
+    },
+    {
+      "title": "pulse",
+      "url": "http://metamn.io/pulse",
+      "type": "external",
+      "glyph": "pulse",
+      "initiale": "p"
+    },
+    {
+      "title": "gust",
+      "url": "http://metamn.io/gust",
+      "type": "external",
+      "glyph": "gust",
+      "initiale": "g"
+    },
+    {
+      "title": "moodboard",
+      "url": "http://metamn.tumblr.com",
+      "type": "external",
+      "glyph": "tumblr",
+      "initiale": "m"
+    },
+    {
+      "title": "twitter",
+      "url": "https://twitter.com/metamn/",
+      "type": "external",
+      "glyph": "twitter",
+      "initiale": "t"
+    },
+    {
+      "title": "linkedin",
+      "url": "https://www.linkedin.com/in/csongor-bartus/",
+      "type": "external",
+      "glyph": "linkedin",
+      "initiale": "l"
+    }
+  ],
+  "featured1": [
+    {
+      "title": "Lynx 4a",
+      "name": "lynx-4a"
+    },
+    {
+      "title": "Lynx 4a",
+      "name": "lynx-4a"
+    },
+    {
+      "title": "Lynx 4a",
+      "name": "lynx-4a"
+    },
+    {
+      "title": "Lynx 4a",
+      "name": "lynx-4a"
+    },
+    {
+      "title": "Lynx 4a-gray",
+      "name": "lynx-4a-gray"
+    },
+    {
+      "title": "Lynx 4a-gray",
+      "name": "lynx-4a-gray"
+    },
+    {
+      "title": "Lynx 4a-gray",
+      "name": "lynx-4a-gray"
+    },
+    {
+      "title": "Lynx 4a-gray",
+      "name": "lynx-4a-gray"
+    },
+    {
+      "title": "Lynx 5a",
+      "name": "lynx-5a"
+    },
+    {
+      "title": "Lynx 5a",
+      "name": "lynx-5a"
+    },
+    {
+      "title": "Lynx 5a",
+      "name": "lynx-5a"
+    },
+    {
+      "title": "Lynx 5a",
+      "name": "lynx-5a"
+    },
+    {
+      "title": "Lynx 5b-gradient",
+      "name": "lynx-5b-gradient"
+    },
+    {
+      "title": "Lynx 5b-gradient",
+      "name": "lynx-5b-gradient"
+    },
+    {
+      "title": "Lynx 5b-gradient",
+      "name": "lynx-5b-gradient"
+    },
+    {
+      "title": "Lynx 5b-gradient",
+      "name": "lynx-5b-gradient"
+    },
+    {
+      "title": "Lynx 5b-red",
+      "name": "lynx-5b-red"
+    },
+    {
+      "title": "Lynx 5b-red",
+      "name": "lynx-5b-red"
+    },
+    {
+      "title": "Lynx 5b-red",
+      "name": "lynx-5b-red"
+    },
+    {
+      "title": "Lynx 5b-red",
+      "name": "lynx-5b-red"
+    },
+    {
+      "title": "Lynx button",
+      "name": "lynx-button"
+    },
+    {
+      "title": "Lynx button",
+      "name": "lynx-button"
+    },
+    {
+      "title": "Lynx button",
+      "name": "lynx-button"
+    },
+    {
+      "title": "Lynx button",
+      "name": "lynx-button"
+    },
+    {
+      "title": "Lynx pacman",
+      "name": "lynx-pacman"
+    },
+    {
+      "title": "Lynx pacman",
+      "name": "lynx-pacman"
+    },
+    {
+      "title": "Lynx pacman",
+      "name": "lynx-pacman"
+    },
+    {
+      "title": "Lynx pacman",
+      "name": "lynx-pacman"
+    }
+  ],
+  "featured": [
+    {
+      "title": "Brandyou 1",
+      "name": "brandyou-1"
+    },
+    {
+      "title": "Brandyou 2",
+      "name": "brandyou-2"
+    },
+    {
+      "title": "Brandyou 3",
+      "name": "brandyou-3"
+    },
+    {
+      "title": "Brandyou 4",
+      "name": "brandyou-4"
+    },
+    {
+      "title": "Brandyou 5",
+      "name": "brandyou-5"
+    },
+    {
+      "title": "Brandyou 6",
+      "name": "brandyou-6"
+    },
+    {
+      "title": "Brandyou 7",
+      "name": "brandyou-7"
+    },
+    {
+      "title": "Brandyou 8",
+      "name": "brandyou-8"
+    },
+    {
+      "title": "Brandyou 9",
+      "name": "brandyou-9"
+    },
+    {
+      "title": "Brandyou 10",
+      "name": "brandyou-10"
+    },
+    {
+      "title": "Brandyou 11",
+      "name": "brandyou-11"
+    },
+    {
+      "title": "Brandyou 12",
+      "name": "brandyou-12"
+    },
+    {
+      "title": "Brandyou 13",
+      "name": "brandyou-13"
+    },
+    {
+      "title": "Brandyou 14",
+      "name": "brandyou-14"
+    },
+    {
+      "title": "Brandyou 19",
+      "name": "brandyou-19"
+    },
+    {
+      "title": "Brandyou 20",
+      "name": "brandyou-20"
+    },
+    {
+      "title": "Brandyou 22",
+      "name": "brandyou-22"
+    },
+    {
+      "title": "Brandyou 21",
+      "name": "brandyou-21"
+    },
+    {
+      "title": "Brandyou 3",
+      "name": "brandyou-3"
+    },
+    {
+      "title": "Brandyou 4",
+      "name": "brandyou-4"
+    },
+    {
+      "title": "Brandyou 1",
+      "name": "brandyou-1"
+    },
+    {
+      "title": "Brandyou 2",
+      "name": "brandyou-2"
+    },
+    {
+      "title": "Brandyou 3",
+      "name": "brandyou-3"
+    },
+    {
+      "title": "Brandyou 4",
+      "name": "brandyou-4"
+    },
+    {
+      "title": "Brandyou 5",
+      "name": "brandyou-5"
+    }
+  ]
+}

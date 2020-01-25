@@ -1,0 +1,13 @@
+@mixin stretch--columns {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  @include portrait {
+    min-height: 100vh;
+  }
+
+  @include landscape {
+    height: 100vh;
+  }
+}
