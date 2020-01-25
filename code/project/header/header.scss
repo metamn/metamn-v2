@@ -28,6 +28,10 @@
     }
   }
 
+  .about {
+    @include colors($color-scheme);
+  }
+
   @include laptop-and-up {
     .logo,
     .about {
