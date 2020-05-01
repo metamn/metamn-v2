@@ -10,12 +10,20 @@
     {
       "years": "2019 &mdash; 2013",
       "title": "consultant",
-      "description": ["ui/ux design, web development"]
+      "description": ["ui/ux design, web development"],
+      "link": {
+        "url": "http://metamn.io/v1",
+        "title": "portfolio"
+      }
     },
     {
       "years": "2013 &mdash; 2006",
       "title": "cto",
-      "description": ["e-commerce startup"]
+      "description": ["e-commerce startup"],
+      "link": {
+        "url": "http://smuff.ro",
+        "title": "smuff"
+      }
     }
   ],
   "links": [

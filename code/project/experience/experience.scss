@@ -18,4 +18,21 @@
   &__title {
     display: flex;
   }
+
+  &__link {
+    .link {
+      @include link(white-on-blue, white-on-blue, white-on-blue);
+
+      display: flex;
+      align-items: center;
+
+      .text {
+        margin-left: $lem;
+      }
+
+      .arrow-with-triangle {
+        @include arrow-with-triangle($size: $lem * 4);
+      }
+    }
+  }
 }
