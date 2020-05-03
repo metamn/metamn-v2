@@ -1,21 +1,30 @@
 @mixin featured-images--landscape {
   @include landscape {
-    //@include grid(4, 0px, 0px); // lynx
     @include grid(4, $lem, $lem); // samefernandez
 
-    /* lynx
-    transform: rotateX(45deg) rotateZ(45deg) translateY(-60vh) translateX(-5vw)
-      scale(1.25);
-	  */
-    transform: rotateX(45deg) rotateZ(45deg) translateY(-160vh) translateX(-5vw); // samefernandez
+    @include animation(rotate-landscape, 2.5s);
     transform-style: preserve-3d;
 
     .figure {
       padding: $lem;
 
+      @include tablet-landscape {
+        padding: $lem / 2;
+      }
+
       .img {
         box-shadow: $lem / 2 $lem / 2 $gray;
       }
     }
+  }
+}
+
+@include keyframes(rotate-landscape) {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotateX(45deg) rotateZ(45deg) translateY(-160vh) translateX(-5vw);
   }
 }

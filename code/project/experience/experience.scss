@@ -27,11 +27,11 @@
       align-items: center;
 
       .text {
-        margin-left: $lem;
+        margin-left: $lem / 3;
       }
 
       .arrow-with-triangle {
-        @include arrow-with-triangle($size: $lem * 4);
+        @include arrow-with-triangle($size: $lem * 3);
       }
     }
   }

@@ -6,6 +6,30 @@
 //
 // Styleguide image-with-preloader
 @mixin img--preloading {
-  opacity: 0;
-  @include transition(opacity);
+  visibility: hidden;
+
+  @include mobile {
+    width: 50px;
+    height: 67px;
+  }
+
+  @include tablet {
+    width: 150px;
+    height: 200px;
+  }
+
+  @include tablet-landscape {
+    width: 240px;
+    height: 320px;
+  }
+
+  @include laptop {
+    width: 300px;
+    height: 400px;
+  }
+
+  @include desktop {
+    width: 384px;
+    height: 512px;
+  }
 }
