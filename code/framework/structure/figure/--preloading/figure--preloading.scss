@@ -5,6 +5,5 @@
 // Styleguide figure-preloading
 @mixin figure--preloading($placeholder-color) {
   @include background-image($placeholder-color, not-stretched);
-  background-image: url("/assets/images/transparent-300x400.png");
-  // background-image size is set in the img mixin
+  background-image: url("http://metamn.io/assets/images/spinner.svg");
 }
