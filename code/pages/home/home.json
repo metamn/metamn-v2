@@ -4,26 +4,44 @@
   "experiences": [
     {
       "years": "present",
-      "title": "ceo",
-      "description": ["os equi software"]
+      "title": "founder",
+      "description": ["os equi software"],
+      "links": [
+        {
+          "url": "https://osequi.com",
+          "title": ""
+        }
+      ]
     },
     {
       "years": "2019 &mdash; 2013",
       "title": "consultant",
       "description": ["ui/ux design, web development"],
-      "link": {
-        "url": "http://metamn.io/v1",
-        "title": "portfolio"
-      }
+      "links": [
+        {
+          "url": "http://metamn.io/v1",
+          "title": "portfolio"
+        },
+        {
+          "url": "https://morethemes.baby/blog",
+          "title": "featured in WordPress Theme Store"
+        },
+        {
+          "url": "https://brutalistwebsites.com/metamn.io_gust/",
+          "title": "featured on Brutalist Websites"
+        }
+      ]
     },
     {
       "years": "2013 &mdash; 2006",
-      "title": "cto",
+      "title": "founder",
       "description": ["e-commerce startup"],
-      "link": {
-        "url": "http://smuff.ro",
-        "title": "smuff"
-      }
+      "links": [
+        {
+          "url": "http://smuff.ro",
+          "title": "smuff"
+        }
+      ]
     }
   ],
   "links": [

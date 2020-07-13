@@ -9,14 +9,14 @@
       <p class="p">{{ p | safe }}</p>
     {% endfor %}
 
-	{% if experience.link %}
+	{% for link in experience.links %}
 		<p class="experience__link">
-			<a class="link" title="{{ experience.link.title }}" href="{{ experience.link.url }}">
+			<a class="link" title="{{ link.title }}" href="{{ link.url }}">
 	    		{% set direction = "right" %}
 	    		{% include '../..//framework/design/decorations/arrow-with-triangle/arrow-with-triangle.html.swig' %}
-	    		<span class="text">{{ experience.link.title }}</span>
+	    		<span class="text">{{ link.title }}</span>
 	  		</a>
 		</p>
-	{% endif %}
+	{% endfor %}
   </aside>
 </article>
