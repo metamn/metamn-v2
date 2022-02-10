@@ -1,6 +1,12 @@
 # Metamn V2
 
-Playing with a more mainstream-looking portfolio idea.
+- This is currently deployed to metamn.io
+- Playing with a more mainstream-looking portfolio idea.
+
+## Deploy
+
+- Couldn't run the gulp server
+- Changed the production code manually (a link was replaced only)
 
 ## Notes
 
